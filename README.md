@@ -7,7 +7,13 @@ Programmer		: Aldy Akbarrizky, Muhammad Fauzan Lubis<br/>
 Designer		: Afdal Ramdan Daman Huri, Irsyad Muhammad<br/>
 Content sorter	: Kartika Milenda, Marissa Nur Amalia<br/>
 
-## Technology used
+## Resources
 Library		: ReactJS (https://reactjs.org/)<br/>
 Framework	: React Native (https://reactnative.dev/), React Native paper (https://github.com/callstack/react-native-paper)<br/>
 Tools		: Expo (https://expo.io/)<br/>
+
+## Set Up
+1. [Install React Native](https://www.petanikode.com/react-native-dasar/)
+2. Install Expo using 
+`npm install expo-cli --global`
+3. [Install React Native Paper](https://callstack.github.io/react-native-paper/getting-started.html)
