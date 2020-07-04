@@ -8,9 +8,11 @@ import { Button } from 'react-native-paper';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
-function HomeScreen({navigation}) {
+import Chapter1 from './content';
+
+
+function HomeScreen({ navigation }) {
   return (
-    // <View>
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       <Text>Home Screen</Text>
       <Button mode="contained" onPress={() => navigation.navigate('Materi')}>Materi</Button>
@@ -18,10 +20,19 @@ function HomeScreen({navigation}) {
   );
 }
 
-function MaterialsScreen() {
+function MaterialsScreen({ navigation }) {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       <Text>Details Screen</Text>
+      <Button mode="contained" onPress={() => navigation.navigate('Chapter1')}>Bab 1</Button>
+    </View>
+  );
+}
+
+function AboutScreen() {
+  return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <Text>About Screen</Text>
     </View>
   );
 }
@@ -30,16 +41,13 @@ const Stack = createStackNavigator();
 
 function App() {
   return (
-    // <View style={styles.container}>
-      <NavigationContainer>
-        <Stack.Navigator>
-          <Stack.Screen name="Home" component={HomeScreen} options={{ title: 'Overview' }}/>
-          <Stack.Screen name="Materi" component={MaterialsScreen} />
-        </Stack.Navigator>
-      </NavigationContainer>
-      // {/* <Text>Open up App.js to start working on your app!</Text> */}
-      // {/* <StatusBar style="auto" />
-    // </View> */}
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="Home" component={HomeScreen} options={{ title: 'Materi Agama', headerTitleAlign: 'center' }} />
+        <Stack.Screen name="Materi" component={MaterialsScreen} options={{ title: 'Daftar Materi', headerTitleAlign: 'center' }} />
+        <Stack.Screen name="Chapter1" component={Chapter1} options={{ title: 'Konsep Ketuhanan', headerTitleAlign: 'center' }} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
 
