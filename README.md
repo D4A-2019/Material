@@ -14,6 +14,9 @@ Tools		: Expo (https://expo.io/)<br/>
 
 ## Set Up
 1. [Install React Native](https://www.petanikode.com/react-native-dasar/)
-2. Install Expo using 
-`npm install expo-cli --global`
-3. [Install React Native Paper](https://callstack.github.io/react-native-paper/getting-started.html)
+2. Install Expo using `npm install expo-cli --global`
+3. Clone this repository
+4. Change directory to this repository
+5. [Install React Native Paper](https://callstack.github.io/react-native-paper/getting-started.html)
+6. Start Expo using 'expo start`
+7. Preview it on the web, Android, or iOS
