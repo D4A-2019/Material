@@ -8,17 +8,10 @@ import { Button } from 'react-native-paper';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
-import Chapter1 from './content';
+import MaterialsScreen from './materialsScreen';
+import AboutScreen from './aboutScreen';
 
-class Chapter2 extends React.Component {
-  render() {
-      return (
-          <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-              <Text>Bab 2</Text>
-          </View>
-      );
-  }
-}
+import Chapter1 from './contents/chapter1';
 
 function HomeScreen({ navigation }) {
   return (
@@ -30,24 +23,6 @@ function HomeScreen({ navigation }) {
   );
 }
 
-function MaterialsScreen({ navigation }) {
-  return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Material Screen</Text>
-      <Button mode="contained" onPress={() => navigation.navigate('Chapter1')}>Bab 1</Button>
-      <Button mode="contained" onPress={() => navigation.navigate('Chapter2')}>Bab 2</Button>
-    </View>
-  );
-}
-
-function AboutScreen() {
-  return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>About Screen</Text>
-    </View>
-  );
-}
-
 const Stack = createStackNavigator();
 
 function App() {
@@ -55,10 +30,11 @@ function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name="Home" component={HomeScreen} options={{ title: 'Materi Agama', headerTitleAlign: 'center' }} />
+
         <Stack.Screen name="Materi" component={MaterialsScreen} options={{ title: 'Daftar Materi', headerTitleAlign: 'center' }} />
-        <Stack.Screen name="About" component={AboutScreen} options={{ title: 'About', headerTitleAlign: 'center' }} />
         <Stack.Screen name="Chapter1" component={Chapter1} options={{ title: 'Konsep Ketuhanan', headerTitleAlign: 'center' }} />
-        <Stack.Screen name="Chapter2" component={Chapter2} options={{ title: 'Peran', headerTitleAlign: 'center' }} />
+        
+        <Stack.Screen name="About" component={AboutScreen} options={{ title: 'About', headerTitleAlign: 'center' }} />
       </Stack.Navigator>
     </NavigationContainer>
   );
