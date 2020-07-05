@@ -19,5 +19,7 @@ Tools		: Expo (https://expo.io/)<br/>
 4. Change directory to this repository
 5. [Install React Native Paper](https://callstack.github.io/react-native-paper/getting-started.html)
 6. Install all dependency using `npm install`
-7. Start Expo using 'expo start`
-8. Preview it on the web, Android, or iOS
+7. Open your text editor
+8. Start Expo using `expo start`
+9. Preview it on the web, Android, or iOS
+10. Happy coding ^_^
