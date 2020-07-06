@@ -4,12 +4,38 @@ import * as React from 'react';
 import { Text, View } from 'react-native';
 import { Button } from 'react-native-paper';
 
+export const titles = [
+  'Konsep Ketuhanan',
+  'Peran Agama dalam Kehidupan Manusia',
+  'Pokok Ajaran Islam',
+  'Al-Qur\'an',
+  'Sunnah',
+  'Memahami ijtihad',
+  'Konsep Manusia dalam Islam',
+  'Relasi antar Manusia dalam Islam',
+  'Relasi Manusia dan Alam',
+  'Peradaban Islam',
+  'IPTEK dalam Islam',
+  'Etos Kerja dan Profesi',
+  'Urgensi softskill dalam Dunia Kerja',
+  'Kepemimpinan Islam',
+  'Pembinaan Keluarga Islam'
+]
+
+var chapterButtons = [];
+
 export default function MaterialsScreen({ navigation }) {
-    return (
-        <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-            <Text>Material Screen</Text>
-            <Button mode="contained" onPress={() => navigation.navigate('Chapter1')}>Bab 1</Button>
-            {/* <Button mode="contained" onPress={() => navigation.navigate('Chapter2')}>Bab 2</Button> */}
-        </View>
-    );
+  chapterButtons = titles.map(generateButtons);
+
+  function generateButtons(value, index) {
+    return <Button mode="contained" onPress={() => navigation.navigate('Chapter' + (index + 1))}>Bab {index + 1}</Button>;
+  }
+
+  return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <Text>Material Screen</Text>
+      {chapterButtons}
+    </View>
+  );
 }
+
