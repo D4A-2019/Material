@@ -6,7 +6,7 @@ class Dalil extends Component {
   constructor(props) {
     super(props);
 
-    this.playbackInstance = null;
+    this.soundObject = null;
   }
 
   componentDidMount() {
@@ -19,23 +19,24 @@ class Dalil extends Component {
       playThroughEarpieceAndroid: true,
     });
 
-    this._loadNewPlaybackInstance();
+    this._loadNewPlaybackInstance(true);
   }
 
   componentWillUnmount() {
-    this.playbackInstance.unloadAsync();
+    this.soundObject.unloadAsync();
     //  Check Your Console To verify that the above line is working
     console.log("unmount");
   }
 
-  async _loadNewPlaybackInstance() {
-    console.log("Creating player...");
-    if (this.playbackInstance != null) {
-      await this.playbackInstance.unloadAsync();
-      this.playbackInstance.setOnPlaybackStatusUpdate(null);
-      this.playbackInstance = null;
+  async _loadNewPlaybackInstance(play) {
+    if (this.soundObject != null) {
+      await this.soundObject.unloadAsync();
+      this.soundObject = null;
     }
-    const source = this.props.soundFile;
+
+    console.log("Creating player...");
+
+    this.soundObject = new Audio.Sound();
     const initialStatus = {
       //        Do not Play by default
       shouldPlay: false,
@@ -44,47 +45,55 @@ class Dalil extends Component {
       //        Correct the pitch
       shouldCorrectPitch: true,
       //        Control the Volume
-      volume: 1.0,
+      volume: 0.5,
       //        mute the Audio
       isMuted: false,
     };
-    const { sound, status } = await Audio.Sound.createAsync(
-      source,
-      initialStatus
-    );
-    //  Save the response of sound in playbackInstance
-    this.playbackInstance = sound;
-    //  Make the loop of Audio
-    this.playbackInstance.setIsLoopingAsync(false);
 
-    console.log("Done making : ", this.playbackInstance);
+    await this.soundObject.loadAsync(
+      require("../contents/dalil-sound/" + this.props.soundFile)
+    );
+    await this.soundObject.setStatusAsync(initialStatus);
+
+    console.log("Done making : ", this.soundObject);
   }
 
-  onPressEvent() {
-    console.log("Instace : ", this.playbackInstance);
+  onPressEvent = async () => {
+    console.log("Instace : ", this.soundObject);
     try {
-      if (this.playbackInstance.getStatusAsync().isPlaying) {
-        console.log("Stopping playback");
-        this.playbackInstance.stopAsync();
-      }
+      var status = await this.soundObject
+        .getStatusAsync()
+        .then(function (result) {
+          return result.isPlaying;
+        });
 
-      console.log("Starting playback");
-      this.playbackInstance.playAsync();
+      console.log("Playing? ", status);
+      if (status == true) {
+        console.log("Stopping playback");
+        this.soundObject.stopAsync();
+      } else {
+        console.log("Starting playback");
+        this.soundObject.playAsync();
+      }
     } catch (e) {
       console.log("Error reading :", e);
     }
-  }
+  };
 
   render() {
     return (
       <TouchableWithoutFeedback onPress={this.onPressEvent}>
-        <View style={{ width: "80%", backgroundColor: "#D3D3D3" }}>
+        <View
+          style={{
+            width: "80%",
+            backgroundColor: "#D3D3D3",
+            paddingTop: 3,
+            paddingBottom: 3,
+            alignItems: "center",
+            alignSelf: "center",
+          }}
+        >
           <Text>{this.props.ayat}</Text>
-          {/* this._status?{" "}
-          <Text style={{ fontSize: 15, right: 1, bottom: 1 }}>
-            {this._currLenght} / {this._totalLenght}
-          </Text>{" "}
-          : null */}
         </View>
       </TouchableWithoutFeedback>
     );
