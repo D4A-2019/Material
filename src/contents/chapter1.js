@@ -2,10 +2,13 @@ import * as React from 'react';
 import { FlatList, Text, ScrollView } from 'react-native';
 import { Paragraph, Subheading } from 'react-native-paper'
 
+import Dalil from "../dalil/dalil";
+
 export default class Chapter1 extends React.Component {
   render() {
     return (
       <ScrollView style={{ flex: 1 }}>
+        <Dalil ayat='Testing' soundFile={require('./dalil-sound/test.mp3')} />
         <Paragraph>
           Kebutuhan manusia terhadap Tuhan itu bersifat permanen dan tidak akan hilang, artinya kapan pun dan di mana pun manusia hidup pasti membutuhkan Tuhan.
           Dalam kondisi tertentu manusia mengabaikan atau mengeyampingkan kebutuhan ini. Namun hal ini hanya sementara dikarenakan pada akhirnya kebutuhan akan Tuhan akan tetap muncul pada saat manusia mengalami persoalan hidup berat atau kehidupannnya terancam.
