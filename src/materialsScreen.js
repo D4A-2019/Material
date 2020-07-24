@@ -1,7 +1,7 @@
 import 'react-native-gesture-handler';
 import * as React from 'react';
 
-import { Text, View } from 'react-native';
+import { Text, ScrollView } from 'react-native';
 import { Button } from 'react-native-paper';
 
 export const titles = [
@@ -32,10 +32,9 @@ export default function MaterialsScreen({ navigation }) {
   }
 
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Material Screen</Text>
+    <ScrollView style={{ flex: 1 }}>
       {chapterButtons}
-    </View>
+    </ScrollView>
   );
 }
 
