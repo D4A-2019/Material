@@ -50,9 +50,8 @@ class Dalil extends Component {
       isMuted: false,
     };
 
-    await this.soundObject.loadAsync(
-      //require("../contents/dalil-sound/" + this.props.soundFile)
-    );
+    await this.soundObject.loadAsync(this.props.soundFile);
+    
     await this.soundObject.setStatusAsync(initialStatus);
 
     console.log("Done making : ", this.soundObject);
