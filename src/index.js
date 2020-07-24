@@ -11,27 +11,6 @@ import MaterialsScreen, { titles } from "./materialsScreen";
 import AboutScreen from "./aboutScreen";
 
 import * as Chapter from "./contents/chapterBundle";
-<<<<<<< HEAD
-
-// titles.forEach(function(value, index) {
-//   console.log("<Stack.Screen name=\"Chapter" + (index + 1) + "\" component={Chapter.Chapter" + (index + 1) + "} options={{ title: titles[" + index + "], headerTitleAlign: 'center' }} />");
-// })
-
-console.disableYellowBox = true;
-
-function HomeScreen({ navigation }) {
-  return (
-    <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
-      <Text>Home Screen</Text>
-      <Button mode="contained" onPress={() => navigation.navigate("Materi")}>
-        Materi
-      </Button>
-      <Button mode="contained" onPress={() => navigation.navigate("About")}>
-        About
-      </Button>
-    </View>
-  );
-=======
 import * as drawerChapter from "./contents/drawer_navigation/drawerBundle";
 import chapterNavigation from "./contents/drawer_navigation/chapterNavigation";
 
@@ -56,7 +35,6 @@ class HomeScreen extends Component {
       </View>
     );
   }
->>>>>>> 0287d0a8a3fc220765a804d33866acf72e7b222a
 }
 
 const Stack = createStackNavigator();
