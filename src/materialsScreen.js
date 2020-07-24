@@ -28,7 +28,7 @@ export default function MaterialsScreen({ navigation }) {
   chapterButtons = titles.map(generateButtons);
 
   function generateButtons(value, index) {
-    return <Button mode="contained" onPress={() => navigation.navigate('Chapter' + (index + 1))}>Bab {index + 1}</Button>;
+    return <Button key={index+1} mode="contained" onPress={() => navigation.navigate('Chapter' + (index + 1))}>Bab {index + 1}</Button>;
   }
 
   return (
