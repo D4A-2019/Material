@@ -1,5 +1,5 @@
 import "react-native-gesture-handler";
-import React, {Component} from "react";
+import React, {Component, useState} from "react";
 
 import { StyleSheet, Text, View } from "react-native";
 import { Button } from "react-native-paper";
@@ -40,6 +40,8 @@ class HomeScreen extends Component {
 const Stack = createStackNavigator();
 
 function App() {
+  const headerTitle = 'Materi Agama Islam';
+
   return (
     <NavigationContainer>
       <Stack.Navigator>
@@ -58,90 +60,90 @@ function App() {
         <Stack.Screen
           name="Chapter1"
           component={drawerChapter.chapterNavigation}
-          options={{ title: titles[1], headerTitleAlign: "center" }}
+          options={{ title: headerTitle, headerTitleAlign: "center" }}
         />
 
         <Stack.Screen
           name="Chapter2"
           component={drawerChapter.drawerChapter2}
-          options={{ title: titles[2], headerTitleAlign: "center" }}
+          options={{ title: headerTitle, headerTitleAlign: "center" }}
         />
 
         <Stack.Screen
           name="Chapter3"
           component={drawerChapter.drawerChapter3}
-          options={{ title: titles[3], headerTitleAlign: "center" }}
+          options={{ title: headerTitle, headerTitleAlign: "center" }}
         />
 
         <Stack.Screen
           name="Chapter4"
           component={drawerChapter.drawerChapter4}
-          options={{ title: titles[4], headerTitleAlign: "center" }}
+          options={{ title: headerTitle, headerTitleAlign: "center" }}
         />
 
         <Stack.Screen
           name="Chapter5"
           component={drawerChapter.drawerChapter5}
-          options={{ title: titles[5], headerTitleAlign: "center" }}
+          options={{ title: headerTitle, headerTitleAlign: "center" }}
         />
 
         <Stack.Screen
           name="Chapter6"
           component={drawerChapter.drawerChapter6}
-          options={{ title: titles[6], headerTitleAlign: "center" }}
+          options={{ title: headerTitle, headerTitleAlign: "center" }}
         />
 
         <Stack.Screen
           name="Chapter7"
           component={drawerChapter.drawerChapter7}
-          options={{ title: titles[7], headerTitleAlign: "center" }}
+          options={{ title: headerTitle, headerTitleAlign: "center" }}
         />
         <Stack.Screen
           name="Chapter8"
           component={drawerChapter.drawerChapter8}
-          options={{ title: titles[8], headerTitleAlign: "center" }}
+          options={{ title: headerTitle, headerTitleAlign: "center" }}
         />
 
         <Stack.Screen
           name="Chapter9"
           component={drawerChapter.drawerChapter9}
-          options={{ title: titles[9], headerTitleAlign: "center" }}
+          options={{ title: headerTitle, headerTitleAlign: "center" }}
         />
 
         <Stack.Screen
           name="Chapter10"
           component={drawerChapter.drawerChapter10}
-          options={{ title: titles[10], headerTitleAlign: "center" }}
+          options={{ title: headerTitle, headerTitleAlign: "center" }}
         />
 
         <Stack.Screen
           name="Chapter11"
           component={drawerChapter.drawerChapter11}
-          options={{ title: titles[11], headerTitleAlign: "center" }}
+          options={{ title: headerTitle, headerTitleAlign: "center" }}
         />
 
         <Stack.Screen
           name="Chapter12"
           component={drawerChapter.drawerChapter12}
-          options={{ title: titles[12], headerTitleAlign: "center" }}
+          options={{ title: headerTitle, headerTitleAlign: "center" }}
         />
 
         <Stack.Screen
           name="Chapter13"
           component={drawerChapter.drawerChapter13}
-          options={{ title: titles[13], headerTitleAlign: "center" }}
+          options={{ title: headerTitle, headerTitleAlign: "center" }}
         />
 
         <Stack.Screen
           name="Chapter14"
           component={drawerChapter.drawerChapter14}
-          options={{ title: titles[14], headerTitleAlign: "center" }}
+          options={{ title: headerTitle, headerTitleAlign: "center" }}
         />
 
         <Stack.Screen
           name="Chapter15"
           component={drawerChapter.drawerChapter15}
-          options={{ title: titles[15], headerTitleAlign: "center" }}
+          options={{ title: headerTitle, headerTitleAlign: "center" }}
         />
 
         <Stack.Screen
