@@ -213,8 +213,9 @@ export default class Chapter1 extends React.Component {
         <Text style={{fontWeight : 'bold'}}>
           5. Monoteisme
         </Text>
+        {monoteismeList}
         <Text>
-          {monoteismeList} {'\n'} {'\n'}
+           {'\n'} {'\n'}
         </Text>
 
 
