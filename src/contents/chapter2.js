@@ -52,7 +52,7 @@ constructor(props) {
           Peran Agama Dalam Kehidupan Manusia
         </Text>
         <Text style={{fontWeight : 'bold', fontSize : 15}}>
-        	MAKNA AGAMA
+        	A. MAKNA AGAMA
         </Text>
         <Text>
           Sebagian orang berpendapat bahwa Tuhan dan Spiritualitas itu tidak membutuhkan Agama. Agama yang menjadi manifestasi nilai ketuhanan dan 
@@ -66,7 +66,7 @@ constructor(props) {
         	Itulah yang disebut dengan fitrah keagamaan.Dengan fitrah itu manusia sudah bisa mengenal Tuhan tanpa harus mengikuti sebuah Agama
         </Text>
         <Text style={{fontWeight : 'bold', fontSize : 15}}>
-        	PENGERTIAN AGAMA
+        	Pengertian Agama
         </Text>
         <Text style={{fontWeight : 'bold'}}>
         	a-gam-a
@@ -93,7 +93,7 @@ constructor(props) {
         	Religion dalam pengertiannya yang paling umum diartikan sebagai sistem orientasi dan obyek pengabdian
         </Text>
         <Text style={{fontWeight : 'bold', fontSize : 15}}>
-        	UNSUR AGAMA
+        	Unsur Agama
         </Text>
         <Text style={{fontWeight : 'bold'}}>
         	Keyakinan ( Credial )
@@ -168,10 +168,10 @@ constructor(props) {
         	Agama Bukan Misionari
         </Text>
         <Text>
-        	agama tidak menuntut pemeluknya untuk menyebarkan ajaran-ajarannya kepada orang lain. Jadi cukup disebarkan kepada lingkungan tertentu yang menjadi misi utamanya. (Suryana, 1997: 36-37).
+        	agama tidak menuntut pemeluknya untuk menyebarkan ajaran-ajarannya kepada orang lain. Jadi cukup disebarkan kepada lingkungan tertentu yang menjadi misi utamanya. (Suryana, 1997: 36-37). {'\n'}
         </Text>
         <Text style={{fontWeight : 'bold', fontSize : 15}}>
-        	Kedudukan Serta Fungsi Simbol dan Ritual Keagamaan
+        	B. KEDUDUKAN SERTA FUNGSI SIMBOL DAN RITUAL KEAGAMAAN
         </Text>
         <Text>
         	Di kehidupan modern, kemajuan pesat akal manusia tidak diimbangi dengan kekuatan hati. Hal inilah yang menyebabkan semua penyimpangan pada manusia. Padahal, tidak ada hal selain agama yang dapat mengantar manusia ke tujuan yang agung dan suci. Muthahhari mengungkapkan: bila agama tidak ada, kemanusiaan pun tak akan ada.
@@ -184,7 +184,7 @@ constructor(props) {
         </Text>
         	{nilKemanusiaanList}
         <Text style={{fontWeight : 'bold', fontSize : 15}}>
-        	FUNGSI AGAMA
+        	Fungsi Agama
         </Text>	
         <Text>
         	Fungsi agama bagi kehidupan manusia dapat dilihat dari aspek personal dan sosial. Secara personal agama berfungsi untuk memenuhi kebutuhan individual seperti kebutuhan akan keselamatan, kebermaknaan hidup, dan lainnya. Sementara secara sosial agama berfungsi menyadarkan manusia tentang peran mereka dalam keluarga dan masyarakat
@@ -201,7 +201,7 @@ constructor(props) {
         	{'\n'}
         </Text>
         <Text style={{fontWeight : 'bold', fontSize : 15}}>
-        	Keanekaragaman Pemahaman dan Sikap Beragama
+        	C. KEANEKARAGAMAN PEMAHAMAN DAN SIKAP BERAGAMA
         </Text>
         <Text>
         Kita harus meyakini bahwa perbedaan adalah sebuah keniscayaan. Perbedaan itu adalah kehendak Allah swt. dan bisa saja Ia menjadikan kita semua beragama namun Allah membiarkan hal tersebut agar menguji siapa yang paling bertakwa dalam klaim keimanannya.

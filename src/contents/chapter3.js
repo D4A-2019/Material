@@ -25,12 +25,6 @@ export default class Chapter3 extends React.Component{
 
 	render(){
 
-    let nilKemanusiaanList = this.state.data.nilKemanusiaan.map((dataList, index) => {
-      return(
-        <Text key={index}>{index+1}. {dataList} </Text>
-      )
-    })
-
     return (
 
       <View style={{flex: 1 }}>
@@ -39,7 +33,7 @@ export default class Chapter3 extends React.Component{
           POKOK AJARAN ISLAM
         </Text>
       <Text style={{fontWeight: 'bold', fontSize: 15}}>
-      	Konsep Akidah Islam
+      	A. KONSEP AKIDAH ISLAM
       </Text>
       <Text>
       	Akidah berasal dari kata ‘aqada—ya’qidu—‘aqdan yang berarti simpul, ikatan dan perjanjian yang kokoh dan kuat {'\n'}
@@ -80,7 +74,7 @@ export default class Chapter3 extends React.Component{
       </Text>
 
       <Text style={{fontWeight: 'bold', fontSize: 15}}>
-      	Konsep Syariah Islam
+      	B. KONSEP SYARIAH ISLAM
       </Text>
       <Text style={{fontWeight: 'bold'}}>
       	Makna Syariah
@@ -140,7 +134,7 @@ export default class Chapter3 extends React.Component{
 		Ibadah terdiri atas ibadah khusus (mahdah) dan ibadah umum (gairu mahdah). Ibadah khusus merupakan ibadah langsung kepada Allah SWT yang tata caranya telah ditetapkan. Contoh dari ibadah khusus adalah shalat, taharah sebagai syarat shalat, puasa, dan lainnya. Sementara ibadah umum  merupakan bentuk ibadah yang berkaitan dengan kebaikan seperti berbakti kepada orang tua, membaca al-Quran dan menolong sesama.{'\n'}
       </Text>
       <Text style={{fontWeight: 'bold', fontSize: 15}}>
-      	Konsep Akhlak
+      	C. KONSEP AKHLAK
       </Text>
       <Text style={{fontWeight: 'bold'}}>
       	Makna Akhlak
@@ -182,10 +176,10 @@ export default class Chapter3 extends React.Component{
       <Text>
       	Untuk mencapai akhlak yang mulia diperlukan proses-proses yang dilakukan oleh kalangan mutashawwifin atau para pengamal tasawuf. Akhlak tasawuf adalah proses pencapaian akhlak mulia melalui metode tasawuf. Metode Tasawuf memfokuskan pada Tazkiyah al-Nafs (penyucian jiwa) yang dilakukan dengan mengamalkan istilah takhalli-tahalli-tajalli (Nata, 2012:269).{'\n'}
 		Pengamalan selanjutnya tasawuf yang dilakukan oleh kelompok pengamal yang menamakan dirinya tarikat. Tarikat bermakna jalan menuju Allah. Menurut Abdullah Ujong Rimba, tarikat bermakna cara mengerjakan suatu amalan untuk mencapai suatu tujuan. Cara yang dimaksud merupakan mengamalkan ketiga ajaran dasar takhalli-tahalli-tajalli. Salah satu tarikat terbesar yang berkembang adalah Tarikat Naqsyabandiyah.{'\n'}
-		Dalam kehidupan modern yang serba sibuk maka tarikat dikembangkan kearah yang lebih konstruktif. Manusia butuh pedoman yang bersifat spiritual untuk menjaga integritas kepribadiannya melalui tasawuf. Dengan demikian, ibadah yang dilakukan ber-tarikat erat hubungannya dengan akhlak. Dengan memahami tasawuf lalu mengamalkan dan menempuhnya dalam bertarekat serta suluk, maka akan terbentuk akhlak yang lebih baik seperti zuhud, sabar, ikhlas, dan optimis dalam berusaha dan bekerja sehari-hari.
+		Dalam kehidupan modern yang serba sibuk maka tarikat dikembangkan kearah yang lebih konstruktif. Manusia butuh pedoman yang bersifat spiritual untuk menjaga integritas kepribadiannya melalui tasawuf. Dengan demikian, ibadah yang dilakukan ber-tarikat erat hubungannya dengan akhlak. Dengan memahami tasawuf lalu mengamalkan dan menempuhnya dalam bertarekat serta suluk, maka akan terbentuk akhlak yang lebih baik seperti zuhud, sabar, ikhlas, dan optimis dalam berusaha dan bekerja sehari-hari. {'\n'}
       </Text>
       <Text style={{fontWeight: 'bold', fontSize: 15}}>
-      	Korelasi Aqidah, Syariah, dan Akhlak
+      	D. KORELASI AQIDAH, SYARIAH, DAN AKHLAK
       </Text>
       <Text>
       	Konsep pada iman melahirkan konsep kajian akidah, konsep islam melahirkan konsep kajian syariah, dan konsep ihsan melahirkan konsep kajian akhlak. ketiga kajian tersebut merupakan kerangka dasar ajaran islam. {'\n'}
