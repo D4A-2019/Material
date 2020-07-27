@@ -173,16 +173,20 @@ export default class Chapter1 extends React.Component {
         <Text style={{fontWeight: 'bold'}}>
          Tuhan menurut Oxford Learner's Dictionary :
         </Text>
-          {oxfordList}
+        <Text>
+          the being or spirit that is worshipped and is believed to have created the universe, yakni sesuatu atau zat yang disembah dan diyakini sebagai pencipta alam semesta.
+        </Text>
         <Text style={{fontWeight: 'bold'}}>
           Tuhan dalam Bahasa Arab :
         </Text>
-         {arabList}
+        <Text>
+          Tuhan disebut dengan kata ilah yang menurut Ibnu Taimiyah seperti dikutip oleh Imaduddin (1989) berarti yang dipuja dengan penuh kecintaan hati, tunduk kepada-Nya, merendahkan diri di hadapan-Nya, takut dan mengharapkan-Nya, kepada-Nya tempat berpasrah ketika dalam kesulitan, berdoa dan bertawakkal kepada-Nya untuk kemashlahatan diri, dan menimbulkan ketenangan di saat
+        </Text>
         <Text style={{fontWeight : 'bold'}}>
           Kesimpulan :
         </Text>
         <Text>
-         {kesimpulanList} {'\n'} {'\n'}
+         Tuhan adalah sesuatu yang dipentingkan atau dianggap penting oleh manusia sedemikian rupa sehingga manusia merelakan dirinya dikuasai dan didominasi olehnya untuk kemudian mematuhi dan mentaatinya. {'\n'} {'\n'}
         </Text>
         <Text>
           Kepercayaan manusia kepada Tuhan berproses secara evolusi hingga mencapai derajat kesempurnaannya. Berikut proses nya :
@@ -190,7 +194,14 @@ export default class Chapter1 extends React.Component {
         <Text style={{fontWeight : 'bold'}}>
           1. Dinamisme
         </Text>
-         {dinamismeList}
+        <Text>
+          Dinamisme berasal dari Bahasa Yunani dynamis yang dalam Bahasa Indonesia disebut kekuatan
+          tiap-tiap benda yang berada di sekeliling mereka bisa mempunyai kekuatan batin yang misterius
+          Dalam ilmu sejarah agama dan ilmu perbandingan agama, kekuatan batin ini biasanya disebut mana.
+          memperoleh mana sebanyak-banyaknya dengan memakan benda-benda yang diyakini mempunyai mana atau dengan memakai fethis (benda bertuah) yang telah diisi oleh dukun atau ahli sihir dengan mana
+          Semakin banyak mana seseorang semakin terjamin keselamatannya
+          Mana ini mempunyai lima sifat, yakni:
+        </Text>
         <Text>
           a.  Mana mempunyai kekuatan {'\n'}
           b.  Mana tidak dapat dilihat {'\n'}
@@ -201,19 +212,42 @@ export default class Chapter1 extends React.Component {
         <Text style={{fontWeight : 'bold'}}>
           2. Animisme 
         </Text>
-          {animismeList}
+        <Text>
+          Berasal dari Bahasa Latin Anima yang berarti roh,
+          semua benda, baik yang bernyawa atau tidak bernyawa mempunyai roh,
+          belum dapat menjelaskan definisi roh dan membedakannnya dengan materi,
+          roh itu tersusun dari suatu zat atau materi yang halus sekali yang hampir menyerupai udara atau uap.
+          roh itu makan, minum, mempunyai bentuk dan umur.
+          Roh juga mempunyau kehendak dan kekuatan, mempunyai perasaan senang dan menjadi marah,
+          animisme sudah mengenal ritual peribadatan berupa doa, sembahyang, dan pemberian korban.
+        </Text>
         <Text style={{fontWeight : 'bold'}}>
           3. Politeisme
         </Text>
-          {politeismeList}
+        <Text>
+          Roh-roh itu, karena dimuliakan, dianggap mempunyai kekuasaan dan disembah dengan cara-cara tertentu, kemudian meningkat menjadi dewa,
+          Bentuk dan sifat dewa juga lebih jelas daripada roh.
+          Dewa sudah mempunyai kepribadian sesuai dengan tugas dan pekerjaannya.
+          dewa-dewa dalam politeisme mempunyai kedudukan yang hampir sama, tetapi karena beberapa hal, lambat laun beberapa di antara mereka mempunyai kedudukan yang lebih tinggi dari dewa-dewa yang lain.
+        </Text>
         <Text style={{fontWeight : 'bold'}}>
           4. Henoteisme
         </Text> 
-          {henoteismeList}
+        <Text>
+          Aliran yang mengutamakan beberapa dewa sebagai obyek penyembahan,
+          satu dewa saja yang mereka yakini sebagai dewa tunggal bagi pemeluk agama tersebut.
+          Keyakinan terhadap satu dewa atau tuhan tidak berarti bermakna monoteisme.
+          Hal itu disebabkan mereka masih meyakini bahwa bagi agama lain terdapat tuhan tersendiri
+          Tuhan-tuhan yang lain itu merupakan musuh dan saingan dari tuhan yang satu itu.
+        </Text>
         <Text style={{fontWeight : 'bold'}}>
           5. Monoteisme
         </Text>
-        {monoteismeList}
+        <Text>
+          Monoteisme merupakan perkembangan dari Henoteisme,
+          dalam monoteisme tidak ada lagi tuhan saingan,
+          Sementara tuhan-tuhan dari bangsa lain bukan tuhan yang sebenarnya, melainkan hanya syetan.
+        </Text>
         <Text>
            {'\n'} {'\n'}
         </Text>
@@ -247,8 +281,9 @@ export default class Chapter1 extends React.Component {
         <Text style={{fontWeight : 'bold'}}>
           5. Menerima kenyataan pluralitas pemahaman tentang ketuhanan  
         </Text> 
+          {menerimaList}
         <Text>
-          {menerimaList} {'\n'} {'\n'}
+           {'\n'} {'\n'}
         </Text>
 
         <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
@@ -279,8 +314,9 @@ export default class Chapter1 extends React.Component {
          <Text style={{fontWeight : 'bold'}}>
           5. Konsep Ketuhanan Agama Budha
         </Text>
+        {konsepBudhaList}
         <Text>
-          {konsepBudhaList} {'\n'}
+           {'\n'}
         </Text>
         <Text> 
             Implementasi Nilai - Nilai ketuhanan dalam lingkungan pendidikan, kekeluargaan dan pekerjaan :
