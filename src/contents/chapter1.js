@@ -154,8 +154,6 @@ export default class Chapter1 extends React.Component {
 
       <View style={{flex: 1 }}>
       <ScrollView>
-        <Dalil ayat='Testing' soundFile={require('./dalil-sound/test.mp3')} />
-
         <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
           Konsep Ketuhanan
         </Text>
