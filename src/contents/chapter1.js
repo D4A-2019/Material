@@ -304,9 +304,6 @@ export default class Chapter1 extends React.Component {
           {'\n'}5. Konsep Ketuhanan Agama Budha
         </Text>
         {konsepBudhaList}
-        <Text>
-           {'\n'}
-        </Text>
         <Text> 
             Implementasi Nilai - Nilai ketuhanan dalam lingkungan pendidikan, kekeluargaan dan pekerjaan :
         </Text>
