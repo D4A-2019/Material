@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "M.A.I. - Materi Agama Islam",
+    "description": "Religion lecture material for Bandung State Polytechnic",
     "slug": "Material",
     "version": "1.0.0",
     "orientation": "portrait",
