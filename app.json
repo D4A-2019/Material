@@ -5,6 +5,10 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icons/Icon-512px.png",
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#000000"
+    },
     "splash": {
       "image": "./assets/images/splash-screens/Splash-Screen-test5.png",
       "resizeMode": "contain",
