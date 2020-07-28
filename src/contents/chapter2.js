@@ -46,8 +46,6 @@ constructor(props) {
 
       <View style={{flex: 1 }}>
       <ScrollView>
-        <Dalil ayat='Testing' soundFile={require('./dalil-sound/test.mp3')} />
-
         <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
           Peran Agama Dalam Kehidupan Manusia
         </Text>
@@ -213,6 +211,7 @@ constructor(props) {
         قُلْ يٰٓاَيُّهَا الْكٰفِرُوْنَۙ لَآ اَعْبُدُ مَا تَعْبُدُوْنَۙ وَلَآ اَنْتُمْ عٰبِدُوْنَ مَآ اَعْبُدُۚ وَلَآ اَنَا۠ عَابِدٌ مَّا عَبَدْتُّمْۙ وَلَآ اَنْتُمْ
 		عٰبِدُوْنَ مَآ اَعْبُدُۗ لَكُمْ دِيْنُكُمْ وَلِيَ دِيْنِ
         </Text>
+        <Dalil ayat='AL-Kafirun' soundFile={require('./audios/Al Kafirun - (1-6).mp3')}/>
         <Text>
         	Artinya: “Katakanlah: “Hai orang- orang kafir, Aku tidak akan menyembah
 			apa yang kamu sembah. Dan kamu bukan penyembah Tuhan yang aku
