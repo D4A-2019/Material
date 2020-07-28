@@ -49,7 +49,7 @@ function App() {
         <Stack.Screen
           name="Home"
           component={HomeScreen}
-          options={{ title: "Materi Agama", headerTitleAlign: "center" }}
+          options={{ headerShown: false }}
         />
 
         <Stack.Screen
