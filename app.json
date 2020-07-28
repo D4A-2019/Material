@@ -5,6 +5,7 @@
     "slug": "Material",
     "version": "1.0.0",
     "orientation": "portrait",
+    "primaryColor": "#007f5f",
     "icon": "./assets/images/icons/Icon-512px.png",
     "splash": {
       "image": "./assets/images/splash-screens/Splash-Screen-test5.png",
@@ -19,6 +20,9 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "permissions": []
     },
     "web": {
       "favicon": "./assets/images/icons/Icon-64px.png"
