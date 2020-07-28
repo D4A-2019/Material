@@ -7,7 +7,7 @@ const Drawer = createDrawerNavigator();
 export default class drawerChapter6 extends Component {
     render() {
         return(
-            <Drawer.Navigator initialRouteName="Chapter6">
+            <Drawer.Navigator initialRouteName="BAB 6">
                 <Drawer.Screen name="BAB 1" component={Chapter.Chapter1}/>
                 <Drawer.Screen name="BAB 2" component={Chapter.Chapter2}/>
                 <Drawer.Screen name="BAB 3" component={Chapter.Chapter3}/>
