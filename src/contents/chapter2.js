@@ -46,13 +46,11 @@ constructor(props) {
 
       <View style={{flex: 1 }}>
       <ScrollView>
-        <Dalil ayat='Testing' soundFile={require('./dalil-sound/test.mp3')} />
-
         <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
           Peran Agama Dalam Kehidupan Manusia
         </Text>
         <Text style={{fontWeight : 'bold', fontSize : 15}}>
-        	MAKNA AGAMA
+        	A. MAKNA AGAMA
         </Text>
         <Text>
           Sebagian orang berpendapat bahwa Tuhan dan Spiritualitas itu tidak membutuhkan Agama. Agama yang menjadi manifestasi nilai ketuhanan dan 
@@ -66,7 +64,7 @@ constructor(props) {
         	Itulah yang disebut dengan fitrah keagamaan.Dengan fitrah itu manusia sudah bisa mengenal Tuhan tanpa harus mengikuti sebuah Agama
         </Text>
         <Text style={{fontWeight : 'bold', fontSize : 15}}>
-        	PENGERTIAN AGAMA
+        	{'\n'}Pengertian Agama
         </Text>
         <Text style={{fontWeight : 'bold'}}>
         	a-gam-a
@@ -93,7 +91,7 @@ constructor(props) {
         	Religion dalam pengertiannya yang paling umum diartikan sebagai sistem orientasi dan obyek pengabdian
         </Text>
         <Text style={{fontWeight : 'bold', fontSize : 15}}>
-        	UNSUR AGAMA
+        	{'\n'}Unsur Agama
         </Text>
         <Text style={{fontWeight : 'bold'}}>
         	Keyakinan ( Credial )
@@ -141,7 +139,7 @@ constructor(props) {
         	Dimensi konsekuensial merupakan wujud konkrit dari dampak beragama yang berhubungan dengan aspek kemanusiaan dan kemasyarakatan.
         </Text>
         <Text style={{fontWeight : 'bold'}}>
-        	Jenis Agama
+        	{'\n'}Jenis Agama
         </Text>
         <Text>
         	Agama wahyu (samawi atau langit)
@@ -156,7 +154,7 @@ constructor(props) {
         	Agama non-wahyu bersandar semata-mata kepada ajaran seorang manusia yang dianggap memiliki pengetahuan tentang kehidupan dalam berbagai aspeknya secara mendalam. Bersifat politeis. Penamaan agama dikaitkan dengan pendiri atau tempat asal agama tersebut. Berlaku Lokal hanya untuk suatu masyarakat tertentu.
         </Text>
         <Text style={{fontWeight : 'bold'}}>
-        	Penyebaran Agama
+        	{'\n'}Penyebaran Agama
         </Text>
         <Text>
         	Agama Misionari
@@ -168,10 +166,10 @@ constructor(props) {
         	Agama Bukan Misionari
         </Text>
         <Text>
-        	agama tidak menuntut pemeluknya untuk menyebarkan ajaran-ajarannya kepada orang lain. Jadi cukup disebarkan kepada lingkungan tertentu yang menjadi misi utamanya. (Suryana, 1997: 36-37).
+        	agama tidak menuntut pemeluknya untuk menyebarkan ajaran-ajarannya kepada orang lain. Jadi cukup disebarkan kepada lingkungan tertentu yang menjadi misi utamanya. (Suryana, 1997: 36-37). {'\n'}
         </Text>
         <Text style={{fontWeight : 'bold', fontSize : 15}}>
-        	Kedudukan Serta Fungsi Simbol dan Ritual Keagamaan
+        	B. KEDUDUKAN SERTA FUNGSI SIMBOL DAN RITUAL KEAGAMAAN
         </Text>
         <Text>
         	Di kehidupan modern, kemajuan pesat akal manusia tidak diimbangi dengan kekuatan hati. Hal inilah yang menyebabkan semua penyimpangan pada manusia. Padahal, tidak ada hal selain agama yang dapat mengantar manusia ke tujuan yang agung dan suci. Muthahhari mengungkapkan: bila agama tidak ada, kemanusiaan pun tak akan ada.
@@ -182,26 +180,135 @@ constructor(props) {
         <Text>
         	Nilai kemanusiaan akan tetap ada jika manusia dapat memenuhi aspek spiritualitas sebagai kebutuhan dasar. kebutuhan dasar itu menurut Fadloli terdiri dari:
         </Text>
-        	{nilKemanusiaanList}
+        <Text>
+            1. Agama, berislam, dan beriman {'\n'}
+        </Text> 
+                <Dalil ayat='وَإِذْ أَخَذَ رَبُّكَ مِنۢ بَنِىٓ ءَادَمَ مِن ظُهُورِهِمْ ذُرِّيَّتَهُمْ وَأَشْهَدَهُمْ عَلَىٰٓ أَنفُسِهِمْ أَلَسْتُ بِرَبِّكُمْ ۖ قَالُوا۟ بَلَىٰ ۛ شَهِدْنَآ ۛ أَن تَقُولُوا۟ يَوْمَ ٱلْقِيَٰمَةِ إِنَّا كُنَّا عَنْ هَٰذَا غَٰفِلِينَ' soundFile={require('./../../assets/audios/AlAraf-172.mp3')}/>
+                <Text>
+                   {'\n'} Artinya : "Dan (ingatlah), ketika Tuhanmu mengeluarkan keturunan anak-anak Adam dari sulbi mereka dan Allah mengambil kesaksian terhadap jiwa mereka (seraya berfirman): "Bukankah Aku ini Tuhanmu?" Mereka menjawab: "Betul (Engkau Tuhan kami), kami menjadi saksi". (Kami lakukan yang demikian itu) agar di hari kiamat kamu tidak mengatakan: "Sesungguhnya kami (bani Adam) adalah orang-orang yang lengah terhadap ini (keesaan Tuhan)",
+                    (QS Al-A'raf: 172) {'\n'}
+                </Text>
+                <Dalil ayat='فأَقِمْ وَجْهَكَ لِلدِّينِ حَنِيفًا ۚ فِطْرَتَ ٱللَّهِ ٱلَّتِى فَطَرَ ٱلنَّاسَ عَلَيْهَا ۚ لَا تَبْدِيلَ لِخَلْقِ ٱللَّهِ ۚ ذَٰلِكَ ٱلدِّينُ ٱلْقَيِّمُ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ' soundFile={require('./../../assets/audios/ArRum-30.mp3')}/>
+                <Text>
+                   {'\n'} Artinya : "Maka hadapkanlah wajahmu dengan lurus kepada agama Allah; (tetaplah atas) fitrah Allah yang telah menciptakan manusia menurut fitrah itu. Tidak ada peubahan pada fitrah Allah. (Itulah) agama yang lurus; tetapi kebanyakan manusia tidak mengetahui, "
+                    (QS Ar-Rum: 30) {'\n'}
+                </Text>   
+         <Text>
+            2. Kasih sayang  {'\n'}
+         </Text>
+                <Dalil ayat='قُلْ إِنْ كُنْتُمْ تُحِبُّونَ اللَّهَ فَاتَّبِعُونِي يُحْبِبْكُمُ اللَّهُ وَيَغْفِرْ لَكُمْ ذُنُوبَكُمْ ۗ وَاللَّهُ غَفُورٌ رَحِيمٌ'soundFile={require('./../../assets/audios/AliImran-31.mp3')}/>
+                <Text>
+                   {'\n'} Artinya : "Katakanlah: "Jika kamu (benar-benar) mencintai Allah, ikutilah aku, niscaya Allah mengasihi dan mengampuni dosa-dosamu". Allah Maha Pengampun lagi Maha Penyayang. "
+                    (QS Ali Imran: 31) {'\n'}
+                </Text>
+                <Dalil ayat='۞ وَٱعْبُدُوا۟ ٱللَّهَ وَلَا تُشْرِكُوا۟ بِهِۦ شَيْـًٔا ۖ وَبِٱلْوَٰلِدَيْنِ إِحْسَٰنًا وَبِذِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينِ وَٱلْجَارِ ذِى ٱلْقُرْبَىٰ وَٱلْجَارِ ٱلْجُنُبِ وَٱلصَّاحِبِ بِٱلْجَنۢبِ وَٱبْنِ ٱلسَّبِيلِ وَمَا مَلَكَتْ أَيْمَٰنُكُمْ ۗ إِنَّ ٱللَّهَ لَا يُحِبُّ مَن كَانَ مُخْتَالًا فَخُورًا'soundFile={require('./../../assets/audios/AnNisa-36.mp3')}/>
+                <Text>
+                   {'\n'} Artinya : "Sembahlah Allah dan janganlah kamu mempersekutukan-Nya dengan sesuatupun. Dan berbuat baiklah kepada dua orang ibu-bapa, karib-kerabat, anak-anak yatim, orang-orang miskin, tetangga yang dekat dan tetangga yang jauh, dan teman sejawat, ibnu sabil dan hamba sahayamu. Sesungguhnya Allah tidak menyukai orang-orang yang sombong dan membangga-banggakan diri,"
+                    (QS An Nisa: 36) {'\n'}
+                </Text>
+                <Dalil ayat=' وَقَضَى رَبُّكَ أَلَّا تَعْبُدُوا إِلَّا إِيَّاهُ وَبِالْوَالِدَيْنِ إِحْسَانًا إِمَّا يَبْلُغَنَّ عِنْدَكَ الْكِبَرَ أَحَدُهُمَا أَوْ كِلَاهُمَا فَلَا تَقُلْ لَهُمَا أُفٍّ وَلَا تَنْهَرْهُمَا وَقُلْ لَهُمَا قَوْلًا كَرِيمًا  (٢٣)  وَاخْفِضْ لَهُمَا جَنَاحَ الذُّلِّ مِنَ الرَّحْمَةِ وَقُلْ رَبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا  (٢٤)'soundFile={require('./../../assets/audios/AlIsra-(23-24).mp3')}/>
+                <Text>
+                   {'\n'} Artinya : "Dan Tuhanmu telah memerintahkan supaya kamu jangan menyembah selain Dia dan hendaklah kamu berbuat baik pada ibu bapakmu dengan sebaik-baiknya. Jika salah seorang di antara keduanya atau kedua-duanya sampai berumur lanjut dalam pemeliharaanmu, maka sekali-kali janganlah kamu mengatakan kepada keduanya perkataan "ah" dan janganlah kamu membentak mereka dan ucapkanlah kepada mereka perkataan yang mulia."
+                    (QS Al Isra: 23-24) {'\n'}
+                </Text>
+                <Dalil ayat=' وَلَقَدْ آتَيْنَا لُقْمَانَ الْحِكْمَةَ أَنِ اشْكُرْلِله وَمَنْ يَشْكُرْفَإنَّمَايَشْكُرُلِنَفْسِهِ وَمَنْ كَفَرَ فَإِنَّ اللهَ غَنِيٌّ حَمِيْدٌ  (١٢) وَإِذْ قَالَ لُقْمَانُ لاِبْنِهِ وَهُوَيَعِظُهُ يَابُنَيَّ لاَتُشْرِكْ بِاللهِ إِنَّ الشِّرْكَ لَظُلْمٌ عَظِيْمٌ  (١٣)  وَوَصَّيْنَاالإِنْسَانَ بِوَالِدَيْهِ حَمَلَتْهُ أُمُّهُ وَهْنًا عَلَي وَهْنٍ وَفِصَالُهُ فِي عَامَيْنِ أَنِ اشْكُرْلِي وَلِوَالِدَيْكَ إِلَيَّ المَصِيْرُ (١٥)  وَإِنْ جَا هَدَكَ عَلَى أَنْ تُشْرِكَ بِي مَالَيسَ لَكَ بِهِ عِلْمٌ فَلاَ تُطِعْهُمَا وَصَاحِبهُممَافِي الدُّنيَامَعرُوفًاوَاتَّبِعْ سَبِيلَ مَن أَنَبَ إِلَيَّ مَرْجِعُكُم فَأُنَبِّئُكُم بِمَا كُنتُم تَعْمَلُونَ  (١٤)'soundFile={require('./../../assets/audios/Luqman-(12-15).mp3')}/>
+                <Text>
+                   {'\n'} Artinya : "Dan sesungguhnya telah Kami berikan hikmah kepada Lukman, yaitu: "Bersyukurlah kepada Allah. Dan barang siapa yang bersyukur (kepada Allah), maka sesungguhnya ia bersyukur untuk dirinya sendiri; dan barang siapa yang tidak bersyukur, maka sesungguhnya Allah Maha Kaya lagi Maha Terpuji". Dan (ingatlah) ketika Lukman berkata kepada anaknya, di waktu ia memberi pelajaran kepadanya: "Hai anakku, janganlah kamu mempersekutukan (Allah) sesungguhnya mempersekutukan (Allah) adalah benar-benar kelaliman yang besar".
+                                     Dan Kami perintahkan kepada manusia (berbuat baik) kepada dua orang ibu-bapaknya; ibunya telah mengandungnya dalam keadaan lemah yang bertambah-tambah, dan menyapihnya dalam dua tahun. Bersyukurlah kepada-Ku dan kepada dua orang ibu bapakmu, hanya kepada-Kulah kembalimu.
+                                     Dan jika keduanya memaksa kamu untuk mempersekutukan Aku dengan sesuatu yang tidak ada pengetahuanmu tentang itu, maka jangan lah engkau mematuhi keduanya, dan pergaulilah keduanya di dunia dengan baik, dan ikutilah jalan orang yang kembali kepada-Ku, kemudian hanya kepada-Kulah kembali kamu, maka Ku-beritakan kepada kamu apa yang telah kamu kerjakan."
+                    (QS Luqman: 12-15) {'\n'}
+                </Text>       
+        <Text>           
+            3. Keindahan {'\n'}
+        </Text>
+                <Dalil ayat='زُيِّنَ لِلنَّاسِ حُبُّ ٱلشَّهَوَٰتِ مِنَ ٱلنِّسَآءِ وَٱلْبَنِينَ وَٱلْقَنَٰطِيرِ ٱلْمُقَنطَرَةِ مِنَ ٱلذَّهَبِ وَٱلْفِضَّةِ وَٱلْخَيْلِ ٱلْمُسَوَّمَةِ وَٱلْأَنْعَٰمِ وَٱلْحَرْثِ ۗ ذَٰلِكَ مَتَٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَٱللَّهُ عِندَهُۥ حُسْنُ ٱلْمَـَٔابِ'soundFile={require('./../../assets/audios/AliImran-14.mp3')}/>
+                <Text>
+                   {'\n'} Artinya : "Dijadikan indah pada (pandangan) manusia kecintaan kepada apa-apa yang diingini, yaitu: wanita-wanita, anak-anak, harta yang banyak dari jenis emas, perak, kuda pilihan, binatang-binatang ternak dan sawah ladang. Itulah kesenangan hidup di dunia, dan di sisi Allah-lah tempat kembali yang baik (surga)."
+                    (QS Al Imran: 14) {'\n'}
+                </Text>
+        <Text>
+            4. Harga diri  {'\n'}
+        </Text>
+                <Dalil ayat=' لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِىٓ أَحْسَنِ تَقْوِيمٍ  (٥) ثُمَّ رَدَدْنَاهُ أَسْفَلَ سَافِلِينَ  (٤)'soundFile={require('./../../assets/audios/AtTin-(4-5).mp3')}/>
+                <Text>
+                   {'\n'} Artinya : "Sesungguhnya Kami telah menciptakan manusia dalam bentuk yang sebaik-baiknya. Kemudian Kami kembalikan dia ke tempat yang serendah-rendahnya (neraka), kecuali orang-orang yang beriman dan mengerjakan amal saleh"
+                    (QS At Tin: 4-5) {'\n'}
+                </Text>
+                <Dalil ayat='تَيَا أَيَّتُهَا النَّفْسُ الْمُطْمَئِنَّةُ (٢٧) ارْجِعِي إِلَى رَبِّكِ رَاضِيَةً مَرْضِيَّةً  (٢٨)  فَادْخُلِي  (٢٩)فِي عِبَادِي  وَادْخُلِي جَنَّتِي  (٣٠)'soundFile={require('./../../assets/audios/AlFajr-(27-30).mp3')}/>
+                <Text>
+                   {'\n'} Artinya : "Hai jiwa yang tenang. Kembalilah kepada Tuhanmu dengan hati yang puas lagi diridhai-Nya. Maka masuklah ke dalam jama’ah hamba-hamba-Ku, masuklah ke dalam syurga-Ku."
+                    (QS Al Fajr: 27-30) {'\n'}
+                </Text>
+                <Dalil ayat=' وَنَفْسٍ وَمَا سَوَّاهَا (٧)  فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَاهَا (٨)  قَدْ أَفْلَحَ مَنْ زَكَّاهَا (٩)  وَقَدْ خَابَ مَنْ دَسَّاهَا (١٠) كَذَّبَتْ ثَمُودُ بِطَغْوَىٰهَآ  (١١)'soundFile={require('./../../assets/audios/AshSyams-(7-11).mp3')}/>
+                <Text>
+                   {'\n'} Artinya : "dan jiwa serta penyempurnaannya (ciptaannya), maka Allah mengilhamkan kepada jiwa itu (jalan) kefasikan dan ketakwaannya, sesungguhnya beruntunglah orang yang mensucikan jiwa itu, dan sesungguhnya merugilah orang yang mengotorinya. (Kaum) Tsamud telah mendustakan (rasulnya) karena mereka melampaui batas (zhalim),"
+                    (QS Ash Syams: 7-11) {'\n'}
+                </Text>
+        <Text>
+            5. Kedamaian  {'\n'}
+        </Text>
+                <Dalil ayat='وَٱللَّهُ يَدْعُوٓا۟ إِلَىٰ دَارِ ٱلسَّلَٰمِ وَيَهْدِى مَن يَشَآءُ إِلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ'soundFile={require('./../../assets/audios/Yunus-25.mp3')}/>
+                <Text>
+                   {'\n'} Artinya : "Allah menyeru (manusia) ke Darussalam (surga), dan menunjuki orang yang dikehendaki-Nya kepada jalan yang lurus (Islam)."
+                    (QS Yunus: 25) {'\n'}
+                </Text>
+        <Text>
+            6. Kebenaran  {'\n'}
+        </Text>
+                <Dalil ayat='ٱلْحَقُّ مِن رَّبِّكَ ۖ فَلَا تَكُونَنَّ مِنَ ٱلْمُمْتَرِينَ'soundFile={require('./../../assets/audios/AlBaqarah-147.mp3')}/>
+                <Text>
+                   {'\n'} Artinya : "Kebenaran itu adalah dari Tuhanmu, sebab itu jangan sekali-kali kamu termasuk orang-orang yang ragu."
+                    (QS Al Baqarah: 147) {'\n'}
+                </Text>
+                <Dalil ayat='وَقُلْ جَآءَ ٱلْحَقُّ وَزَهَقَ ٱلْبَٰطِلُ ۚ إِنَّ ٱلْبَٰطِلَ كَانَ زَهُوقًا'soundFile={require('./../../assets/audios/AlIsra-81.mp3')}/>
+                <Text>
+                   {'\n'} Artinya : "Dan katakanlah: "Yang benar telah datang dan yang batil telah lenyap". Sesungguhnya yang batil itu adalah sesuatu yang pasti lenyap."
+                    (QS Al Isra: 81) {'\n'}
+                </Text>
+        <Text>
+            7. Aktualisasi diri {'\n'}
+        </Text>
+                <Dalil ayat='ٱلَّذِى خَلَقَ ٱلْمَوْتَ وَٱلْحَيَوٰةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا ۚ وَهُوَ ٱلْعَزِيزُ ٱلْغَفُورُ'soundFile={require('./../../assets/audios/AlMulk-2.mp3')}/>
+                <Text>
+                   {'\n'} Artinya : "Yang menjadikan mati dan hidup, supaya Dia menguji kamu, siapa di antara kamu yang lebih baik amalnya. Dan Dia Maha Perkasa lagi Maha Pengampun,"
+                    (QS Al Mulk: 2) {'\n'}
+                </Text>
+        <Text>
+            8. Berkeluarga {'\n'}
+        </Text>
+                <Dalil ayat='وَمِنْ ءَايَٰتِهِۦٓ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًا لِّتَسْكُنُوٓا۟ إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّقَوْمٍ يَتَفَكَّرُونَ'soundFile={require('./../../assets/audios/ArRum-21.mp3')}/>
+                <Text>
+                   {'\n'} Artinya : "Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu isteri-isteri dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya diantaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berfikir."
+                    (QS Ar Rum: 21) {'\n'}
+                </Text>
+        <Text>
+            9. Bermasyarakat {'\n'}
+        </Text>
+                <Dalil ayat='وَمِنْ ءَايَٰتِهِۦٓ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًا لِّتَسْكُنُوٓا۟ إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّقَوْمٍ يَتَفَكَّرُونَ'soundFile={require('./../../assets/audios/ArRum-21.mp3')}/>
+                <Text>
+                   {'\n'} Artinya : "Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu isteri-isteri dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya diantaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berfikir."
+                    (QS Ar Rum: 21) {'\n'}
+                </Text>
+
         <Text style={{fontWeight : 'bold', fontSize : 15}}>
-        	FUNGSI AGAMA
+        	Fungsi Agama
         </Text>	
         <Text>
-        	Fungsi agama bagi kehidupan manusia dapat dilihat dari aspek personal dan sosial. Secara personal agama berfungsi untuk memenuhi kebutuhan individual seperti kebutuhan akan keselamatan, kebermaknaan hidup, dan lainnya. Sementara secara sosial agama berfungsi menyadarkan manusia tentang peran mereka dalam keluarga dan masyarakat
+        	{'\n'}Fungsi agama bagi kehidupan manusia dapat dilihat dari aspek personal dan sosial. Secara personal agama berfungsi untuk memenuhi kebutuhan individual seperti kebutuhan akan keselamatan, kebermaknaan hidup, dan lainnya. Sementara secara sosial agama berfungsi menyadarkan manusia tentang peran mereka dalam keluarga dan masyarakat
         </Text>
         <Text style={{fontWeight : 'bold'}}>
-        	Fungsi Agama dari Aspek Personal
+        	{'\n'}Fungsi Agama dari Aspek Personal
         </Text>
         	{aspekPersonalList}
         <Text style={{fontWeight : 'bold'}}>
-        	Fungsi Agama dari Aspek Sosial
+        	{'\n'}Fungsi Agama dari Aspek Sosial
         </Text>	
         	{aspekSosialList}
         <Text>
         	{'\n'}
         </Text>
         <Text style={{fontWeight : 'bold', fontSize : 15}}>
-        	Keanekaragaman Pemahaman dan Sikap Beragama
+        	C. KEANEKARAGAMAN PEMAHAMAN DAN SIKAP BERAGAMA
         </Text>
         <Text>
         Kita harus meyakini bahwa perbedaan adalah sebuah keniscayaan. Perbedaan itu adalah kehendak Allah swt. dan bisa saja Ia menjadikan kita semua beragama namun Allah membiarkan hal tersebut agar menguji siapa yang paling bertakwa dalam klaim keimanannya.
@@ -210,9 +317,8 @@ constructor(props) {
         Semua ajaran agama memiliki inti kebaikan, sehingga kebaikan itu sendiri bersifat universal. Agama bukanlah sebuah hal yang menjadikan kita pembatas untuk melakukan kebaikan. Namun, nilai kebenaran sebuah agama tidaklah seuniversal nilai kebaikan. Semua ajaran agama memiliki subjektifitas akan kebenaran agama tersebut. Setiap muslim tidaklah mungkin beribadah mengikut agama lain, begitu sebaliknya. Prinsip inilah yang difirmankan oleh Allah dalam surat Al-Kafirun yang isinya secara tegas bahwa seorang muslim secara tegas tidak akan menerima kebenaran keyakinan di luar islam, kemudian bertoleransi dengannya.
         </Text>
         <Text>
-        قُلْ يٰٓاَيُّهَا الْكٰفِرُوْنَۙ لَآ اَعْبُدُ مَا تَعْبُدُوْنَۙ وَلَآ اَنْتُمْ عٰبِدُوْنَ مَآ اَعْبُدُۚ وَلَآ اَنَا۠ عَابِدٌ مَّا عَبَدْتُّمْۙ وَلَآ اَنْتُمْ
-		عٰبِدُوْنَ مَآ اَعْبُدُۗ لَكُمْ دِيْنُكُمْ وَلِيَ دِيْنِ
         </Text>
+        <Dalil ayat='قُلْ يَٰٓأَيُّهَا ٱلْكَٰفِرُونَ  (١) لَآ أَعْبُدُ مَا تَعْبُدُونَ  (٢) وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ  (٣) وَلَآ أَنَا۠ عَابِدٌ مَّا عَبَدتُّمْ  (٤) وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ  (٥) لَكُمْ دِينُكُمْ وَلِىَ دِينِ  (٦)'soundFile={require('./../../assets/audios/AlKafirun-(1-6).mp3')}/>
         <Text>
         	Artinya: “Katakanlah: “Hai orang- orang kafir, Aku tidak akan menyembah
 			apa yang kamu sembah. Dan kamu bukan penyembah Tuhan yang aku
@@ -224,7 +330,7 @@ constructor(props) {
         </Text>
         <Text>
         	Perbedaan pendapat sebagaimana dijelaskan di atas berkaitan dengan
-			pemahaman agama Islam itu bisa muncul karena sebab-sebab sebagai berikut:
+			pemahaman agama Islam itu bisa muncul karena sebab-sebab sebagai berikut:{'\n'}
         </Text>
         <Text>
         a. Perbedaan qira’at (bacaan). {'\n'}

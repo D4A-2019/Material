@@ -154,8 +154,6 @@ export default class Chapter1 extends React.Component {
 
       <View style={{flex: 1 }}>
       <ScrollView>
-        <Dalil ayat='Testing' soundFile={require('./dalil-sound/test.mp3')} />
-
         <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
           Konsep Ketuhanan
         </Text>
@@ -167,29 +165,29 @@ export default class Chapter1 extends React.Component {
         </Text>
         {doronganList}
         <Text style={{fontWeight: 'bold'}}>
-          Tuhan menurut KBBI:
+          {'\n'}Tuhan menurut KBBI:
         </Text>
         {definisiList}
         <Text style={{fontWeight: 'bold'}}>
-         Tuhan menurut Oxford Learner's Dictionary :
+         {'\n'}Tuhan menurut Oxford Learner's Dictionary : 
         </Text>
         <Text>
-          the being or spirit that is worshipped and is believed to have created the universe, yakni sesuatu atau zat yang disembah dan diyakini sebagai pencipta alam semesta.
+          the being or spirit that is worshipped and is believed to have created the universe, yakni sesuatu atau zat yang disembah dan diyakini sebagai pencipta alam semesta.{'\n'}
         </Text>
         <Text style={{fontWeight: 'bold'}}>
           Tuhan dalam Bahasa Arab :
         </Text>
         <Text>
-          Tuhan disebut dengan kata ilah yang menurut Ibnu Taimiyah seperti dikutip oleh Imaduddin (1989) berarti yang dipuja dengan penuh kecintaan hati, tunduk kepada-Nya, merendahkan diri di hadapan-Nya, takut dan mengharapkan-Nya, kepada-Nya tempat berpasrah ketika dalam kesulitan, berdoa dan bertawakkal kepada-Nya untuk kemashlahatan diri, dan menimbulkan ketenangan di saat
+          Tuhan disebut dengan kata ilah yang menurut Ibnu Taimiyah seperti dikutip oleh Imaduddin (1989) berarti yang dipuja dengan penuh kecintaan hati, tunduk kepada-Nya, merendahkan diri di hadapan-Nya, takut dan mengharapkan-Nya, kepada-Nya tempat berpasrah ketika dalam kesulitan, berdoa dan bertawakkal kepada-Nya untuk kemashlahatan diri, dan menimbulkan ketenangan di saat {'\n'}
         </Text>
         <Text style={{fontWeight : 'bold'}}>
           Kesimpulan :
         </Text>
         <Text>
-         Tuhan adalah sesuatu yang dipentingkan atau dianggap penting oleh manusia sedemikian rupa sehingga manusia merelakan dirinya dikuasai dan didominasi olehnya untuk kemudian mematuhi dan mentaatinya. {'\n'} {'\n'}
+         Tuhan adalah sesuatu yang dipentingkan atau dianggap penting oleh manusia sedemikian rupa sehingga manusia merelakan dirinya dikuasai dan didominasi olehnya untuk kemudian mematuhi dan mentaatinya. {'\n'} 
         </Text>
         <Text>
-          Kepercayaan manusia kepada Tuhan berproses secara evolusi hingga mencapai derajat kesempurnaannya. Berikut proses nya :
+          Kepercayaan manusia kepada Tuhan berproses secara evolusi hingga mencapai derajat kesempurnaannya. Berikut proses nya : {'\n'}
         </Text>
         <Text style={{fontWeight : 'bold'}}>
           1. Dinamisme
@@ -207,7 +205,7 @@ export default class Chapter1 extends React.Component {
           b.  Mana tidak dapat dilihat {'\n'}
           c.  Mana tidak mempunyai tempat yang tetap {'\n'}
           d.  Mana pada dasarnya tidak selalu baik atau buruk {'\n'}
-          e.  Mana terkadang dapat dikontrol 
+          e.  Mana terkadang dapat dikontrol {'\n'}
         </Text>
         <Text style={{fontWeight : 'bold'}}>
           2. Animisme 
@@ -219,7 +217,7 @@ export default class Chapter1 extends React.Component {
           roh itu tersusun dari suatu zat atau materi yang halus sekali yang hampir menyerupai udara atau uap.
           roh itu makan, minum, mempunyai bentuk dan umur.
           Roh juga mempunyau kehendak dan kekuatan, mempunyai perasaan senang dan menjadi marah,
-          animisme sudah mengenal ritual peribadatan berupa doa, sembahyang, dan pemberian korban.
+          animisme sudah mengenal ritual peribadatan berupa doa, sembahyang, dan pemberian korban. {'\n'}
         </Text>
         <Text style={{fontWeight : 'bold'}}>
           3. Politeisme
@@ -228,7 +226,7 @@ export default class Chapter1 extends React.Component {
           Roh-roh itu, karena dimuliakan, dianggap mempunyai kekuasaan dan disembah dengan cara-cara tertentu, kemudian meningkat menjadi dewa,
           Bentuk dan sifat dewa juga lebih jelas daripada roh.
           Dewa sudah mempunyai kepribadian sesuai dengan tugas dan pekerjaannya.
-          dewa-dewa dalam politeisme mempunyai kedudukan yang hampir sama, tetapi karena beberapa hal, lambat laun beberapa di antara mereka mempunyai kedudukan yang lebih tinggi dari dewa-dewa yang lain.
+          dewa-dewa dalam politeisme mempunyai kedudukan yang hampir sama, tetapi karena beberapa hal, lambat laun beberapa di antara mereka mempunyai kedudukan yang lebih tinggi dari dewa-dewa yang lain. {'\n'}
         </Text>
         <Text style={{fontWeight : 'bold'}}>
           4. Henoteisme
@@ -238,7 +236,7 @@ export default class Chapter1 extends React.Component {
           satu dewa saja yang mereka yakini sebagai dewa tunggal bagi pemeluk agama tersebut.
           Keyakinan terhadap satu dewa atau tuhan tidak berarti bermakna monoteisme.
           Hal itu disebabkan mereka masih meyakini bahwa bagi agama lain terdapat tuhan tersendiri
-          Tuhan-tuhan yang lain itu merupakan musuh dan saingan dari tuhan yang satu itu.
+          Tuhan-tuhan yang lain itu merupakan musuh dan saingan dari tuhan yang satu itu.{'\n'}
         </Text>
         <Text style={{fontWeight : 'bold'}}>
           5. Monoteisme
@@ -246,83 +244,70 @@ export default class Chapter1 extends React.Component {
         <Text>
           Monoteisme merupakan perkembangan dari Henoteisme,
           dalam monoteisme tidak ada lagi tuhan saingan,
-          Sementara tuhan-tuhan dari bangsa lain bukan tuhan yang sebenarnya, melainkan hanya syetan.
+          Sementara tuhan-tuhan dari bangsa lain bukan tuhan yang sebenarnya, melainkan hanya syetan. {'\n'}
         </Text>
-        <Text>
-           {'\n'} {'\n'}
-        </Text>
-
-
-        <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
+        <Text style={{fontWeight: 'bold', fontSize: 15}}>
           Konskuensi Ketuhanan 
         </Text>
         <Text>
           Keyakinan yang lahir dari adanya latar belakang kondisi manusia yang kecil dan terbatas serta tidak sanggup menghadapi permasalahan yang mereka alami di dunia seharusnya memberikan dampak pada sikap dan perilaku.
         </Text>
         <Text>
-          Ada Lima konsekuensi dari kepercayaan manusia kepada Tuhan sebagaimana dinyatakan oleh Salim (2016) yakni :
+          Ada Lima konsekuensi dari kepercayaan manusia kepada Tuhan sebagaimana dinyatakan oleh Salim (2016) yakni : {'\n'}
         </Text>
         <Text style={{fontWeight : 'bold'}}>
           1. Keyakinan akan tuhan yang mantap
         </Text>
           {yakinList}
         <Text style={{fontWeight : 'bold'}}>
-          2. Berserah diri total kepada tuhan
+         {'\n'}2. Berserah diri total kepada tuhan
         </Text>
           {berserahList}
         <Text style={{fontWeight : 'bold'}}>
-          3. Terbangun persaudaraan seiman
+         {'\n'}3. Terbangun persaudaraan seiman
         </Text>  
           {terbangunList}
         <Text style={{fontWeight : 'bold'}}>
-          4. Menolak sistem dan aturan yang bertentangan dengan aturan tuhan
+          {'\n'}4. Menolak sistem dan aturan yang bertentangan dengan aturan tuhan
         </Text>
           {menolakList}
         <Text style={{fontWeight : 'bold'}}>
-          5. Menerima kenyataan pluralitas pemahaman tentang ketuhanan  
+          {'\n'}5. Menerima kenyataan pluralitas pemahaman tentang ketuhanan  
         </Text> 
           {menerimaList}
-        <Text>
-           {'\n'} {'\n'}
-        </Text>
-
-        <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
-          Konsep Ketuhanan Lintas Agama
+        <Text style={{fontWeight: 'bold', fontSize: 15}}>
+           {'\n'}Konsep Ketuhanan Lintas Agama
         </Text>
         <Text>
           Konsep ketuhanan itu sangat beragam yang pada akhirnya melahirkan keragaman agama yang dianut oleh manusia
         </Text>
         <Text>
-          Paling tidak ada enam agama besar yang sekarang hidup dan dianut oleh masyarakat dunia yaitu :
+          Paling tidak ada enam agama besar yang sekarang hidup dan dianut oleh masyarakat dunia yaitu : {'\n'}
         </Text>
         <Text style={{fontWeight : 'bold'}}>
           1. Konsep Ketuhanan Agama Islam
         </Text>
           {konsepIslamList}
         <Text style={{fontWeight : 'bold'}}>
-          2. Konsep Ketuhanan Agama Kristen
+          {'\n'}2. Konsep Ketuhanan Agama Kristen
         </Text>
           {konsepKristenList}
         <Text style={{fontWeight : 'bold'}}>
-          3. Konsep Ketuhanan Agama Yahudi
+         {'\n'}3. Konsep Ketuhanan Agama Yahudi
         </Text>
           {konsepYahudiList}
         <Text style={{fontWeight : 'bold'}}>
-          4. Konsep Ketuhanan Agama Hindu
+          {'\n'}4. Konsep Ketuhanan Agama Hindu
         </Text>
           {konsepHinduList}
          <Text style={{fontWeight : 'bold'}}>
-          5. Konsep Ketuhanan Agama Budha
+          {'\n'}5. Konsep Ketuhanan Agama Budha
         </Text>
         {konsepBudhaList}
-        <Text>
-           {'\n'}
-        </Text>
         <Text> 
-            Implementasi Nilai - Nilai ketuhanan dalam lingkungan pendidikan, kekeluargaan dan pekerjaan :
+             {'\n'}Implementasi Nilai - Nilai ketuhanan dalam lingkungan pendidikan, kekeluargaan dan pekerjaan :
         </Text>
           {implementasiList}
-
         </ScrollView>
       </View>
     );

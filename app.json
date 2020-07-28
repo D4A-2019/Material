@@ -4,11 +4,15 @@
     "slug": "Material",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/Icon 512px.png",
+    "icon": "./assets/images/icons/Icon-512px.png",
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#000000"
+    },
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/images/splash-screens/Splash-Screen-test5.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#007f5f"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -20,7 +24,7 @@
       "supportsTablet": true
     },
     "web": {
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/icons/Icon-64px.png"
     }
   }
 }
