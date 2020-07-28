@@ -276,7 +276,7 @@ export default class Chapter1 extends React.Component {
         </Text> 
           {menerimaList}
         <Text style={{fontWeight: 'bold', fontSize: 15}}>
-          Konsep Ketuhanan Lintas Agama
+           {'\n'}Konsep Ketuhanan Lintas Agama
         </Text>
         <Text>
           Konsep ketuhanan itu sangat beragam yang pada akhirnya melahirkan keragaman agama yang dianut oleh manusia
@@ -305,7 +305,7 @@ export default class Chapter1 extends React.Component {
         </Text>
         {konsepBudhaList}
         <Text> 
-            Implementasi Nilai - Nilai ketuhanan dalam lingkungan pendidikan, kekeluargaan dan pekerjaan :
+             {'\n'}Implementasi Nilai - Nilai ketuhanan dalam lingkungan pendidikan, kekeluargaan dan pekerjaan :
         </Text>
           {implementasiList}
         </ScrollView>

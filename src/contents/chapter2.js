@@ -181,7 +181,7 @@ constructor(props) {
         	Nilai kemanusiaan akan tetap ada jika manusia dapat memenuhi aspek spiritualitas sebagai kebutuhan dasar. kebutuhan dasar itu menurut Fadloli terdiri dari:
         </Text>
         <Text>
-            1. Agama, berislam, dan beriman (QS. 7: 172; 30:30) {'\n'}
+            1. Agama, berislam, dan beriman {'\n'}
         </Text> 
                 <Dalil ayat='وَإِذْ أَخَذَ رَبُّكَ مِنۢ بَنِىٓ ءَادَمَ مِن ظُهُورِهِمْ ذُرِّيَّتَهُمْ وَأَشْهَدَهُمْ عَلَىٰٓ أَنفُسِهِمْ أَلَسْتُ بِرَبِّكُمْ ۖ قَالُوا۟ بَلَىٰ ۛ شَهِدْنَآ ۛ أَن تَقُولُوا۟ يَوْمَ ٱلْقِيَٰمَةِ إِنَّا كُنَّا عَنْ هَٰذَا غَٰفِلِينَ' soundFile={require('./../../assets/audios/AlAraf-172.mp3')}/>
                 <Text>
@@ -194,7 +194,7 @@ constructor(props) {
                     (QS Ar-Rum: 30) {'\n'}
                 </Text>   
          <Text>
-            2. Kasih sayang (QS. 3: 31; 4: 36:; 17:23-24; 31:12-15; 3:159) {'\n'}
+            2. Kasih sayang  {'\n'}
          </Text>
                 <Dalil ayat='قُلْ إِنْ كُنْتُمْ تُحِبُّونَ اللَّهَ فَاتَّبِعُونِي يُحْبِبْكُمُ اللَّهُ وَيَغْفِرْ لَكُمْ ذُنُوبَكُمْ ۗ وَاللَّهُ غَفُورٌ رَحِيمٌ'soundFile={require('./../../assets/audios/AliImran-31.mp3')}/>
                 <Text>
@@ -211,7 +211,7 @@ constructor(props) {
                    {'\n'} Artinya : "Dan Tuhanmu telah memerintahkan supaya kamu jangan menyembah selain Dia dan hendaklah kamu berbuat baik pada ibu bapakmu dengan sebaik-baiknya. Jika salah seorang di antara keduanya atau kedua-duanya sampai berumur lanjut dalam pemeliharaanmu, maka sekali-kali janganlah kamu mengatakan kepada keduanya perkataan "ah" dan janganlah kamu membentak mereka dan ucapkanlah kepada mereka perkataan yang mulia."
                     (QS Al Isra: 23-24) {'\n'}
                 </Text>
-                <Dalil ayat='وَلَقَدْ آتَيْنَا لُقْمَانَ الْحِكْمَةَ أَنِ اشْكُرْلِله وَمَنْ يَشْكُرْفَإنَّمَايَشْكُرُلِنَفْسِهِ وَمَنْ كَفَرَ فَإِنَّ اللهَ غَنِيٌّ حَمِيْدٌ (12 وَإِذْ قَالَ لُقْمَانُ لاِبْنِهِ وَهُوَيَعِظُهُ يَابُنَيَّ لاَتُشْرِكْ بِاللهِ إِنَّ الشِّرْكَ لَظُلْمٌ عَظِيْمٌ(13 وَوَصَّيْنَاالإِنْسَانَ بِوَالِدَيْهِ حَمَلَتْهُ أُمُّهُ وَهْنًا عَلَي وَهْنٍ وَفِصَالُهُ فِي عَامَيْنِ أَنِ اشْكُرْلِي وَلِوَالِدَيْكَ إِلَيَّ المَصِيْرُ(14 وَإِنْ جَا هَدَكَ عَلَى أَنْ تُشْرِكَ بِي مَالَيسَ لَكَ بِهِ عِلْمٌ فَلاَ تُطِعْهُمَا وَصَاحِبهُممَافِي الدُّنيَامَعرُوفًاوَاتَّبِعْ سَبِيلَ مَن أَنَبَ إِلَيَّ مَرْجِعُكُم فَأُنَبِّئُكُم بِمَا كُنتُم تَعْمَلُونَ(15) 'soundFile={require('./../../assets/audios/Luqman-(12-15).mp3')}/>
+                <Dalil ayat='وَلَقَدْ آتَيْنَا لُقْمَانَ الْحِكْمَةَ أَنِ اشْكُرْلِله وَمَنْ يَشْكُرْفَإنَّمَايَشْكُرُلِنَفْسِهِ وَمَنْ كَفَرَ فَإِنَّ اللهَ غَنِيٌّ حَمِيْدٌ (١٢ وَإِذْ قَالَ لُقْمَانُ لاِبْنِهِ وَهُوَيَعِظُهُ يَابُنَيَّ لاَتُشْرِكْ بِاللهِ إِنَّ الشِّرْكَ لَظُلْمٌ عَظِيْمٌ(١٣ وَوَصَّيْنَاالإِنْسَانَ بِوَالِدَيْهِ حَمَلَتْهُ أُمُّهُ وَهْنًا عَلَي وَهْنٍ وَفِصَالُهُ فِي عَامَيْنِ أَنِ اشْكُرْلِي وَلِوَالِدَيْكَ إِلَيَّ المَصِيْرُ(١٤ وَإِنْ جَا هَدَكَ عَلَى أَنْ تُشْرِكَ بِي مَالَيسَ لَكَ بِهِ عِلْمٌ فَلاَ تُطِعْهُمَا وَصَاحِبهُممَافِي الدُّنيَامَعرُوفًاوَاتَّبِعْ سَبِيلَ مَن أَنَبَ إِلَيَّ مَرْجِعُكُم فَأُنَبِّئُكُم بِمَا كُنتُم تَعْمَلُونَ(١٥) 'soundFile={require('./../../assets/audios/Luqman-(12-15).mp3')}/>
                 <Text>
                    {'\n'} Artinya : "Dan sesungguhnya telah Kami berikan hikmah kepada Lukman, yaitu: "Bersyukurlah kepada Allah. Dan barang siapa yang bersyukur (kepada Allah), maka sesungguhnya ia bersyukur untuk dirinya sendiri; dan barang siapa yang tidak bersyukur, maka sesungguhnya Allah Maha Kaya lagi Maha Terpuji". Dan (ingatlah) ketika Lukman berkata kepada anaknya, di waktu ia memberi pelajaran kepadanya: "Hai anakku, janganlah kamu mempersekutukan (Allah) sesungguhnya mempersekutukan (Allah) adalah benar-benar kelaliman yang besar".
                                      Dan Kami perintahkan kepada manusia (berbuat baik) kepada dua orang ibu-bapaknya; ibunya telah mengandungnya dalam keadaan lemah yang bertambah-tambah, dan menyapihnya dalam dua tahun. Bersyukurlah kepada-Ku dan kepada dua orang ibu bapakmu, hanya kepada-Kulah kembalimu.
@@ -219,7 +219,7 @@ constructor(props) {
                     (QS Luqman: 12-15) {'\n'}
                 </Text>       
         <Text>           
-            3. Keindahan (QS. 3: 14) {'\n'}
+            3. Keindahan {'\n'}
         </Text>
                 <Dalil ayat='زُيِّنَ لِلنَّاسِ حُبُّ ٱلشَّهَوَٰتِ مِنَ ٱلنِّسَآءِ وَٱلْبَنِينَ وَٱلْقَنَٰطِيرِ ٱلْمُقَنطَرَةِ مِنَ ٱلذَّهَبِ وَٱلْفِضَّةِ وَٱلْخَيْلِ ٱلْمُسَوَّمَةِ وَٱلْأَنْعَٰمِ وَٱلْحَرْثِ ۗ ذَٰلِكَ مَتَٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَٱللَّهُ عِندَهُۥ حُسْنُ ٱلْمَـَٔابِ'soundFile={require('./../../assets/audios/AliImran-14.mp3')}/>
                 <Text>
@@ -227,25 +227,25 @@ constructor(props) {
                     (QS Al Imran: 14) {'\n'}
                 </Text>
         <Text>
-            4. Harga diri (QS. 95: 4-5; 89: 27-30;  91: 7-10) {'\n'}
+            4. Harga diri  {'\n'}
         </Text>
-                <Dalil ayat='لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِىٓ أَحْسَنِ تَقْوِيمٍ(4) ثُمَّ رَدَدْنَاهُ أَسْفَلَ سَافِلِينَ (5)'soundFile={require('./../../assets/audios/AtTin-(4-5).mp3')}/>
+                <Dalil ayat='لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِىٓ أَحْسَنِ تَقْوِيمٍ(٤) ثُمَّ رَدَدْنَاهُ أَسْفَلَ سَافِلِينَ (٥)'soundFile={require('./../../assets/audios/AtTin-(4-5).mp3')}/>
                 <Text>
                    {'\n'} Artinya : "Sesungguhnya Kami telah menciptakan manusia dalam bentuk yang sebaik-baiknya. Kemudian Kami kembalikan dia ke tempat yang serendah-rendahnya (neraka), kecuali orang-orang yang beriman dan mengerjakan amal saleh"
                     (QS At Tin: 4-5) {'\n'}
                 </Text>
-                <Dalil ayat='تَيَا أَيَّتُهَا النَّفْسُ الْمُطْمَئِنَّةُ (27) ارْجِعِي إِلَى رَبِّكِ رَاضِيَةً مَرْضِيَّةً (28) فَادْخُلِي فِي عِبَادِي (29) وَادْخُلِي جَنَّتِي (30)'soundFile={require('./../../assets/audios/AlFajr-(27-30).mp3')}/>
+                <Dalil ayat='تَيَا أَيَّتُهَا النَّفْسُ الْمُطْمَئِنَّةُ (٢٧) ارْجِعِي إِلَى رَبِّكِ رَاضِيَةً مَرْضِيَّةً (٢٨) فَادْخُلِي فِي عِبَادِي (٢٩) وَادْخُلِي جَنَّتِي (٣٠)'soundFile={require('./../../assets/audios/AlFajr-(27-30).mp3')}/>
                 <Text>
                    {'\n'} Artinya : "Hai jiwa yang tenang. Kembalilah kepada Tuhanmu dengan hati yang puas lagi diridhai-Nya. Maka masuklah ke dalam jama’ah hamba-hamba-Ku, masuklah ke dalam syurga-Ku."
                     (QS Al Fajr: 27-30) {'\n'}
                 </Text>
-                <Dalil ayat='(7). وَنَفْسٍ وَمَا سَوَّاهَا (8). فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَاهَا (9). قَدْ أَفْلَحَ مَنْ زَكَّاهَا (10). وَقَدْ خَابَ مَنْ دَسَّاهَا'soundFile={require('./../../assets/audios/AshSyams-(7-11).mp3')}/>
+                <Dalil ayat='(٧). وَنَفْسٍ وَمَا سَوَّاهَا (٨). فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَاهَا (٩). قَدْ أَفْلَحَ مَنْ زَكَّاهَا (١٠). وَقَدْ خَابَ مَنْ دَسَّاهَا  (١١).كَذَّبَتْ ثَمُودُ بِطَغْوَىٰهَآ 'soundFile={require('./../../assets/audios/AshSyams-(7-11).mp3')}/>
                 <Text>
-                   {'\n'} Artinya : "dan jiwa serta penyempurnaannya (ciptaannya), maka Allah mengilhamkan kepada jiwa itu (jalan) kefasikan dan ketakwaannya, sesungguhnya beruntunglah orang yang mensucikan jiwa itu, dan sesungguhnya merugilah orang yang mengotorinya."
-                    (QS Ash Syams: 7-10) {'\n'}
+                   {'\n'} Artinya : "dan jiwa serta penyempurnaannya (ciptaannya), maka Allah mengilhamkan kepada jiwa itu (jalan) kefasikan dan ketakwaannya, sesungguhnya beruntunglah orang yang mensucikan jiwa itu, dan sesungguhnya merugilah orang yang mengotorinya. (Kaum) Tsamud telah mendustakan (rasulnya) karena mereka melampaui batas (zhalim),"
+                    (QS Ash Syams: 7-11) {'\n'}
                 </Text>
         <Text>
-            5. Kedamaian (QS. 10:25) {'\n'}
+            5. Kedamaian  {'\n'}
         </Text>
                 <Dalil ayat='وَٱللَّهُ يَدْعُوٓا۟ إِلَىٰ دَارِ ٱلسَّلَٰمِ وَيَهْدِى مَن يَشَآءُ إِلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ'soundFile={require('./../../assets/audios/Yunus-25.mp3')}/>
                 <Text>
@@ -253,7 +253,7 @@ constructor(props) {
                     (QS Yunus: 25) {'\n'}
                 </Text>
         <Text>
-            6. Kebenaran (QS. 2:147;  17: 81) {'\n'}
+            6. Kebenaran  {'\n'}
         </Text>
                 <Dalil ayat='ٱلْحَقُّ مِن رَّبِّكَ ۖ فَلَا تَكُونَنَّ مِنَ ٱلْمُمْتَرِينَ'soundFile={require('./../../assets/audios/AlBaqarah-147.mp3')}/>
                 <Text>
@@ -266,7 +266,7 @@ constructor(props) {
                     (QS Al Isra: 81) {'\n'}
                 </Text>
         <Text>
-            7. Aktualisasi diri (QS. 67: 2){'\n'}
+            7. Aktualisasi diri {'\n'}
         </Text>
                 <Dalil ayat='ٱلَّذِى خَلَقَ ٱلْمَوْتَ وَٱلْحَيَوٰةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا ۚ وَهُوَ ٱلْعَزِيزُ ٱلْغَفُورُ'soundFile={require('./../../assets/audios/AlMulk-2.mp3')}/>
                 <Text>
@@ -274,7 +274,7 @@ constructor(props) {
                     (QS Al Mulk: 2) {'\n'}
                 </Text>
         <Text>
-            8. Berkeluarga (QS: 30:21){'\n'}
+            8. Berkeluarga {'\n'}
         </Text>
                 <Dalil ayat='وَمِنْ ءَايَٰتِهِۦٓ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًا لِّتَسْكُنُوٓا۟ إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّقَوْمٍ يَتَفَكَّرُونَ'soundFile={require('./../../assets/audios/ArRum-21.mp3')}/>
                 <Text>
@@ -282,7 +282,7 @@ constructor(props) {
                     (QS Ar Rum: 21) {'\n'}
                 </Text>
         <Text>
-            9. Bermasyarakat (QS: 30:21){'\n'}
+            9. Bermasyarakat {'\n'}
         </Text>
                 <Dalil ayat='وَمِنْ ءَايَٰتِهِۦٓ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًا لِّتَسْكُنُوٓا۟ إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّقَوْمٍ يَتَفَكَّرُونَ'soundFile={require('./../../assets/audios/ArRum-21.mp3')}/>
                 <Text>
