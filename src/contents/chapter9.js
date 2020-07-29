@@ -22,6 +22,9 @@ export default class Chapter9 extends React.Component {
       <View style={{flex: 1 }}>
       <ScrollView>
         <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
+        Relasi Manusia Dengan Alam
+        </Text>
+        <Text style={{fontWeight : 'bold', fontSize : 15}}>
         A. Konsep Alam Menurut Islam 
         </Text>
         <Text>
@@ -29,12 +32,12 @@ export default class Chapter9 extends React.Component {
         Menurut Al-Quran, alam adalah unsur-unsur yang memiliki atau saling keterkaitan antara satu sama lain dan merupakan wujud dari keberadaan Allah SWT.
         Penjelasan tentang alam salah satunya terdapat pada Qur’an surat Ali Imran ayat 83
         </Text>
-        <Dalil ayat='Ali Imran ayat 83' soundFile={require('./dalil-sound/test.mp3')} />
+        <Dalil ayat='اَفَغَيْرَ دِيْنِ اللّٰهِ يَبْغُوْنَ وَلَهٗ ٓ اَسْلَمَ مَنْ فِى السَّمٰوٰتِ وَالْاَرْضِ طَوْعًا وَّكَرْهًا وَّاِلَيْهِ يُرْجَعُوْنَ' soundFile={require('./../../assets/audios/Ali-Imran-83.mp3')} />
         <Text>
         Artinya: “Maka apakah mereka mencari agama yang lain dari agama Allah, padahal kepada-Nya-lah menyerahkan diri segala apa yang di langit dan di bumi, baik dengan suka maupun terpaksa dan hanya kepada Allah-lah mereka dikembalikan”
         </Text>
 
-        <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
+        <Text style={{fontWeight : 'bold', fontSize : 15}}>
         {"\n"}
         B. Hakikat Alam Semesta
         </Text>
@@ -51,7 +54,10 @@ export default class Chapter9 extends React.Component {
         <Text>
         Alparslan Acikgenc menyebutkan dua jenis alam dalam pandangan hidup islam yaitu syahadah (yang terlihat) dan alam ghaib (tidak terlihat). Pembagian ini dapat dilihat di Qur’an surat Al-Zumar:46.
         </Text>
-        <Dalil ayat='Al-Zumar ayat 46' soundFile={require('./dalil-sound/test.mp3')} />
+        <Dalil ayat='قُلِ اللهم فَاطِرَ السَّمٰوٰتِ وَالْاَرْضِ عٰلِمَ الْغَيْبِ وَالشَّهَادَةِ اَنْتَ تَحْكُمُ بَيْنَ عِبَادِكَ فِيْ مَا كَانُوْا فِيْهِ يَخْتَلِفُوْنَ' soundFile={require('./../../assets/audios/Az-Zumar-46.mp3')} />
+        <Text>
+        Artinya: "Katakanlah, “Ya Allah, Pencipta langit dan bumi, yang mengetahui segala yang gaib dan yang nyata, Engkaulah yang memutuskan di antara hamba-hamba-Mu tentang apa yang selalu mereka perselisihkan.”"
+        </Text>
         <Text>
             <Text style={{fontWeight: 'bold'}}>
             Alam syahadah{" "}
@@ -80,7 +86,10 @@ export default class Chapter9 extends React.Component {
         Manusia diciptakan sebagai khalifah yang berperan sebagai penanggung jawab di muka bumi.{"\n"}
         Allah menugaskan amanah masing-masing kepada semua makhluknya sebagaimana tercantum dalam QS Al-Ahzab: 72.
         </Text>
-        <Dalil ayat='Al-Ahzab ayat 72' soundFile={require('./dalil-sound/test.mp3')} />
+        <Dalil ayat='اِنَّا عَرَضْنَا الْاَمَانَةَ عَلَى السَّمٰوٰتِ وَالْاَرْضِ وَالْجِبَالِ فَاَبَيْنَ اَنْ يَّحْمِلْنَهَا وَاَشْفَقْنَ مِنْهَا وَحَمَلَهَا الْاِنْسَانُۗ اِنَّهٗ كَانَ ظَلُوْمًا جَهُوْلًاۙ' soundFile={require('./../../assets/audios/Al-Ahzab-72.mp3')} />
+        <Text>
+        Artinya: "Sesungguhnya Kami telah menawarkan amanat kepada langit, bumi dan gunung-gunung; tetapi semuanya enggan untuk memikul amanat itu dan mereka khawatir tidak akan melaksanakannya (berat), lalu dipikullah amanat itu oleh manusia. Sungguh, manusia itu sangat zalim dan sangat bodoh,"
+        </Text>
         <Text>
         manusia dianugrahi fitrah dan kepercayaan, keberanian dan keutamaan serta kebijakan dan kekuasaan di alam semesta ini. 
         manusia tidak hanya sebagai khalifah di muka bumi saja, melainkan pemegang amanah dan tanggung jawab atas pemeliharaan bumi.
@@ -100,7 +109,7 @@ export default class Chapter9 extends React.Component {
         d. Keseimbangan alam (tawazun li al-alam), dengan menjaga apa yang telah Allah ciptakan keseimbangan dalam penciptaanya, maka dalam pemanfaatannya pun tidak akan berlebihan. Sebagai khalifah, manusia diberi wewenang berupa kebebasan memilih dan menentukan sehingga kebebasannya melahirkan kreatifitas yang dinamis. Kebebasan manusia sebagai khalifah bertumpu pada landasan tauhid seperti yg sudah dijelaskan sebelumnya sehingga kebebasan yang dimiliki tidak menjadikan manusia bertindak sewenang-wenang, seperti memanfaatkan lingkungan hanya untuk kepentingan individual.
         </Text>
 
-        <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
+        <Text style={{fontWeight : 'bold', fontSize : 15}}>
         {"\n"}
         D. Prinsip-Prinsip Islam dalam Pengelolaan Alam Semesta 
         </Text>
@@ -125,14 +134,14 @@ export default class Chapter9 extends React.Component {
         <Text>
         Allah berfirman dalam Al-Quran surat Hud ayat 61
         </Text>
-        <Dalil ayat='Hud ayat 61' soundFile={require('./dalil-sound/test.mp3')} />
+        <Dalil ayat='۞ وَاِلٰى ثَمُوْدَ اَخَاهُمْ صٰلِحًا ۘ قَالَ يٰقَوْمِ اعْبُدُوا اللّٰهَ مَا لَكُمْ مِّنْ اِلٰهٍ غَيْرُهٗ ۗهُوَ اَنْشَاَكُمْ مِّنَ الْاَرْضِ وَاسْتَعْمَرَكُمْ فِيْهَا فَاسْتَغْفِرُوْهُ ثُمَّ تُوْبُوْٓا اِلَيْهِ ۗاِنَّ رَبِّيْ قَرِيْبٌ مُّجِيْبٌ' soundFile={require('./../../assets/audios/Hud-61.mp3')} />
         <Text>
         “…Dia (Allah) telah menciptakan kamu dari bumi (tanah) dan memerintahkan kalian memakmurkannya (mengurusnya)”.
         </Text>
         <Text>
         kedua, manusia sebagai pengelola alam tidak diperkenankan merusak lingkungan yang terkandung dalam surat al-A’raf ayat 56
         </Text>
-        <Dalil ayat='Al-A’raf ayat 56' soundFile={require('./dalil-sound/test.mp3')} />
+        <Dalil ayat='وَلَا تُفْسِدُوْا فِى الْاَرْضِ بَعْدَ اِصْلَاحِهَا وَادْعُوْهُ خَوْفًا وَّطَمَعًاۗ اِنَّ رَحْمَتَ اللّٰهِ قَرِيْبٌ مِّنَ الْمُحْسِنِيْنَ' soundFile={require('./../../assets/audios/Al-Araf-56.mp3')} />
         <Text>
         “Janganlah kamu berbuat kerusakan di muka bumi sesudah (Allah) memperbaikinya”.
         </Text>
@@ -141,8 +150,10 @@ export default class Chapter9 extends React.Component {
         </Text>
         <Text>
         1.	 Sikap Hormat terhadap Alam{"\n"}
-        Di dalam al-Qur’an surat al-Anbiya 107 :{"\n"}
-        <Dalil ayat='Al-Anbiya ayat 107' soundFile={require('./dalil-sound/test.mp3')} />{"\n"}
+        Di dalam al-Qur’an surat al-Anbiya 107 :
+        </Text>
+        <Dalil ayat='وَمَآ اَرْسَلْنٰكَ اِلَّا رَحْمَةً لِّلْعٰلَمِيْنَ' soundFile={require('./../../assets/audios/Al-Anbiya-107.mp3')} />
+        <Text>
         “Dan tiadalah kami mengutus kamu, melainkan untuk (menjadi) rahmat bagi semesta alam”.
         </Text>
         <Text>
