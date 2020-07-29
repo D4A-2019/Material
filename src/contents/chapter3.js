@@ -25,12 +25,6 @@ export default class Chapter3 extends React.Component{
 
 	render(){
 
-    let nilKemanusiaanList = this.state.data.nilKemanusiaan.map((dataList, index) => {
-      return(
-        <Text key={index}>{index+1}. {dataList} </Text>
-      )
-    })
-
     return (
 
       <View style={{flex: 1 }}>
@@ -39,7 +33,7 @@ export default class Chapter3 extends React.Component{
           POKOK AJARAN ISLAM
         </Text>
       <Text style={{fontWeight: 'bold', fontSize: 15}}>
-      	Konsep Akidah Islam
+      	A. KONSEP AKIDAH ISLAM
       </Text>
       <Text>
       	Akidah berasal dari kata ‘aqada—ya’qidu—‘aqdan yang berarti simpul, ikatan dan perjanjian yang kokoh dan kuat {'\n'}
@@ -47,20 +41,20 @@ export default class Chapter3 extends React.Component{
 		Kaitan antara aqdan dan aqidatan adalah bahwa keyakinan itu tersimpul dan tertambat dengan kokoh di dalam hati, bersifat mengikat dan mengandung perjanjian.
       </Text>
       <Text style={{fontWeight: 'bold', fontSize: 15}}>
-      	Menurut Hasan al-Banna,
+      	{'\n'}Menurut Hasan al-Banna,
       </Text>
       <Text>
       	akidah adalah beberapa perkara yang wajib diyakini kebenarannya oleh hati, mendatangkan ketentraman jiwa dan menjadi keyakinan yang tidak tercampur sedikitpun dengan keraguraguan.
       </Text>
       <Text style={{fontWeight: 'bold', fontSize: 15}}>
-      	Menurut Abu Bakar al-Jazairi,
+      	{'\n'}Menurut Abu Bakar al-Jazairi,
       </Text>
       <Text>
       	sejumlah kebenaran yang dapat diterima secara mudah oleh manusia berdasarkan akal, wahyu dan fitrah. Kebenaran itu dipatrikan dalam hati dan ditolak segala sesuatu yang bertentangan dengan kebenaran itu. {'\n'}
 		Akidah di dalam Islam disebut dengan iman. Ia bukan hanya berarti percaya, melainkan keyakinan yang mendorong seorang muslim untuk berperilaku
       </Text>
       <Text style={{fontWeight: 'bold', fontSize: 15}}>
-      	Ruang Lingkup Pembahasan Akidah
+      	{'\n'}Ruang Lingkup Pembahasan Akidah
       </Text>
       <Text>
       	Menurut Hasan al-Banna ruang lingkup pembahasan akidah meliputi, {'\n'}
@@ -80,7 +74,7 @@ export default class Chapter3 extends React.Component{
       </Text>
 
       <Text style={{fontWeight: 'bold', fontSize: 15}}>
-      	Konsep Syariah Islam
+      	B. KONSEP SYARIAH ISLAM
       </Text>
       <Text style={{fontWeight: 'bold'}}>
       	Makna Syariah
@@ -90,7 +84,7 @@ export default class Chapter3 extends React.Component{
 		Syariah merupakan peraturan-peraturan yang bersumber dari wahyu mengenai tingkah laku manusia. syariah wajib diikuti oleh orang islam. Syariah terdapat pada al-Quran dan ktab-kitab hadits.
       </Text>
       <Text style={{fontWeight: 'bold'}}>
-      	Ruang lingkup syariah sebagai aspek hukum
+      	{'\n'}Ruang lingkup syariah sebagai aspek hukum
       </Text>
       <Text>
       	Hubungan antara manusia dengan Allah SWT dimana syariah mengatur tentang manusia yang harus tunduk dan patuh kepada Allah SWT yang dibuktikan dengan pelaksanaan ibadah.{'\n'}
@@ -99,7 +93,7 @@ export default class Chapter3 extends React.Component{
 		Syariah islam bersifat universal dan abadi. Hal tersebut terjadi karena syariah islam sesuai dengan kemampuan manusia dan mudah dilaksanakan. Juga, bagian syariah yang berupa akidah dan ibadah tidak memerlukan perubahan. Syariah cocok dengan fitrah manusia serta layak digunakan diberbagai tempat dan zaman.
       </Text>
       <Text style={{fontWeight: 'bold'}}>
-      	Maksud diturunkannya Syariat Islam
+      	{'\n'}Maksud diturunkannya Syariat Islam
       </Text>
       <Text>
       	Secara umum tujuan diturunkannya hukum Islam adalah untuk mencegah kerusakan pada manusia. Selain itu beberapa alasan lainnya adalah: {'\n'}
@@ -110,7 +104,7 @@ export default class Chapter3 extends React.Component{
 		Memelihara harta benda. Islam mengatur cara berekonomi manusia agar tidak terjadi bentrokan akibat ketamakan pada harta.
       </Text>
       <Text style={{fontWeight: 'bold'}}>
-      	Fungsi hukum islam dalam kehidupan bermasyarakat
+      	{'\n'}Fungsi hukum islam dalam kehidupan bermasyarakat
       </Text>
       <Text>
       	Fungsi ibadah untuk beribadah kepada Allah SWT{'\n'}
@@ -119,7 +113,7 @@ export default class Chapter3 extends React.Component{
 		Fungsi Tandzim wa Islah al-Ummah yang bearti jukum islam merupakan sarana untuk mengatur sesuatu dengan baik sehingga masyarakat menjadi harmonis dan aman.
       </Text>
       <Text style={{fontWeight: 'bold'}}>
-      	Perbedaan antara Syariah dan Fiqih
+      	{'\n'}Perbedaan antara Syariah dan Fiqih
       </Text>
       <Text>
       	Fiqih  merupakan pengetahuan khusus yang menguraikan syariah. Fiqih dalam bahasa arab berarti paham atau pengertian. Ilmu ini digunakan untuk menguraikan norma-norma hukum dasar yang terdapat di dalam al-Quran. Perbedaan fiqih dan syariah sendiri adalah:{'\n'}
@@ -140,7 +134,7 @@ export default class Chapter3 extends React.Component{
 		Ibadah terdiri atas ibadah khusus (mahdah) dan ibadah umum (gairu mahdah). Ibadah khusus merupakan ibadah langsung kepada Allah SWT yang tata caranya telah ditetapkan. Contoh dari ibadah khusus adalah shalat, taharah sebagai syarat shalat, puasa, dan lainnya. Sementara ibadah umum  merupakan bentuk ibadah yang berkaitan dengan kebaikan seperti berbakti kepada orang tua, membaca al-Quran dan menolong sesama.{'\n'}
       </Text>
       <Text style={{fontWeight: 'bold', fontSize: 15}}>
-      	Konsep Akhlak
+      	C. KONSEP AKHLAK
       </Text>
       <Text style={{fontWeight: 'bold'}}>
       	Makna Akhlak
@@ -151,19 +145,19 @@ export default class Chapter3 extends React.Component{
 		laku atau tabiat.
       </Text>
       <Text style={{fontWeight: 'bold'}}>
-      	Menurut Imam Al-Ghazali
+      	{'\n'}Menurut Imam Al-Ghazali
       </Text>
       <Text>
       	Akhlak adalah suatu sifat yang tertanam dalam jiwa dan daripadanya timbul perbuatan-perbuatan yang mudah dan tanpa memerlukan pemikiran dan pertimbangan (Ilyas, 2007:1).
       </Text>
       <Text style={{fontWeight: 'bold'}}>
-      	Menurut Ibrahim Anis
+      	{'\n'}Menurut Ibrahim Anis
       </Text>
       <Text>
       	Akhlak adalah sifat yang tertanam dalam jiwa yang dengannya muncul macam-macam perbuatan baik atau buruk, tanpa memerlukan pemikiran dan pertimbangan (Ilyas, 20017:2).
       </Text>
       <Text style={{fontWeight: 'bold'}}>
-      	Menurut Ibn Miskawaih
+      	{'\n'}Menurut Ibn Miskawaih
       </Text>
       <Text>
       	Akhlak ialah kondisi jiwa yang senantiasa mendorong ke arah melakukan perbuatan dengan tidak menghajatkan pemikiran (Khoiri, 2005:16).{'\n'}
@@ -171,21 +165,21 @@ export default class Chapter3 extends React.Component{
 		Beberapa akhlak yang perlu dilakukan sebagai mahasiswa vokasi calon pekerja atau pengusaha adalah Ithqon atau profesional, ikhlas, jujur, dan ramah.
       </Text>
       <Text style={{fontWeight: 'bold'}}>
-      	Hakikat Akhlak dan Tasawuf
+      	{'\n'}Hakikat Akhlak dan Tasawuf
       </Text>
       <Text>
       	Tasawuf merupakan salah satu bidang kajian studi islam yang terpusat pada pembersihan aspek batiniyah yang dapat menghidupkan kegairahan akhlak yang mulia.Hakikat tasawuf sangat sulit dipahami karena menyangkut masalah rohani dan batin yang tidak dapat dilihat. Dapat dikatakan bahwa tasawuf merupakan usaha untuk mendekatkan diri kepada Allah maupun terhadap sesama makhluk.
       </Text>
       <Text style={{fontWeight: 'bold'}}>
-      	Hubungan Akhlak dan Tasawuf
+      	{'\n'}Hubungan Akhlak dan Tasawuf
       </Text>
       <Text>
       	Untuk mencapai akhlak yang mulia diperlukan proses-proses yang dilakukan oleh kalangan mutashawwifin atau para pengamal tasawuf. Akhlak tasawuf adalah proses pencapaian akhlak mulia melalui metode tasawuf. Metode Tasawuf memfokuskan pada Tazkiyah al-Nafs (penyucian jiwa) yang dilakukan dengan mengamalkan istilah takhalli-tahalli-tajalli (Nata, 2012:269).{'\n'}
 		Pengamalan selanjutnya tasawuf yang dilakukan oleh kelompok pengamal yang menamakan dirinya tarikat. Tarikat bermakna jalan menuju Allah. Menurut Abdullah Ujong Rimba, tarikat bermakna cara mengerjakan suatu amalan untuk mencapai suatu tujuan. Cara yang dimaksud merupakan mengamalkan ketiga ajaran dasar takhalli-tahalli-tajalli. Salah satu tarikat terbesar yang berkembang adalah Tarikat Naqsyabandiyah.{'\n'}
-		Dalam kehidupan modern yang serba sibuk maka tarikat dikembangkan kearah yang lebih konstruktif. Manusia butuh pedoman yang bersifat spiritual untuk menjaga integritas kepribadiannya melalui tasawuf. Dengan demikian, ibadah yang dilakukan ber-tarikat erat hubungannya dengan akhlak. Dengan memahami tasawuf lalu mengamalkan dan menempuhnya dalam bertarekat serta suluk, maka akan terbentuk akhlak yang lebih baik seperti zuhud, sabar, ikhlas, dan optimis dalam berusaha dan bekerja sehari-hari.
+		Dalam kehidupan modern yang serba sibuk maka tarikat dikembangkan kearah yang lebih konstruktif. Manusia butuh pedoman yang bersifat spiritual untuk menjaga integritas kepribadiannya melalui tasawuf. Dengan demikian, ibadah yang dilakukan ber-tarikat erat hubungannya dengan akhlak. Dengan memahami tasawuf lalu mengamalkan dan menempuhnya dalam bertarekat serta suluk, maka akan terbentuk akhlak yang lebih baik seperti zuhud, sabar, ikhlas, dan optimis dalam berusaha dan bekerja sehari-hari. {'\n'}
       </Text>
       <Text style={{fontWeight: 'bold', fontSize: 15}}>
-      	Korelasi Aqidah, Syariah, dan Akhlak
+      	D. KORELASI AQIDAH, SYARIAH, DAN AKHLAK
       </Text>
       <Text>
       	Konsep pada iman melahirkan konsep kajian akidah, konsep islam melahirkan konsep kajian syariah, dan konsep ihsan melahirkan konsep kajian akhlak. ketiga kajian tersebut merupakan kerangka dasar ajaran islam. {'\n'}
