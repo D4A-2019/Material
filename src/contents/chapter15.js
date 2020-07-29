@@ -129,7 +129,8 @@ constructor(props) {
        				b. Ijab Qabul
 				</Text>
 				<Text>
-				Ijab adalah ucapan penyerahan dari wali perempuan kepada mempelai laki-laki dan Qabul adalah ucapan penerimaan mempelai laki-laki atas
+				Ijab adalah ucapan penyerahan dari wali perempuan kepada mempelai laki-laki dan 
+				Qabul adalah ucapan penerimaan mempelai laki-laki atas
 				penyerahan mempelai perempuan dan walinya.
 				</Text>
 				<Text style={{fontWeight: 'bold'}}>
