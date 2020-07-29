@@ -52,7 +52,6 @@ constructor(props) {
 			return(
 				<View style={{flex: 1 }}>
 	     		<ScrollView>
-	       		<Dalil ayat='Testing' soundFile={require('./dalil-sound/test.mp3')} />
 	       		<Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
 	          		Pembinaan Keluarga Dan Anak Dalam Islam
 	       		</Text>
@@ -126,9 +125,18 @@ constructor(props) {
 					6)   Adil
        			</Text>
        			<Text style={{fontWeight: 'bold'}}>
-       				b. Ijab Qabul {'\n'}
-       				c. Mahar {'\n'}
+       				b. Ijab Qabul
        			</Text>
+       				<Text>
+       					Ijab kabul adalah ucapan dari orang tua atau wali mempelai wanita untuk menikahkan putrinya kepada sang calon mempelai pria {'\n'}
+       				</Text>
+       			<Text style={{fontWeight: 'bold'}}>
+       				c. Mahar
+       			</Text>
+       				<Text>
+       					Mahar atau maskawin adalah harta yang diberikan oleh pihak mempelai laki-laki (atau keluarganya) kepada mempelai perempuan (atau keluarga dari mempelai perempuan) pada saat pernikahan. {'\n'}
+       				</Text>
+       			
        			<Text>
        				Setelah itu semua, maka tahapan selanjutnya dalam mewujudkan keluarga Sakinah adalah dengan adanya pembinaan. Proses pembinaan keluarga merupakan ibadah yang paling panjang. Dia menuntut kesabaran dan ketabahan dalam menjalaninya. 
 					dalam proses pembinaan ini, ada kriteria atau pondasi utama yang harus dimiliki oleh sebuah keluarga sehingga dapat dikatakan sebagai keluarga bahagia sejahtera (sakinah) menurut Tohari (1992 : 64) ialah:{'\n'}

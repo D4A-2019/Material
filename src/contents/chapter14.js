@@ -47,7 +47,6 @@ constructor(props) {
 		return(
 			<View style={{flex: 1 }}>
      		<ScrollView>
-       		<Dalil ayat='Testing' soundFile={require('./dalil-sound/test.mp3')} />
        		<Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
           		Kepemimpinan Islami
        		</Text>
@@ -101,7 +100,7 @@ constructor(props) {
                                 (QS Al Baqarah: 30) {'\n'}
                             </Text>
                   <Text>
-                        c. Hadits Riwayat Imam Bukhari : 4789
+                        c. Hadits Riwayat Imam Bukhari : 4789{'\n'}{'\n'}
                               <Text>
                                     حَدَّثَنَا أَبُو النُّعْمَانِ حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ عَنْ أَيُّوبَ عَنْ نَافِعٍ عَنْ عَبْدِ اللَّهِ قَالَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ كُلُّكُمْ رَاعٍ وَكُلُّكُمْ مَسْئُولٌ فَالْإِمَامُ رَاعٍ وَهُوَ مَسْئُولٌ وَالرَّجُلُ رَاعٍ عَلَى أَهْلِهِ وَهُوَ مَسْئُولٌ وَالْمَرْأَةُ رَاعِيَةٌ عَلَى بَيْتِ زَوْجِهَا وَهِيَ مَسْئُولَةٌ وَالْعَبْدُ رَاعٍ عَلَى مَالِ سَيِّدِهِ وَهُوَ مَسْئُولٌ أَلَا فَكُلُّكُمْ رَاعٍ وَكُلُّكُمْ مَسْئُولٌ{'\n'}
                               </Text>

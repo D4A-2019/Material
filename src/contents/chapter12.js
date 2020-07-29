@@ -32,7 +32,6 @@ constructor(props) {
 		return(
 			<View style={{flex: 1 }}>
      		<ScrollView>
-       		<Dalil ayat='Testing' soundFile={require('./dalil-sound/test.mp3')} />
        		<Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
           		Etos Kerja
        		</Text>
