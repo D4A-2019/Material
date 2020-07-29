@@ -1,7 +1,7 @@
 import "react-native-gesture-handler";
-import React, {Component, useState} from "react";
+import React, { Component, useState } from "react";
 
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, Image } from "react-native";
 import { Button } from "react-native-paper";
 
 import { NavigationContainer } from "@react-navigation/native";
@@ -16,16 +16,17 @@ import chapterNavigation from "./contents/drawer_navigation/chapterNavigation";
 
 class HomeScreen extends Component {
 
-  constructor(props)
-  {
+  constructor(props) {
     super(props);
     console.disableYellowBox = true;
   }
 
   render() {
     return (
-      <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
-        <Text>Home Screen</Text>
+      <View style={{ flex: 1, alignItems: "center" }}>
+        <Image
+          source={require("./../assets/images/icons/Icon-256px.png")}
+        />
         <Button mode="contained" onPress={() => this.props.navigation.navigate("Materi")}>
           Materi
         </Button>
@@ -48,7 +49,7 @@ function App() {
         <Stack.Screen
           name="Home"
           component={HomeScreen}
-          options={{ title: "Materi Agama", headerTitleAlign: "center" }}
+          options={{ headerShown: false }}
         />
 
         <Stack.Screen
