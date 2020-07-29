@@ -70,7 +70,7 @@ constructor(props) {
 					Jadi pembinaan adalah suatu proses atau pengembangan yang mencakup urutan-urutan pengertian, diawali dengan mendirikan, menumbuhkan, memelihara pertumbuhan tersebut yang disertai dengan usaha-usaha perbaikan, menyempurnakan dan mengembangkan
        			</Text>
        			<Text style={{fontWeight: 'bold'}}>
-       				1. Fungsi dan Upaya Mewujudkan Keluarga Sakinah {'\n'}
+       				{'\n'}1. Fungsi dan Upaya Mewujudkan Keluarga Sakinah {'\n'}
        				Adapun fungsi dibentuknya keluarga dikemukakan oleh Mufidah C (2008 :42) adalah berikut ini.
        			</Text>
        				{fungsiKeluargaList}
@@ -78,7 +78,7 @@ constructor(props) {
        			 	Berdasarkan keenam fungsi keluarga tersebut, maka dapat dilihat bahwa keluarga mempunyai fungsi yang vital dalam pembentukan karakter individu seseorang.
        			</Text>
        			<Text style={{fontWeight: 'bold'}}>
-       			 	2.	Mewujudkan Keluarga Sakinah
+       			 	{'\n'}2.	Mewujudkan Keluarga Sakinah
        			</Text>
        			<Text>
        				Adapun untuk mewujudkan keluarga sakinah, mawaddah, dan rahmah diperlukan proses yang panjang dan pengorbanan yang besar meliputi persiapan, pelaksanaan dan pembinaan. 
@@ -88,7 +88,7 @@ constructor(props) {
 					Ketika akan meminang, harus dipastikan pula bahwa calon istrinya tersebut bukanlah mahram-nya (Perempuan yang haram dinikahinya). Adapun kriteria perempuan yang masuk mahram adalah :
        			</Text>
        			<Text>
-       				a.	Diharamkan karena keturunan
+       				{'\n'}a.	Diharamkan karena keturunan
        			</Text>
        				{haramKeturunanList}
        			<Text>
@@ -100,7 +100,7 @@ constructor(props) {
        			</Text>
        				{haramPernikahanList}
        			<Text>
-       				Selain mahram di atas, ada juga perempuan yang haram untuk dinikahi sementara waktu, yakni :
+       				{'\n'}Selain mahram di atas, ada juga perempuan yang haram untuk dinikahi sementara waktu, yakni :{'\n'}
        			</Text>
        			<Text>
        				a.   	Perempuan yang masih berada dalam ikatan pernikahan, {'\n'}
@@ -111,10 +111,10 @@ constructor(props) {
 					Dalam melangsungkan pernikahan, syariat islam telah mengatur bahwa sah-nya pernikahan dikarenakan terpenuhinya beberapa perkara, yakni :{'\n'}
 					a.   	Adanya pasangan yang akan dinikahkan{'\n'}
 					b.  	Wali.{'\n'}
-					Wali merupakan orang yang bertanggungjawab menikahkan calon pasangan suami/istri. Wali yang dimaksud dalam syariat pernikahan adalah wali dari pihak perempuan. Adapun yang termasuk sah menjadi wali pernikahan adalah berurutan sebagai berikut :
+					{'\n'}Wali merupakan orang yang bertanggungjawab menikahkan calon pasangan suami/istri. Wali yang dimaksud dalam syariat pernikahan adalah wali dari pihak perempuan. Adapun yang termasuk sah menjadi wali pernikahan adalah berurutan sebagai berikut :
        			</Text>
        			<Text style={{fontWeight: 'bold'}}>
-       				a. Dua orang saksi yang adil.
+       				{'\n'}a. Dua orang saksi yang adil.
        			</Text>
        			<Text>
        				Seperti halnya Wali, saksi adalah orang yang bertanggungjawab atas sahnya pernikahan. Karena itu, tidak semua orang dapat menjadi saksi. Persyaratan untuk menjadi saksi adalah sebagai berikut {'\n'}
@@ -132,40 +132,40 @@ constructor(props) {
        			<Text>
        				Setelah itu semua, maka tahapan selanjutnya dalam mewujudkan keluarga Sakinah adalah dengan adanya pembinaan. Proses pembinaan keluarga merupakan ibadah yang paling panjang. Dia menuntut kesabaran dan ketabahan dalam menjalaninya. 
 					dalam proses pembinaan ini, ada kriteria atau pondasi utama yang harus dimiliki oleh sebuah keluarga sehingga dapat dikatakan sebagai keluarga bahagia sejahtera (sakinah) menurut Tohari (1992 : 64) ialah:{'\n'}
-					a.   	memiliki keinginan menguasai dan menghayati serta mengamalkan ilmu-ilmu    agama dalam kehidupan sehari-hari;{'\n'}
+					{'\n'}a.   	memiliki keinginan menguasai dan menghayati serta mengamalkan ilmu-ilmu    agama dalam kehidupan sehari-hari;{'\n'}
 					b.      bersikap saling menghormati setiap anggota keluarga dan memiliki sifat yang sarat dengan etika dan sopan santun;{'\n'}
 					c.      berusaha memperoleh rezeki yang halal dan diharapkan rezeki tersebut dapat memenuhi kebutuhan anggota keluarga secara berkecukupan;{'\n'}
 					d.		membelanjakan harta secara efektif dan efisien.
 
        			</Text>
        			<Text style={{fontWeight: 'bold'}}>
-       			 	3.	Ciri-Ciri Keluarga Islami
+       			 	{'\n'}3.	Ciri-Ciri Keluarga Islami
        			</Text>
        			<Text>
        				Perkawinan adalah jalan untuk membentuk suatu keluarga atau rumah tangga, maka Islam telah meletakkan kaedah-kaedah dan aturan-aturan yang bertujuan untuk mewujudkan keluarga yang tenang dan bahagia, yang pada gilirannya akan berdampak pada terciptanya suatu masyarakat yang aman dan tenteram
 					Ciri-ciri keluarga/rumah tangga islami, yaitu:{'\n'}
 					<Text style={{fontWeight: 'bold'}}>
-					a.	Didirikan atas dasar takwa dan kebersamaan dalam beribadah {'\n'}
+					{'\n'}a.	Didirikan atas dasar takwa dan kebersamaan dalam beribadah {'\n'}
 					</Text>
 					Keluarga didirikan dalam rangka ibadah kepada Allah swt. memberi proses pemilihan jodoh, pernikahan (akad nikah, walimah), sampai dengan membina rumah tangga jauh dari unsur kemaksiatan dan perilaku yang tidak islami.{'\n'}
 					<Text style={{fontWeight: 'bold'}}>
-					b.	Terjadi internalisasi nilai Islam secara kaffah (menyeluruh){'\n'}
+					{'\n'}b.	Terjadi internalisasi nilai Islam secara kaffah (menyeluruh){'\n'}
 					</Text>
 					Rumah tangga islami dan segala adab Islam dipelajari dan dipraktikkan sebagai filter bagi penyakit moral di era globalisasi ini. Suami bertanggung jawab terhadap perkembangan pengetahuan keislaman istri dan anak-anaknya. Oleh sebab itu, suami-istri seharusnya memiliki pengetahuan yang cukup memadai tentang Islam.{'\n'}
 					<Text style={{fontWeight: 'bold'}}>
-					c.	Terdapat Qudwah (Keteladanan){'\n'}
+					{'\n'}c.	Terdapat Qudwah (Keteladanan){'\n'}
 					</Text>
 					Qudwah (keteladanan) suami atau istri dapat dicontoh oleh anak-anak, bahkan menjadi contoh teladan di lingkungannya. Adanya pembagian tugas yang sesuai dengan syariat Islam memberikan hak dan kewajibanbagi anggota keluarga secara tepat dan manusiawi. {'\n'}
 					<Text style={{fontWeight: 'bold'}}>
-					d.	Tercukupinya kebutuhan materi secara wajar {'\n'}
+					{'\n'}d.	Tercukupinya kebutuhan materi secara wajar {'\n'}
 					</Text>
 					Hakikatnya kebutuhan  keluarga  selalu  menjadi  perioritas bagi keluarga, suami harus membiayai kelangsungan kebutuhan materi keluarganya karena hal  itu salah satu tugas utamanya. {'\n'}
 					<Text style={{fontWeight: 'bold'}}>
-					e.	Menghindari hal-hal yang tidak islami{'\n'}
+					{'\n'}e.	Menghindari hal-hal yang tidak islami{'\n'}
 					</Text>
 					Banyak kegiatan atau barang-barang yang tidak islami harus disingkirkan dari dalam rumah. {'\n'}
 					<Text style={{fontWeight: 'bold'}}>
-					f.	Berperan dalam pembinaan masyarakat {'\n'}
+					{'\n'}f.	Berperan dalam pembinaan masyarakat {'\n'}
 					</Text>
 					Setiap anggota keluarga islami harus memiliki semangat berdakwah yang{'\n'}
 					Sementara itu, beberapa ciri keluarga sakinah dapat dilihat dari berbagai aspek, yaitu aspek lahiriah dan batiniah (psikologi), spiritual (keagamaan), dan aspek sosial.{'\n'}
@@ -184,7 +184,7 @@ constructor(props) {
 					makna menggauli istri dengan cara yang baik itu meliputi: pertama, sikap menghormati, menghargai, dan perlakuan-perlakuan yang baik, serta meningkatkan taraf hidupnya dalam bidang-bidang agama, akhlak, dan ilmu pengetahuan yang diperlukan. Kedua, menjaga dan melindungi nama baik istri. Ketiga, memenuhi kebutuhan kodrat biologisnya.
        			</Text>
        			<Text style={{fontWeight: 'bold'}}>
-       			 	2.	Kewajiban Istri kepada Suami
+       			 	{'\n'}2.	Kewajiban Istri kepada Suami
        			</Text>
        			<Text>
        				Kewajiban seorang istri kepada suaminya diatur dalam Islam tidak dalam bentuk materi. Kewajiban ini lebih bersifat non materi, {'\n'}
@@ -197,26 +197,26 @@ constructor(props) {
        			<Text>
 	       			Selain pembinaan keluarga, tidak kalah pentingnya dalam pembangunan keluarga yang sakinah adalah pembinaan anak. Pendidikan anak mendapatkann posisi penting dalam islam, mengingat baik buruknya akhlak anak sangat tergantung dari bagaimana keluarga mendidiknya. {'\n'}
 					Sementara itu, setelah kehidupan keluarga itu berjalan dan sang anak sudah dikaruniakan oleh Allah dalam kandungan sang calon ibu, maka pembinaan anak dilanjutkan melalui proses pembinaan pra natal. Metode   pra-natal   yang   dapat diaplikasikan oleh ibu adalah metode berikut ini: {'\n'}
-					a.  Metode kasih sayang{'\n'}
+					{'\n'}a.  Metode kasih sayang{'\n'}
 					b.	Metode beribadah.{'\n'}
 					c.	Metode membaca Al-Qur’an.{'\n'}
 					d.	Metode bercerita.{'\n'}
 					e.	Metode berdoa.{'\n'}
 					f.	Metode bernasyid (bernyanyi).{'\n'}
 					g.	Metode kebiasaan.{'\n'}
-					Setelah anak lahir, maka pembinaan anak sebagaimana dijelaskan oleh Abdullah Nashih Ulwan sebagaimana dikutip oleh Masganti mengemukakan  beberapa metode yang dapat dipilih antaranya:{'\n'}
-					a.	Metode keteladanan{'\n'}
+					{'\n'}Setelah anak lahir, maka pembinaan anak sebagaimana dijelaskan oleh Abdullah Nashih Ulwan sebagaimana dikutip oleh Masganti mengemukakan  beberapa metode yang dapat dipilih antaranya:{'\n'}
+					{'\n'}a.	Metode keteladanan{'\n'}
 					b.	Metode pembiasaan{'\n'}
 					c.	Metode nasehat{'\n'}
 					d.	Metode hukuman{'\n'}
-					Adapun materi yang dapat dikembangkan dalam pembinaan terhadap anak menurut Abdullah Nashih Ulwan adalah keimanan, akhlak , fisik ,rasio, psikis, sosial, seksual. {'\n'}
+					{'\n'}Adapun materi yang dapat dikembangkan dalam pembinaan terhadap anak menurut Abdullah Nashih Ulwan adalah keimanan, akhlak , fisik ,rasio, psikis, sosial, seksual. {'\n'}
        			</Text>
        			<Text style={{fontWeight: 'bold', fontSize: 15}}>
        				E. KEWAJIBAN ORANGTUA TERHADAP ANAK
        			</Text>
        			<Text>
        				Kewajiban tersebut, dengan sendiri menjadi hak yang harus didapatkan oleh anak dari orangtuanya. Adapun secara khusus, orangtua mempunyai kewajiban untuk menjaga fitrah anak agar tumbuh dan berkembang dengan baik sesuai dengan kehendak Allah SWT. Untuk itu, maka orang tua mempunyai kewajiban, yaitu {'\n'}
-					a.	Menjaga keselamatan anak, sejak dalam kandungan maupun setelah anak tersebut lahir. {'\n'}
+					{'\n'}a.	Menjaga keselamatan anak, sejak dalam kandungan maupun setelah anak tersebut lahir. {'\n'}
 					b.	Memberikan nama yang terbaik untuk sang anak, dan selalu mendoakan kebaikan untuk anak.{'\n'}
 					c.	Mencukupi kebutuhan anak akan hal-hal yang sifatnya materi sesuai dengan kadar kemampuannya. Termasuk ke dalam hal ini adalah makanan, pakaian, tempat tidur, dan kebutuhan materi lainnya.{'\n'}
 					d.	Mendidik anaknya dengan baik, apakah melalui proses pendidikan di rumah atau melalui lembaga pendidikan di luar rumah. Pendidikan ini meliputi penanaman ilmu pengetahuan, keterampilan, maupun sikap kepada sang anak.{'\n'}
@@ -228,7 +228,7 @@ constructor(props) {
        			<Text>
        				Diantara yang paling berjasa dalam kehidupan sang anak, adalah orangtuanya. Sang anak mungkin tidak bisa memilih lahir dari orang yang bagaimana, namun begitu sang anak sejatinya menerima kondisi apapun orangtuanya. Tidak banyak mengeluh, karena rasa sakit yang dirasakan sang ibu ketika mengandung dan melahirkan, maupun letih yang dirasakan sang ayah ketika menafkahi keluarga, tidak akan pernah bisa dibalas oleh sang anak {'\n'}
 					Atas dasar hal tersebut, maka ada beberapa kewajiban anak terhadap orangtuanya,{'\n'}
-					a.	Mematuhi orangtuanya,{'\n'}
+					{'\n'}a.	Mematuhi orangtuanya,{'\n'}
 					b.	Senantiasa memuliakan orang tua,{'\n'}
 					c.	Berkata dengan baik dan lemah lembut kepada orang tua,{'\n'}
 					d.	Merendahkan diri dan selalu mendoakan keduanya,{'\n'}
