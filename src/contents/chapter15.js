@@ -126,8 +126,6 @@ constructor(props) {
        			</Text>
        			<Text style={{fontWeight: 'bold'}}>
        				b. Ijab Qabul
-<<<<<<< HEAD
-=======
 				</Text>
 				<Text>
 				Ijab adalah ucapan penyerahan dari wali perempuan kepada mempelai laki-laki dan 
@@ -136,13 +134,6 @@ constructor(props) {
 				</Text>
 				<Text style={{fontWeight: 'bold'}}>
        				c. Mahar {'\n'}
->>>>>>> bd1607492f4807c9177c703985e720c4f7188dd3
-       			</Text>
-       				<Text>
-       					Ijab kabul adalah ucapan dari orang tua atau wali mempelai wanita untuk menikahkan putrinya kepada sang calon mempelai pria {'\n'}
-       				</Text>
-       			<Text style={{fontWeight: 'bold'}}>
-       				c. Mahar
        			</Text>
        				<Text>
        					Mahar atau maskawin adalah harta yang diberikan oleh pihak mempelai laki-laki (atau keluarganya) kepada mempelai perempuan (atau keluarga dari mempelai perempuan) pada saat pernikahan. {'\n'}
