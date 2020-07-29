@@ -147,8 +147,10 @@ export default class Chapter9 extends React.Component {
         </Text>
         <Text>
         1.	 Sikap Hormat terhadap Alam{"\n"}
-        Di dalam al-Qur’an surat al-Anbiya 107 :{"\n"}
-        <Dalil ayat='Al-Anbiya ayat 107' soundFile={require('./dalil-sound/test.mp3')} />{"\n"}
+        Di dalam al-Qur’an surat al-Anbiya 107 :
+        </Text>
+        <Dalil ayat='Al-Anbiya ayat 107' soundFile={require('./dalil-sound/test.mp3')} />
+        <Text>
         “Dan tiadalah kami mengutus kamu, melainkan untuk (menjadi) rahmat bagi semesta alam”.
         </Text>
         <Text>

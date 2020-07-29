@@ -45,36 +45,45 @@ export default class Chapter7 extends React.Component {
         <Text>
         Allah SWT, Sang Pencipta manusia, telah menurunkan Kitab Suci Al-Qur’an, yang di antara ayat-ayat-Nya adalah gambaran konkrit tentang manusia. Penyebutan nama manusia dalam al-Qur’an tidak hanya satu macam.{"\n"}
         
-        Dari aspek historis penciptaannya, manusia disebut dengan Bani Adam. Penyebutan seperti ini menjelaskan bahwa manusia adalah anak turun Nabi Adam As. Semua makhluk yang bukan anak turun Nabi Adam As tidak disebut sebagai manusia. Salah satu ayat yang menyebutkan istilah Bani Adam ini adalah Surat Al-A’raf ayat 31:{"\n"}
-        <Dalil ayat='۞ يٰبَنِيْٓ اٰدَمَ خُذُوْا زِيْنَتَكُمْ عِنْدَ كُلِّ مَسْجِدٍ وَّكُلُوْا وَاشْرَبُوْا وَلَا تُسْرِفُوْاۚ اِنَّهٗ لَا يُحِبُّ الْمُسْرِفِيْنَ ࣖ - ٣١'soundFile={require('./../../assets/audios/Al-Araf-31.mp3')} />{"\n"}
+        Dari aspek historis penciptaannya, manusia disebut dengan Bani Adam. Penyebutan seperti ini menjelaskan bahwa manusia adalah anak turun Nabi Adam As. Semua makhluk yang bukan anak turun Nabi Adam As tidak disebut sebagai manusia. Salah satu ayat yang menyebutkan istilah Bani Adam ini adalah Surat Al-A’raf ayat 31:
+        </Text>
+        <Dalil ayat='۞ يٰبَنِيْٓ اٰدَمَ خُذُوْا زِيْنَتَكُمْ عِنْدَ كُلِّ مَسْجِدٍ وَّكُلُوْا وَاشْرَبُوْا وَلَا تُسْرِفُوْاۚ اِنَّهٗ لَا يُحِبُّ الْمُسْرِفِيْنَ ࣖ - ٣١'soundFile={require('./../../assets/audios/Al-Araf-31.mp3')} />
         <Text>
-        Artinya: "Hai anak Adam, pakailah pakaianmu yang indah di setiap (memasuki) mesjid, makan dan minumlah, dan janganlah berlebih-lebihan. Sesungguhnya Allah tidak menyukai orang-orang yang berlebih-lebihan."{"\n"}
+        Artinya: "Hai anak Adam, pakailah pakaianmu yang indah di setiap (memasuki) mesjid, makan dan minumlah, dan janganlah berlebih-lebihan. Sesungguhnya Allah tidak menyukai orang-orang yang berlebih-lebihan."
         </Text>
 
-        Dari aspek biologis kemanusiaannya, manusia disebut dengan basyar yang mencerminkan sifat-sifat fisika-kimia-biologisnya. Penggunaan kata basyar ini karena kata tersebut seakar dengan kata basyirah yang artinya kulit, sesuatu yang menunjukkan unsur biologis manusia. Kata basyar misalnya terdapat dalam surat al-Mukminun ayat 33:{"\n"}
-        <Dalil ayat='وَقَالَ الْمَلَاُ مِنْ قَوْمِهِ الَّذِيْنَ كَفَرُوْا وَكَذَّبُوْا بِلِقَاۤءِ الْاٰخِرَةِ وَاَتْرَفْنٰهُمْ فِى الْحَيٰوةِ الدُّنْيَاۙ مَا هٰذَآ اِلَّا بَشَرٌ مِّثْلُكُمْۙ يَأْكُلُ مِمَّا تَأْكُلُوْنَ مِنْهُ وَيَشْرَبُ مِمَّا تَشْرَبُوْنَ - ٣٣' soundFile={require('./../../assets/audios/Al-Muminun-33.mp3')} />{"\n"}
         <Text>
-        Artinya: "Dan berkatalah pemuka-pemuka yang kafir di antara kaumnya dan yang mendustakan akan menemui hari akhirat (kelak) dan yang telah Kami mewahkan mereka dalam kehidupan di dunia: "(Orang) ini tidak lain hanyalah manusia seperti kamu, dia makan dari apa yang kamu makan, dan meminum dari apa yang kamu minum."{"\n"}
+        Dari aspek biologis kemanusiaannya, manusia disebut dengan basyar yang mencerminkan sifat-sifat fisika-kimia-biologisnya. Penggunaan kata basyar ini karena kata tersebut seakar dengan kata basyirah yang artinya kulit, sesuatu yang menunjukkan unsur biologis manusia. Kata basyar misalnya terdapat dalam surat al-Mukminun ayat 33:
+        </Text>
+        <Dalil ayat='وَقَالَ الْمَلَاُ مِنْ قَوْمِهِ الَّذِيْنَ كَفَرُوْا وَكَذَّبُوْا بِلِقَاۤءِ الْاٰخِرَةِ وَاَتْرَفْنٰهُمْ فِى الْحَيٰوةِ الدُّنْيَاۙ مَا هٰذَآ اِلَّا بَشَرٌ مِّثْلُكُمْۙ يَأْكُلُ مِمَّا تَأْكُلُوْنَ مِنْهُ وَيَشْرَبُ مِمَّا تَشْرَبُوْنَ - ٣٣' soundFile={require('./../../assets/audios/Al-Muminun-33.mp3')} />
+        <Text>
+        Artinya: "Dan berkatalah pemuka-pemuka yang kafir di antara kaumnya dan yang mendustakan akan menemui hari akhirat (kelak) dan yang telah Kami mewahkan mereka dalam kehidupan di dunia: "(Orang) ini tidak lain hanyalah manusia seperti kamu, dia makan dari apa yang kamu makan, dan meminum dari apa yang kamu minum."
         </Text>
 
-        Dari aspek kecerdasannya, manusia disebut dengan insan yakni makhluk terbaik yang diberi akal sehingga mampu menyerap ilmu pengetahuan. Seb agaimana firman Allah Swt dalam surat al-Rahman ayat 3 – 4: {"\n"}
-        <Dalil ayat='خَلَقَ الْاِنْسَانَۙ - ٣ عَلَّمَهُ الْبَيَانَ - ٤' soundFile={require('./../../assets/audios/An-Rahman-(3-4).mp3')} />{"\n"}
+        <Text>
+        Dari aspek kecerdasannya, manusia disebut dengan insan yakni makhluk terbaik yang diberi akal sehingga mampu menyerap ilmu pengetahuan. Seb agaimana firman Allah Swt dalam surat al-Rahman ayat 3 – 4: 
+        </Text>
+        <Dalil ayat='خَلَقَ الْاِنْسَانَۙ - ٣ عَلَّمَهُ الْبَيَانَ - ٤' soundFile={require('./../../assets/audios/An-Rahman-(3-4).mp3')} />
         <Text>
         Artinya: "Dia menciptakan manusia. Mengajarnya pandai berbicara."{"\n"}
         </Text>
         
-        Dari aspek sosiologisnya, manusia disebut dengan an-nas yang menunjukkan sifatnya yang berkelompok dengan sesamanya. Manusia tidak dapat hidup sempurna tanpa bantuan dan keterlibatan orang lain dalam kehidupannya. Penyebutan an-nas salah satunya terdapat dalam Surat al-Hujurat ayat 13:{"\n"}
-        <Dalil ayat='يٰٓاَيُّهَا النَّاسُ اِنَّا خَلَقْنٰكُمْ مِّنْ ذَكَرٍ وَّاُنْثٰى وَجَعَلْنٰكُمْ شُعُوْبًا وَّقَبَاۤىِٕلَ لِتَعَارَفُوْا ۚ اِنَّ اَكْرَمَكُمْ عِنْدَ اللّٰهِ اَتْقٰىكُمْ ۗاِنَّ اللّٰهَ عَلِيْمٌ خَبِيْرٌ - ١٣' soundFile={require('./../../assets/audios/Al-Hujurat-13.mp3')} />{"\n"}
+        <Text>
+        Dari aspek sosiologisnya, manusia disebut dengan an-nas yang menunjukkan sifatnya yang berkelompok dengan sesamanya. Manusia tidak dapat hidup sempurna tanpa bantuan dan keterlibatan orang lain dalam kehidupannya. Penyebutan an-nas salah satunya terdapat dalam Surat al-Hujurat ayat 13:
+        </Text>
+        <Dalil ayat='يٰٓاَيُّهَا النَّاسُ اِنَّا خَلَقْنٰكُمْ مِّنْ ذَكَرٍ وَّاُنْثٰى وَجَعَلْنٰكُمْ شُعُوْبًا وَّقَبَاۤىِٕلَ لِتَعَارَفُوْا ۚ اِنَّ اَكْرَمَكُمْ عِنْدَ اللّٰهِ اَتْقٰىكُمْ ۗاِنَّ اللّٰهَ عَلِيْمٌ خَبِيْرٌ - ١٣' soundFile={require('./../../assets/audios/Al-Hujurat-13.mp3')} />
         <Text>
         Artinya: "Hai manusia, sesungguhnya Kami menciptakan kamu dari seorang laki-laki dan seorang perempuan dan menjadikan kamu berbangsa-bangsa dan bersuku-suku supaya kamu saling kenal-mengenal. Sesungguhnya orang yang paling mulia di antara kamu di sisi Allah ialah orang yang paling takwa di antara kamu. Sesungguhnya Allah Maha Mengetahui lagi Maha Mengenal."{"\n"}
         </Text>
         
-        Dari aspek posisinya, manusia disebut dengan abdun (hamba) yang menunjukkan kedudukannya sebagai hamba Allah yang harus tunduk dan patuh kepada-Nya. Seperti firman Allah Swt dalam surat Saba’ ayat 9:{"\n"}
-        <Dalil ayat='اَفَلَمْ يَرَوْا اِلٰى مَا بَيْنَ اَيْدِيْهِمْ وَمَا خَلْفَهُمْ مِّنَ السَّمَاۤءِ وَالْاَرْضِۗ اِنْ نَّشَأْ نَخْسِفْ بِهِمُ الْاَرْضَ اَوْ نُسْقِطْ عَلَيْهِمْ كِسَفًا مِّنَ السَّمَاۤءِۗ اِنَّ فِيْ ذٰلِكَ لَاٰيَةً لِّكُلِّ عَبْدٍ مُّنِيْبٍ ࣖ - ٩' soundFile={require('./../../assets/audios/Saba-9.mp3')} />{"\n"}
+        <Text>
+        Dari aspek posisinya, manusia disebut dengan abdun (hamba) yang menunjukkan kedudukannya sebagai hamba Allah yang harus tunduk dan patuh kepada-Nya. Seperti firman Allah Swt dalam surat Saba’ ayat 9:
+        </Text>
+        <Dalil ayat='اَفَلَمْ يَرَوْا اِلٰى مَا بَيْنَ اَيْدِيْهِمْ وَمَا خَلْفَهُمْ مِّنَ السَّمَاۤءِ وَالْاَرْضِۗ اِنْ نَّشَأْ نَخْسِفْ بِهِمُ الْاَرْضَ اَوْ نُسْقِطْ عَلَيْهِمْ كِسَفًا مِّنَ السَّمَاۤءِۗ اِنَّ فِيْ ذٰلِكَ لَاٰيَةً لِّكُلِّ عَبْدٍ مُّنِيْبٍ ࣖ - ٩' soundFile={require('./../../assets/audios/Saba-9.mp3')} />
         <Text>
         Artinya: "Maka apakah mereka tidak melihat langit dan bumi yang ada di hadapan dan di belakang mereka? Jika Kami menghendaki, niscaya Kami benamkan mereka di bumi atau Kami jatuhkan kepada mereka gumpalan dari langit. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda (kekuasaan Tuhan) bagi setiap hamba yang kembali (kepada-Nya)."
         </Text>
-        </Text>
+        
 
 
         <Text style={{fontWeight: 'bold'}}>
@@ -118,8 +127,8 @@ export default class Chapter7 extends React.Component {
         Proses reproduksi manusia berbeda dengan proses penciptaan Adam dan Hawa. Proses reproduksi manusia terjadi melalui percampuran bahan dari laki-laki dan perempuan.
         Tahap pertama manusia dibuat dari saripati tanah melalui makanan yang dimakan oleh laki-laki dan perempuan. Sebagian dari inti zat yang dimakan tersebut menjadi bahan sperma (air mani) dan ovum yang merupakan bahan awal terciptanya manusia. Sperma dan ovum, yang disebut nuthfah, itu tersimpan dalam tempat yang kokoh. Hal ini dijelaskan oleh Allah dalam QS al-Mukminun ayat 12 - 13:
         {"\n"}
-        <Dalil ayat='وَلَقَدْ خَلَقْنَا الْاِنْسَانَ مِنْ سُلٰلَةٍ مِّنْ طِيْنٍ ۚ - ١٢ثُمَّ جَعَلْنٰهُ نُطْفَةً فِيْ قَرَارٍ مَّكِيْنٍ ۖ - ١٣' soundFile={require('./../../assets/audios/Al-Muminun-(12-13).mp3')} /> 
         </Text>
+        <Dalil ayat='وَلَقَدْ خَلَقْنَا الْاِنْسَانَ مِنْ سُلٰلَةٍ مِّنْ طِيْنٍ ۚ - ١٢ثُمَّ جَعَلْنٰهُ نُطْفَةً فِيْ قَرَارٍ مَّكِيْنٍ ۖ - ١٣' soundFile={require('./../../assets/audios/Al-Muminun-(12-13).mp3')} /> 
         <Text>
         Artinya: "Dan sungguh, Kami telah menciptakan manusia dari saripati (berasal) dari tanah. Kemudian Kami menjadikannya air mani (yang disimpan) dalam tempat yang kokoh (rahim)."
         </Text>
