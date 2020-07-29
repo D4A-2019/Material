@@ -183,12 +183,12 @@ constructor(props) {
         <Text>
             1. Agama, berislam, dan beriman {'\n'}
         </Text> 
-                <Dalil ayat='وَإِذْ أَخَذَ رَبُّكَ مِنۢ بَنِىٓ ءَادَمَ مِن ظُهُورِهِمْ ذُرِّيَّتَهُمْ وَأَشْهَدَهُمْ عَلَىٰٓ أَنفُسِهِمْ أَلَسْتُ بِرَبِّكُمْ ۖ قَالُوا۟ بَلَىٰ ۛ شَهِدْنَآ ۛ أَن تَقُولُوا۟ يَوْمَ ٱلْقِيَٰمَةِ إِنَّا كُنَّا عَنْ هَٰذَا غَٰفِلِينَ' soundFile={require('./../../assets/audios/AlAraf-172.mp3')}/>
+                <Dalil ayat='وَإِذْ أَخَذَ رَبُّكَ مِنۢ بَنِىٓ ءَادَمَ مِن ظُهُورِهِمْ ذُرِّيَّتَهُمْ وَأَشْهَدَهُمْ عَلَىٰٓ أَنفُسِهِمْ أَلَسْتُ بِرَبِّكُمْ ۖ قَالُوا۟ بَلَىٰ ۛ شَهِدْنَآ ۛ أَن تَقُولُوا۟ يَوْمَ ٱلْقِيَٰمَةِ إِنَّا كُنَّا عَنْ هَٰذَا غَٰفِلِينَ' soundFile={require('./../../assets/audios/Al-Araf-172.mp3')}/>
                 <Text>
                    {'\n'} Artinya : "Dan (ingatlah), ketika Tuhanmu mengeluarkan keturunan anak-anak Adam dari sulbi mereka dan Allah mengambil kesaksian terhadap jiwa mereka (seraya berfirman): "Bukankah Aku ini Tuhanmu?" Mereka menjawab: "Betul (Engkau Tuhan kami), kami menjadi saksi". (Kami lakukan yang demikian itu) agar di hari kiamat kamu tidak mengatakan: "Sesungguhnya kami (bani Adam) adalah orang-orang yang lengah terhadap ini (keesaan Tuhan)",
                     (QS Al-A'raf: 172) {'\n'}
                 </Text>
-                <Dalil ayat='فأَقِمْ وَجْهَكَ لِلدِّينِ حَنِيفًا ۚ فِطْرَتَ ٱللَّهِ ٱلَّتِى فَطَرَ ٱلنَّاسَ عَلَيْهَا ۚ لَا تَبْدِيلَ لِخَلْقِ ٱللَّهِ ۚ ذَٰلِكَ ٱلدِّينُ ٱلْقَيِّمُ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ' soundFile={require('./../../assets/audios/ArRum-30.mp3')}/>
+                <Dalil ayat='فأَقِمْ وَجْهَكَ لِلدِّينِ حَنِيفًا ۚ فِطْرَتَ ٱللَّهِ ٱلَّتِى فَطَرَ ٱلنَّاسَ عَلَيْهَا ۚ لَا تَبْدِيلَ لِخَلْقِ ٱللَّهِ ۚ ذَٰلِكَ ٱلدِّينُ ٱلْقَيِّمُ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ' soundFile={require('./../../assets/audios/Ar-Rum-30.mp3')}/>
                 <Text>
                    {'\n'} Artinya : "Maka hadapkanlah wajahmu dengan lurus kepada agama Allah; (tetaplah atas) fitrah Allah yang telah menciptakan manusia menurut fitrah itu. Tidak ada peubahan pada fitrah Allah. (Itulah) agama yang lurus; tetapi kebanyakan manusia tidak mengetahui, "
                     (QS Ar-Rum: 30) {'\n'}
@@ -196,17 +196,17 @@ constructor(props) {
          <Text>
             2. Kasih sayang  {'\n'}
          </Text>
-                <Dalil ayat='قُلْ إِنْ كُنْتُمْ تُحِبُّونَ اللَّهَ فَاتَّبِعُونِي يُحْبِبْكُمُ اللَّهُ وَيَغْفِرْ لَكُمْ ذُنُوبَكُمْ ۗ وَاللَّهُ غَفُورٌ رَحِيمٌ'soundFile={require('./../../assets/audios/AliImran-31.mp3')}/>
+                <Dalil ayat='قُلْ إِنْ كُنْتُمْ تُحِبُّونَ اللَّهَ فَاتَّبِعُونِي يُحْبِبْكُمُ اللَّهُ وَيَغْفِرْ لَكُمْ ذُنُوبَكُمْ ۗ وَاللَّهُ غَفُورٌ رَحِيمٌ'soundFile={require('./../../assets/audios/Ali-Imran-31.mp3')}/>
                 <Text>
                    {'\n'} Artinya : "Katakanlah: "Jika kamu (benar-benar) mencintai Allah, ikutilah aku, niscaya Allah mengasihi dan mengampuni dosa-dosamu". Allah Maha Pengampun lagi Maha Penyayang. "
                     (QS Ali Imran: 31) {'\n'}
                 </Text>
-                <Dalil ayat='۞ وَٱعْبُدُوا۟ ٱللَّهَ وَلَا تُشْرِكُوا۟ بِهِۦ شَيْـًٔا ۖ وَبِٱلْوَٰلِدَيْنِ إِحْسَٰنًا وَبِذِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينِ وَٱلْجَارِ ذِى ٱلْقُرْبَىٰ وَٱلْجَارِ ٱلْجُنُبِ وَٱلصَّاحِبِ بِٱلْجَنۢبِ وَٱبْنِ ٱلسَّبِيلِ وَمَا مَلَكَتْ أَيْمَٰنُكُمْ ۗ إِنَّ ٱللَّهَ لَا يُحِبُّ مَن كَانَ مُخْتَالًا فَخُورًا'soundFile={require('./../../assets/audios/AnNisa-36.mp3')}/>
+                <Dalil ayat='۞ وَٱعْبُدُوا۟ ٱللَّهَ وَلَا تُشْرِكُوا۟ بِهِۦ شَيْـًٔا ۖ وَبِٱلْوَٰلِدَيْنِ إِحْسَٰنًا وَبِذِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينِ وَٱلْجَارِ ذِى ٱلْقُرْبَىٰ وَٱلْجَارِ ٱلْجُنُبِ وَٱلصَّاحِبِ بِٱلْجَنۢبِ وَٱبْنِ ٱلسَّبِيلِ وَمَا مَلَكَتْ أَيْمَٰنُكُمْ ۗ إِنَّ ٱللَّهَ لَا يُحِبُّ مَن كَانَ مُخْتَالًا فَخُورًا'soundFile={require('./../../assets/audios/An-Nisa-36.mp3')}/>
                 <Text>
                    {'\n'} Artinya : "Sembahlah Allah dan janganlah kamu mempersekutukan-Nya dengan sesuatupun. Dan berbuat baiklah kepada dua orang ibu-bapa, karib-kerabat, anak-anak yatim, orang-orang miskin, tetangga yang dekat dan tetangga yang jauh, dan teman sejawat, ibnu sabil dan hamba sahayamu. Sesungguhnya Allah tidak menyukai orang-orang yang sombong dan membangga-banggakan diri,"
                     (QS An Nisa: 36) {'\n'}
                 </Text>
-                <Dalil ayat=' وَقَضَى رَبُّكَ أَلَّا تَعْبُدُوا إِلَّا إِيَّاهُ وَبِالْوَالِدَيْنِ إِحْسَانًا إِمَّا يَبْلُغَنَّ عِنْدَكَ الْكِبَرَ أَحَدُهُمَا أَوْ كِلَاهُمَا فَلَا تَقُلْ لَهُمَا أُفٍّ وَلَا تَنْهَرْهُمَا وَقُلْ لَهُمَا قَوْلًا كَرِيمًا  (٢٣)  وَاخْفِضْ لَهُمَا جَنَاحَ الذُّلِّ مِنَ الرَّحْمَةِ وَقُلْ رَبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا  (٢٤)'soundFile={require('./../../assets/audios/AlIsra-(23-24).mp3')}/>
+                <Dalil ayat=' وَقَضَى رَبُّكَ أَلَّا تَعْبُدُوا إِلَّا إِيَّاهُ وَبِالْوَالِدَيْنِ إِحْسَانًا إِمَّا يَبْلُغَنَّ عِنْدَكَ الْكِبَرَ أَحَدُهُمَا أَوْ كِلَاهُمَا فَلَا تَقُلْ لَهُمَا أُفٍّ وَلَا تَنْهَرْهُمَا وَقُلْ لَهُمَا قَوْلًا كَرِيمًا  (٢٣)  وَاخْفِضْ لَهُمَا جَنَاحَ الذُّلِّ مِنَ الرَّحْمَةِ وَقُلْ رَبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا  (٢٤)'soundFile={require('./../../assets/audios/Al-Isra-(23-24).mp3')}/>
                 <Text>
                    {'\n'} Artinya : "Dan Tuhanmu telah memerintahkan supaya kamu jangan menyembah selain Dia dan hendaklah kamu berbuat baik pada ibu bapakmu dengan sebaik-baiknya. Jika salah seorang di antara keduanya atau kedua-duanya sampai berumur lanjut dalam pemeliharaanmu, maka sekali-kali janganlah kamu mengatakan kepada keduanya perkataan "ah" dan janganlah kamu membentak mereka dan ucapkanlah kepada mereka perkataan yang mulia."
                     (QS Al Isra: 23-24) {'\n'}
@@ -221,7 +221,7 @@ constructor(props) {
         <Text>           
             3. Keindahan {'\n'}
         </Text>
-                <Dalil ayat='زُيِّنَ لِلنَّاسِ حُبُّ ٱلشَّهَوَٰتِ مِنَ ٱلنِّسَآءِ وَٱلْبَنِينَ وَٱلْقَنَٰطِيرِ ٱلْمُقَنطَرَةِ مِنَ ٱلذَّهَبِ وَٱلْفِضَّةِ وَٱلْخَيْلِ ٱلْمُسَوَّمَةِ وَٱلْأَنْعَٰمِ وَٱلْحَرْثِ ۗ ذَٰلِكَ مَتَٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَٱللَّهُ عِندَهُۥ حُسْنُ ٱلْمَـَٔابِ'soundFile={require('./../../assets/audios/AliImran-14.mp3')}/>
+                <Dalil ayat='زُيِّنَ لِلنَّاسِ حُبُّ ٱلشَّهَوَٰتِ مِنَ ٱلنِّسَآءِ وَٱلْبَنِينَ وَٱلْقَنَٰطِيرِ ٱلْمُقَنطَرَةِ مِنَ ٱلذَّهَبِ وَٱلْفِضَّةِ وَٱلْخَيْلِ ٱلْمُسَوَّمَةِ وَٱلْأَنْعَٰمِ وَٱلْحَرْثِ ۗ ذَٰلِكَ مَتَٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَٱللَّهُ عِندَهُۥ حُسْنُ ٱلْمَـَٔابِ'soundFile={require('./../../assets/audios/Ali-Imran-14.mp3')}/>
                 <Text>
                    {'\n'} Artinya : "Dijadikan indah pada (pandangan) manusia kecintaan kepada apa-apa yang diingini, yaitu: wanita-wanita, anak-anak, harta yang banyak dari jenis emas, perak, kuda pilihan, binatang-binatang ternak dan sawah ladang. Itulah kesenangan hidup di dunia, dan di sisi Allah-lah tempat kembali yang baik (surga)."
                     (QS Al Imran: 14) {'\n'}
@@ -229,17 +229,17 @@ constructor(props) {
         <Text>
             4. Harga diri  {'\n'}
         </Text>
-                <Dalil ayat=' لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِىٓ أَحْسَنِ تَقْوِيمٍ  (٥) ثُمَّ رَدَدْنَاهُ أَسْفَلَ سَافِلِينَ  (٤)'soundFile={require('./../../assets/audios/AtTin-(4-5).mp3')}/>
+                <Dalil ayat=' لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِىٓ أَحْسَنِ تَقْوِيمٍ  (٥) ثُمَّ رَدَدْنَاهُ أَسْفَلَ سَافِلِينَ  (٤)'soundFile={require('./../../assets/audios/At-Tin-(4-5).mp3')}/>
                 <Text>
                    {'\n'} Artinya : "Sesungguhnya Kami telah menciptakan manusia dalam bentuk yang sebaik-baiknya. Kemudian Kami kembalikan dia ke tempat yang serendah-rendahnya (neraka), kecuali orang-orang yang beriman dan mengerjakan amal saleh"
                     (QS At Tin: 4-5) {'\n'}
                 </Text>
-                <Dalil ayat='تَيَا أَيَّتُهَا النَّفْسُ الْمُطْمَئِنَّةُ (٢٧) ارْجِعِي إِلَى رَبِّكِ رَاضِيَةً مَرْضِيَّةً  (٢٨)  فَادْخُلِي  (٢٩)فِي عِبَادِي  وَادْخُلِي جَنَّتِي  (٣٠)'soundFile={require('./../../assets/audios/AlFajr-(27-30).mp3')}/>
+                <Dalil ayat='تَيَا أَيَّتُهَا النَّفْسُ الْمُطْمَئِنَّةُ (٢٧) ارْجِعِي إِلَى رَبِّكِ رَاضِيَةً مَرْضِيَّةً  (٢٨)  فَادْخُلِي  (٢٩)فِي عِبَادِي  وَادْخُلِي جَنَّتِي  (٣٠)'soundFile={require('./../../assets/audios/Al-Fajr-(27-30).mp3')}/>
                 <Text>
                    {'\n'} Artinya : "Hai jiwa yang tenang. Kembalilah kepada Tuhanmu dengan hati yang puas lagi diridhai-Nya. Maka masuklah ke dalam jama’ah hamba-hamba-Ku, masuklah ke dalam syurga-Ku."
                     (QS Al Fajr: 27-30) {'\n'}
                 </Text>
-                <Dalil ayat=' وَنَفْسٍ وَمَا سَوَّاهَا (٧)  فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَاهَا (٨)  قَدْ أَفْلَحَ مَنْ زَكَّاهَا (٩)  وَقَدْ خَابَ مَنْ دَسَّاهَا (١٠) كَذَّبَتْ ثَمُودُ بِطَغْوَىٰهَآ  (١١)'soundFile={require('./../../assets/audios/AshSyams-(7-11).mp3')}/>
+                <Dalil ayat=' وَنَفْسٍ وَمَا سَوَّاهَا (٧)  فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَاهَا (٨)  قَدْ أَفْلَحَ مَنْ زَكَّاهَا (٩)  وَقَدْ خَابَ مَنْ دَسَّاهَا (١٠) كَذَّبَتْ ثَمُودُ بِطَغْوَىٰهَآ  (١١)'soundFile={require('./../../assets/audios/Asy-Syams-(7-11).mp3')}/>
                 <Text>
                    {'\n'} Artinya : "dan jiwa serta penyempurnaannya (ciptaannya), maka Allah mengilhamkan kepada jiwa itu (jalan) kefasikan dan ketakwaannya, sesungguhnya beruntunglah orang yang mensucikan jiwa itu, dan sesungguhnya merugilah orang yang mengotorinya. (Kaum) Tsamud telah mendustakan (rasulnya) karena mereka melampaui batas (zhalim),"
                     (QS Ash Syams: 7-11) {'\n'}
@@ -255,12 +255,12 @@ constructor(props) {
         <Text>
             6. Kebenaran  {'\n'}
         </Text>
-                <Dalil ayat='ٱلْحَقُّ مِن رَّبِّكَ ۖ فَلَا تَكُونَنَّ مِنَ ٱلْمُمْتَرِينَ'soundFile={require('./../../assets/audios/AlBaqarah-147.mp3')}/>
+                <Dalil ayat='ٱلْحَقُّ مِن رَّبِّكَ ۖ فَلَا تَكُونَنَّ مِنَ ٱلْمُمْتَرِينَ'soundFile={require('./../../assets/audios/Al-Baqarah-147.mp3')}/>
                 <Text>
                    {'\n'} Artinya : "Kebenaran itu adalah dari Tuhanmu, sebab itu jangan sekali-kali kamu termasuk orang-orang yang ragu."
                     (QS Al Baqarah: 147) {'\n'}
                 </Text>
-                <Dalil ayat='وَقُلْ جَآءَ ٱلْحَقُّ وَزَهَقَ ٱلْبَٰطِلُ ۚ إِنَّ ٱلْبَٰطِلَ كَانَ زَهُوقًا'soundFile={require('./../../assets/audios/AlIsra-81.mp3')}/>
+                <Dalil ayat='وَقُلْ جَآءَ ٱلْحَقُّ وَزَهَقَ ٱلْبَٰطِلُ ۚ إِنَّ ٱلْبَٰطِلَ كَانَ زَهُوقًا'soundFile={require('./../../assets/audios/Al-Isra-81.mp3')}/>
                 <Text>
                    {'\n'} Artinya : "Dan katakanlah: "Yang benar telah datang dan yang batil telah lenyap". Sesungguhnya yang batil itu adalah sesuatu yang pasti lenyap."
                     (QS Al Isra: 81) {'\n'}
@@ -268,7 +268,7 @@ constructor(props) {
         <Text>
             7. Aktualisasi diri {'\n'}
         </Text>
-                <Dalil ayat='ٱلَّذِى خَلَقَ ٱلْمَوْتَ وَٱلْحَيَوٰةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا ۚ وَهُوَ ٱلْعَزِيزُ ٱلْغَفُورُ'soundFile={require('./../../assets/audios/AlMulk-2.mp3')}/>
+                <Dalil ayat='ٱلَّذِى خَلَقَ ٱلْمَوْتَ وَٱلْحَيَوٰةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا ۚ وَهُوَ ٱلْعَزِيزُ ٱلْغَفُورُ'soundFile={require('./../../assets/audios/Al-Mulk-2.mp3')}/>
                 <Text>
                    {'\n'} Artinya : "Yang menjadikan mati dan hidup, supaya Dia menguji kamu, siapa di antara kamu yang lebih baik amalnya. Dan Dia Maha Perkasa lagi Maha Pengampun,"
                     (QS Al Mulk: 2) {'\n'}
@@ -276,7 +276,7 @@ constructor(props) {
         <Text>
             8. Berkeluarga {'\n'}
         </Text>
-                <Dalil ayat='وَمِنْ ءَايَٰتِهِۦٓ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًا لِّتَسْكُنُوٓا۟ إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّقَوْمٍ يَتَفَكَّرُونَ'soundFile={require('./../../assets/audios/ArRum-21.mp3')}/>
+                <Dalil ayat='وَمِنْ ءَايَٰتِهِۦٓ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًا لِّتَسْكُنُوٓا۟ إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّقَوْمٍ يَتَفَكَّرُونَ'soundFile={require('./../../assets/audios/Ar-Rum-21.mp3')}/>
                 <Text>
                    {'\n'} Artinya : "Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu isteri-isteri dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya diantaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berfikir."
                     (QS Ar Rum: 21) {'\n'}
@@ -284,7 +284,7 @@ constructor(props) {
         <Text>
             9. Bermasyarakat {'\n'}
         </Text>
-                <Dalil ayat='وَمِنْ ءَايَٰتِهِۦٓ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًا لِّتَسْكُنُوٓا۟ إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّقَوْمٍ يَتَفَكَّرُونَ'soundFile={require('./../../assets/audios/ArRum-21.mp3')}/>
+                <Dalil ayat='وَمِنْ ءَايَٰتِهِۦٓ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًا لِّتَسْكُنُوٓا۟ إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّقَوْمٍ يَتَفَكَّرُونَ'soundFile={require('./../../assets/audios/Ar-Rum-21.mp3')}/>
                 <Text>
                    {'\n'} Artinya : "Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu isteri-isteri dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya diantaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berfikir."
                     (QS Ar Rum: 21) {'\n'}
@@ -318,7 +318,7 @@ constructor(props) {
         </Text>
         <Text>
         </Text>
-        <Dalil ayat='قُلْ يَٰٓأَيُّهَا ٱلْكَٰفِرُونَ  (١) لَآ أَعْبُدُ مَا تَعْبُدُونَ  (٢) وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ  (٣) وَلَآ أَنَا۠ عَابِدٌ مَّا عَبَدتُّمْ  (٤) وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ  (٥) لَكُمْ دِينُكُمْ وَلِىَ دِينِ  (٦)'soundFile={require('./../../assets/audios/AlKafirun-(1-6).mp3')}/>
+        <Dalil ayat='قُلْ يَٰٓأَيُّهَا ٱلْكَٰفِرُونَ  (١) لَآ أَعْبُدُ مَا تَعْبُدُونَ  (٢) وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ  (٣) وَلَآ أَنَا۠ عَابِدٌ مَّا عَبَدتُّمْ  (٤) وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ  (٥) لَكُمْ دِينُكُمْ وَلِىَ دِينِ  (٦)'soundFile={require('./../../assets/audios/Al-Kafirun-(1-6).mp3')}/>
         <Text>
         	Artinya: “Katakanlah: “Hai orang- orang kafir, Aku tidak akan menyembah
 			apa yang kamu sembah. Dan kamu bukan penyembah Tuhan yang aku
