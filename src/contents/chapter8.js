@@ -48,7 +48,7 @@ export default class Chapter8 extends React.Component {
         Ukhuwah ubudiyah yaitu bahwa seluruh makhluk adalah bersaudara dalam arti memiliki persamaan.{"\n"}
         Sebagaimana Firman Allah:
         </Text>
-        <Dalil ayat='Al An’am ayat 38' soundFile={require('./dalil-sound/test.mp3')} />
+        <Dalil ayat='وَمَا مِنْ دَاۤبَّةٍ فِى الْاَرْضِ وَلَا طٰۤىِٕرٍ يَّطِيْرُ بِجَنَاحَيْهِ اِلَّآ اُمَمٌ اَمْثَالُكُمْ ۗمَا فَرَّطْنَا فِى الْكِتٰبِ مِنْ شَيْءٍ ثُمَّ اِلٰى رَبِّهِمْ يُحْشَرُوْنَ - ٣٨' soundFile={require('./../../assets/audios/Al-Anam-38.mp3')} />
         <Text>
         Artinya: Dan tidaklah binatang-binatang yang ada di muka bumi, dan tidak pula burung-burung yang terbang dengan kedua
         sayapnya, kecuali umat seperti kamu juga Tiadalah Kami alpakan
@@ -65,7 +65,11 @@ export default class Chapter8 extends React.Component {
         yang banyak di antara mereka.{"\n"}
         Sebagaimana Firman Allah:
         </Text>
-        <Dalil ayat='Al-Hujurat ayat 13' soundFile={require('./dalil-sound/test.mp3')} />
+        <Dalil ayat='يٰٓاَيُّهَا النَّاسُ اِنَّا خَلَقْنٰكُمْ مِّنْ ذَكَرٍ وَّاُنْثٰى وَجَعَلْنٰكُمْ شُعُوْبًا وَّقَبَاۤىِٕلَ لِتَعَارَفُوْا ۚ اِنَّ اَكْرَمَكُمْ عِنْدَ اللّٰهِ اَتْقٰىكُمْ ۗاِنَّ اللّٰهَ عَلِيْمٌ خَبِيْرٌ - ١٣' soundFile={require('./../../assets/audios/Al-Hujurat-13.mp3')} />
+        <Text>
+        Artinya: "Wahai manusia! Sungguh, Kami telah menciptakan kamu dari seorang laki-laki dan seorang perempuan, kemudian Kami jadikan kamu berbangsa-bangsa dan bersuku-suku agar kamu saling mengenal. 
+        Sesungguhnya yang paling mulia di antara kamu di sisi Allah ialah orang yang paling bertakwa. Sungguh, Allah Maha Mengetahui, Mahateliti."
+        </Text>
         <Text style={{fontWeight: 'bold'}}>
         Ukhuwah Wathaniyah
         </Text>
@@ -83,7 +87,7 @@ export default class Chapter8 extends React.Component {
         diikat oleh persamaan agama. Istilah ini terdapat dalam QS al-Ahzab
         ayat 5, yakni ikhwanukum fi ad-din (saudaramu seagama).
         </Text>
-        <Dalil ayat='Al-Ahzab ayat 5' soundFile={require('./dalil-sound/test.mp3')} />
+        <Dalil ayat='اُدْعُوْهُمْ لِاٰبَاۤىِٕهِمْ هُوَ اَقْسَطُ عِنْدَ اللّٰهِ ۚ فَاِنْ لَّمْ تَعْلَمُوْٓا اٰبَاۤءَهُمْ فَاِخْوَانُكُمْ فِى الدِّيْنِ وَمَوَالِيْكُمْ ۗوَلَيْسَ عَلَيْكُمْ جُنَاحٌ فِيْمَآ اَخْطَأْتُمْ بِهٖ وَلٰكِنْ مَّا تَعَمَّدَتْ قُلُوْبُكُمْ ۗوَكَانَ اللّٰهُ غَفُوْرًا رَّحِيْمًا - ٥' soundFile={require('./../../assets/audios/Al-Ahzab-5.mp3')} />
         <Text>
         Artinya: Panggillah mereka (anak angkat itu) dengan (memakai) nama
         bapak-bapak mereka; itulah yang adil di sisi Allah, dan jika kamu tidak
@@ -118,7 +122,7 @@ export default class Chapter8 extends React.Component {
         Allah swt berfirman dalam surat Al-Kafirun (109) ayat 1-6 yang
         berbunyi:
         </Text>
-        <Dalil ayat='Al-Kafirun ayat 1-6' soundFile={require('./dalil-sound/test.mp3')} />
+        <Dalil ayat='قُلْ يٰٓاَيُّهَا الْكٰفِرُوْنَۙ - ١لَآ اَعْبُدُ مَا تَعْبُدُوْنَۙ - ٢وَلَآ اَنْتُمْ عٰبِدُوْنَ مَآ اَعْبُدُۚ - ٣وَلَآ اَنَا۠ عَابِدٌ مَّا عَبَدْتُّمْۙ - ٤وَلَآ اَنْتُمْ عٰبِدُوْنَ مَآ اَعْبُدُۗ - ٥لَكُمْ دِيْنُكُمْ وَلِيَ دِيْنِ ࣖ - ٦' soundFile={require('./../../assets/audios/Al-Kafirun-(1-6).mp3')} />
         <Text>
         Artinya: ”Katakanlah (Muhammad) : "Hai orang-orang kafir, Aku
         tidak akan menyembah apa yang kamu sembah. Dan kamu bukan
@@ -137,7 +141,7 @@ export default class Chapter8 extends React.Component {
         Sebagaimana Allah swtberfirman dalam surat Al-Baqarah (2)
         ayat 256 yang berbunyi:
         </Text>
-        <Dalil ayat='Al-Baqarah ayat 256' soundFile={require('./dalil-sound/test.mp3')} />
+        <Dalil ayat='لَآ اِكْرَاهَ فِى الدِّيْنِۗ قَدْ تَّبَيَّنَ الرُّشْدُ مِنَ الْغَيِّ ۚ فَمَنْ يَّكْفُرْ بِالطَّاغُوْتِ وَيُؤْمِنْۢ بِاللّٰهِ فَقَدِ اسْتَمْسَكَ بِالْعُرْوَةِ الْوُثْقٰى لَا انْفِصَامَ لَهَا ۗوَاللّٰهُ سَمِيْعٌ عَلِيْمٌ - ٢٥٦' soundFile={require('./../../assets/audios/Al-Baqarah-256.mp3')} />
         <Text>
         Artinya: “Tidak ada paksaan dalam (menganut) agama (Islam);
         sesungguhnya telah jelas (perbedaan) antara jalan yang benar
@@ -184,7 +188,10 @@ export default class Chapter8 extends React.Component {
         Berkaitan dengan hal ini Allah swt secara tegas
         berfirman dalam surat al-An’am (6) ayat 108.
         </Text>
-        <Dalil ayat='Al-An’am ayat 108' soundFile={require('./dalil-sound/test.mp3')} />
+        <Dalil ayat='وَلَا تَسُبُّوا الَّذِيْنَ يَدْعُوْنَ مِنْ دُوْنِ اللّٰهِ فَيَسُبُّوا اللّٰهَ عَدْوًاۢ بِغَيْرِ عِلْمٍۗ كَذٰلِكَ زَيَّنَّا لِكُلِّ اُمَّةٍ عَمَلَهُمْۖ ثُمَّ اِلٰى رَبِّهِمْ مَّرْجِعُهُمْ فَيُنَبِّئُهُمْ بِمَا كَانُوْا يَعْمَلُوْنَ - ١٠٨' soundFile={require('./../../assets/audios/Al-Anam-54.mp3')} />
+        <Text>
+        Artinya: "Ikutilah apa yang telah diwahyukan Tuhanmu kepadamu (Muhammad); tidak ada tuhan selain Dia; dan berpalinglah dari orang-orang musyrik."
+        </Text>
         <Text>
         Ayat tersebut secara tegas ingin mengajarkan kepada
         umat Islam untuk memelihara kesucian agamanya
@@ -222,7 +229,10 @@ export default class Chapter8 extends React.Component {
         ummatan washatan sebagaimana firman Allah swt dalam QS
         al-Baqarah ayat 143
         </Text>
-        <Dalil ayat='Al-Baqarah ayat 143' soundFile={require('./dalil-sound/test.mp3')} />
+        <Dalil ayat='وَكَذٰلِكَ جَعَلْنٰكُمْ اُمَّةً وَّسَطًا لِّتَكُوْنُوْا شُهَدَاۤءَ عَلَى النَّاسِ وَيَكُوْنَ الرَّسُوْلُ عَلَيْكُمْ شَهِيْدًا ۗ وَمَا جَعَلْنَا الْقِبْلَةَ الَّتِيْ كُنْتَ عَلَيْهَآ اِلَّا لِنَعْلَمَ مَنْ يَّتَّبِعُ الرَّسُوْلَ مِمَّنْ يَّنْقَلِبُ عَلٰى عَقِبَيْهِۗ وَاِنْ كَانَتْ لَكَبِيْرَةً اِلَّا عَلَى الَّذِيْنَ هَدَى اللّٰهُ ۗوَمَا كَانَ اللّٰهُ لِيُضِيْعَ اِيْمَانَكُمْ ۗ اِنَّ اللّٰهَ بِالنَّاسِ لَرَءُوْفٌ رَّحِيْمٌ - ١٤٣' soundFile={require('./../../assets/audios/Al-Baqarah-143.mp3')} />
+        <Text>
+        Artinya: "Dan demikian pula Kami telah menjadikan kamu (umat Islam) ”umat pertengahan” agar kamu menjadi saksi atas (perbuatan) manusia dan agar Rasul (Muhammad) menjadi saksi atas (perbuatan) kamu. Kami tidak menjadikan kiblat yang (dahulu) kamu (berkiblat) kepadanya melainkan agar Kami mengetahui siapa yang mengikuti Rasul dan siapa yang berbalik ke belakang. Sungguh, (pemindahan kiblat) itu sangat berat, kecuali bagi orang yang telah diberi petunjuk oleh Allah. Dan Allah tidak akan menyia-nyiakan imanmu. Sungguh, Allah Maha Pengasih, Maha Penyayang kepada manusia."
+        </Text>
         <Text>
         Prinsip Moderasi
         </Text>

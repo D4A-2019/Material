@@ -46,7 +46,10 @@ export default class Chapter11 extends React.Component {
         Allah adalah Al-Kholiq (Pencipta) segala yang ada (wujud), Dia Maha Tahu terhadap segala ciptaan-Nya dan Diri-Nya sendiri (al-‘Alim). Dia memancarkan Nuur (cahaya) berupa pengetahuan (al-‘ilmu) kepada hambanya, maka adalah Pemberi Cahaya langit dan bumi (nuuru al-samawat). 
         Sebagaimana firman-Nya dalam QS. An-Nuur [24] :35
         </Text>
-        <Dalil ayat='An-Nuur ayat 35' soundFile={require('./dalil-sound/test.mp3')} />
+        <Dalil ayat='۞ اَللّٰهُ نُوْرُ السَّمٰوٰتِ وَالْاَرْضِۗ مَثَلُ نُوْرِهٖ كَمِشْكٰوةٍ فِيْهَا مِصْبَاحٌۗ اَلْمِصْبَاحُ فِيْ زُجَاجَةٍۗ اَلزُّجَاجَةُ كَاَنَّهَا كَوْكَبٌ دُرِّيٌّ يُّوْقَدُ مِنْ شَجَرَةٍ مُّبٰرَكَةٍ زَيْتُوْنَةٍ لَّا شَرْقِيَّةٍ وَّلَا غَرْبِيَّةٍۙ يَّكَادُ زَيْتُهَا يُضِيْۤءُ وَلَوْ لَمْ تَمْسَسْهُ نَارٌۗ نُوْرٌ عَلٰى نُوْرٍۗ يَهْدِى اللّٰهُ لِنُوْرِهٖ مَنْ يَّشَاۤءُۗ وَيَضْرِبُ اللّٰهُ الْاَمْثَالَ لِلنَّاسِۗ وَاللّٰهُ بِكُلِّ شَيْءٍ عَلِيْمٌ ۙ - ٣٥' soundFile={require('./../../assets/audios/An-Nur-35.mp3')} />
+        <Text>
+        Artinya: "Allah (pemberi) cahaya (kepada) langit dan bumi. Perumpamaan cahaya-Nya, seperti sebuah lubang yang tidak tembus, yang di dalamnya ada pelita besar. Pelita itu di dalam tabung kaca (dan) tabung kaca itu bagaikan bintang yang berkilauan, yang dinyalakan dengan minyak dari pohon yang diberkahi, (yaitu) pohon zaitun yang tumbuh tidak di timur dan tidak pula di barat, yang minyaknya (saja) hampir-hampir menerangi, walaupun tidak disentuh api. Cahaya di atas cahaya (berlapis-lapis), Allah memberi petunjuk kepada cahaya-Nya bagi orang yang Dia kehendaki, dan Allah membuat perumpamaan-perumpamaan bagi manusia. Dan Allah Maha Mengetahui segala sesuatu."
+        </Text>
         <Text>
         Allah memancarkan cahaya (‘ilmu)-Nya kepada manusia melalui wahyu-wahyu-Nya dan ilham-ilham-Nya. Al-Qur’an adalah wahyu Allah yang paling sempurna, maka oleh karenanya Al-Qur’an disebut an-Nuur (nama lain al-Qur’an). 
         </Text>
@@ -56,7 +59,7 @@ export default class Chapter11 extends React.Component {
         <Text>
         Al-Attas (1989, hlm. 78-89) mengklasifikasikan ilmu menjadi dua. Pertama ilmu yang merupakan pemberian Allah SWT sebagai anugerah. Ilmu jenis ini dikenal dengan istilah ilmu laduni. Ilmu ini diperoleh manusia tanpa melalui upaya. Al-Quran sebagaimana tercantum dalam Q.S Al-Kahfi [18]: 65 sudah menyinggung tentang ilmu laduni ini.
         </Text>
-        <Dalil ayat='Al-Kahfi ayat 65' soundFile={require('./dalil-sound/test.mp3')} />
+        <Dalil ayat='فَوَجَدَا عَبْدًا مِّنْ عِبَادِنَآ اٰتَيْنٰهُ رَحْمَةً مِّنْ عِنْدِنَا وَعَلَّمْنٰهُ مِنْ لَّدُنَّا عِلْمًا - ٦٥' soundFile={require('./../../assets/audios/Al-Kahfi-65.mp3')} />
         <Text>
         Artinya: “Lalu mereka bertemu dengan seorang hamba di antara hamba-hamba Kami, yang telah Kami berikan kepadanya rahmat dari sisi Kami, dan yang telah Kami ajarkan kepadanya ilmu dari sisi Kami.”
         </Text>
