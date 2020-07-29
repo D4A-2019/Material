@@ -22,6 +22,9 @@ export default class Chapter10 extends React.Component {
       <View style={{flex: 1 }}>
       <ScrollView>
         <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
+        Peradaban Islam
+        </Text>
+        <Text style={{fontWeight : 'bold', fontSize : 15}}>
         A. Makna dan Karakter Peradaban Islam 
         </Text>
         <Text style={{fontWeight: 'bold'}}>
@@ -49,7 +52,7 @@ export default class Chapter10 extends React.Component {
         . Akhlak dalam peradaban Islam merupakan pagar yang membatasi sekaligus dasar yang tegak di atasnya kejayaan Islam.
         </Text>
         
-        <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
+        <Text style={{fontWeight : 'bold', fontSize : 15}}>
         {"\n"}
         B. Capaian Peradaban Islam Dari Masa Ke Masa
         </Text>
@@ -82,9 +85,9 @@ export default class Chapter10 extends React.Component {
         c.	Baitul Hikmah{"\n"}   
         </Text>
 
-        <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
+        <Text style={{fontWeight : 'bold', fontSize : 15}}>
         {"\n"}
-        B. Karakteristik Peradaban islam di Indonesia
+        C. Karakteristik Peradaban islam di Indonesia
         </Text>
         <Text style={{fontWeight: 'bold'}}>
         1.	Sejarah Masuknya Islam di Nusantara

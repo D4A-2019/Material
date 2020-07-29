@@ -22,6 +22,9 @@ export default class Chapter7 extends React.Component {
       <View style={{flex: 1 }}>
       <ScrollView>
         <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
+        Konsep Manusia Dalam Islam
+        </Text>
+        <Text style={{fontWeight : 'bold', fontSize : 15}}>
         A. Konsep Diri Manusia 
         </Text>
         <Text>
@@ -47,7 +50,7 @@ export default class Chapter7 extends React.Component {
         
         Dari aspek historis penciptaannya, manusia disebut dengan Bani Adam. Penyebutan seperti ini menjelaskan bahwa manusia adalah anak turun Nabi Adam As. Semua makhluk yang bukan anak turun Nabi Adam As tidak disebut sebagai manusia. Salah satu ayat yang menyebutkan istilah Bani Adam ini adalah Surat Al-A’raf ayat 31:
         </Text>
-        <Dalil ayat='۞ يٰبَنِيْٓ اٰدَمَ خُذُوْا زِيْنَتَكُمْ عِنْدَ كُلِّ مَسْجِدٍ وَّكُلُوْا وَاشْرَبُوْا وَلَا تُسْرِفُوْاۚ اِنَّهٗ لَا يُحِبُّ الْمُسْرِفِيْنَ ࣖ - ٣١'soundFile={require('./../../assets/audios/Al-Araf-31.mp3')} />
+        <Dalil ayat='۞ يٰبَنِيْٓ اٰدَمَ خُذُوْا زِيْنَتَكُمْ عِنْدَ كُلِّ مَسْجِدٍ وَّكُلُوْا وَاشْرَبُوْا وَلَا تُسْرِفُوْاۚ اِنَّهٗ لَا يُحِبُّ الْمُسْرِفِيْنَ ࣖ - 'soundFile={require('./../../assets/audios/Al-Araf-31.mp3')} />
         <Text>
         Artinya: "Hai anak Adam, pakailah pakaianmu yang indah di setiap (memasuki) mesjid, makan dan minumlah, dan janganlah berlebih-lebihan. Sesungguhnya Allah tidak menyukai orang-orang yang berlebih-lebihan."
         </Text>
@@ -55,7 +58,7 @@ export default class Chapter7 extends React.Component {
         <Text>
         Dari aspek biologis kemanusiaannya, manusia disebut dengan basyar yang mencerminkan sifat-sifat fisika-kimia-biologisnya. Penggunaan kata basyar ini karena kata tersebut seakar dengan kata basyirah yang artinya kulit, sesuatu yang menunjukkan unsur biologis manusia. Kata basyar misalnya terdapat dalam surat al-Mukminun ayat 33:
         </Text>
-        <Dalil ayat='وَقَالَ الْمَلَاُ مِنْ قَوْمِهِ الَّذِيْنَ كَفَرُوْا وَكَذَّبُوْا بِلِقَاۤءِ الْاٰخِرَةِ وَاَتْرَفْنٰهُمْ فِى الْحَيٰوةِ الدُّنْيَاۙ مَا هٰذَآ اِلَّا بَشَرٌ مِّثْلُكُمْۙ يَأْكُلُ مِمَّا تَأْكُلُوْنَ مِنْهُ وَيَشْرَبُ مِمَّا تَشْرَبُوْنَ - ٣٣' soundFile={require('./../../assets/audios/Al-Muminun-33.mp3')} />
+        <Dalil ayat='وَقَالَ الْمَلَاُ مِنْ قَوْمِهِ الَّذِيْنَ كَفَرُوْا وَكَذَّبُوْا بِلِقَاۤءِ الْاٰخِرَةِ وَاَتْرَفْنٰهُمْ فِى الْحَيٰوةِ الدُّنْيَاۙ مَا هٰذَآ اِلَّا بَشَرٌ مِّثْلُكُمْۙ يَأْكُلُ مِمَّا تَأْكُلُوْنَ مِنْهُ وَيَشْرَبُ مِمَّا تَشْرَبُوْنَ' soundFile={require('./../../assets/audios/Al-Muminun-33.mp3')} />
         <Text>
         Artinya: "Dan berkatalah pemuka-pemuka yang kafir di antara kaumnya dan yang mendustakan akan menemui hari akhirat (kelak) dan yang telah Kami mewahkan mereka dalam kehidupan di dunia: "(Orang) ini tidak lain hanyalah manusia seperti kamu, dia makan dari apa yang kamu makan, dan meminum dari apa yang kamu minum."
         </Text>
@@ -71,7 +74,7 @@ export default class Chapter7 extends React.Component {
         <Text>
         Dari aspek sosiologisnya, manusia disebut dengan an-nas yang menunjukkan sifatnya yang berkelompok dengan sesamanya. Manusia tidak dapat hidup sempurna tanpa bantuan dan keterlibatan orang lain dalam kehidupannya. Penyebutan an-nas salah satunya terdapat dalam Surat al-Hujurat ayat 13:
         </Text>
-        <Dalil ayat='يٰٓاَيُّهَا النَّاسُ اِنَّا خَلَقْنٰكُمْ مِّنْ ذَكَرٍ وَّاُنْثٰى وَجَعَلْنٰكُمْ شُعُوْبًا وَّقَبَاۤىِٕلَ لِتَعَارَفُوْا ۚ اِنَّ اَكْرَمَكُمْ عِنْدَ اللّٰهِ اَتْقٰىكُمْ ۗاِنَّ اللّٰهَ عَلِيْمٌ خَبِيْرٌ - ١٣' soundFile={require('./../../assets/audios/Al-Hujurat-13.mp3')} />
+        <Dalil ayat='يٰٓاَيُّهَا النَّاسُ اِنَّا خَلَقْنٰكُمْ مِّنْ ذَكَرٍ وَّاُنْثٰى وَجَعَلْنٰكُمْ شُعُوْبًا وَّقَبَاۤىِٕلَ لِتَعَارَفُوْا ۚ اِنَّ اَكْرَمَكُمْ عِنْدَ اللّٰهِ اَتْقٰىكُمْ ۗاِنَّ اللّٰهَ عَلِيْمٌ خَبِيْرٌ' soundFile={require('./../../assets/audios/Al-Hujurat-13.mp3')} />
         <Text>
         Artinya: "Hai manusia, sesungguhnya Kami menciptakan kamu dari seorang laki-laki dan seorang perempuan dan menjadikan kamu berbangsa-bangsa dan bersuku-suku supaya kamu saling kenal-mengenal. Sesungguhnya orang yang paling mulia di antara kamu di sisi Allah ialah orang yang paling takwa di antara kamu. Sesungguhnya Allah Maha Mengetahui lagi Maha Mengenal."{"\n"}
         </Text>
@@ -79,7 +82,7 @@ export default class Chapter7 extends React.Component {
         <Text>
         Dari aspek posisinya, manusia disebut dengan abdun (hamba) yang menunjukkan kedudukannya sebagai hamba Allah yang harus tunduk dan patuh kepada-Nya. Seperti firman Allah Swt dalam surat Saba’ ayat 9:
         </Text>
-        <Dalil ayat='اَفَلَمْ يَرَوْا اِلٰى مَا بَيْنَ اَيْدِيْهِمْ وَمَا خَلْفَهُمْ مِّنَ السَّمَاۤءِ وَالْاَرْضِۗ اِنْ نَّشَأْ نَخْسِفْ بِهِمُ الْاَرْضَ اَوْ نُسْقِطْ عَلَيْهِمْ كِسَفًا مِّنَ السَّمَاۤءِۗ اِنَّ فِيْ ذٰلِكَ لَاٰيَةً لِّكُلِّ عَبْدٍ مُّنِيْبٍ ࣖ - ٩' soundFile={require('./../../assets/audios/Saba-9.mp3')} />
+        <Dalil ayat='اَفَلَمْ يَرَوْا اِلٰى مَا بَيْنَ اَيْدِيْهِمْ وَمَا خَلْفَهُمْ مِّنَ السَّمَاۤءِ وَالْاَرْضِۗ اِنْ نَّشَأْ نَخْسِفْ بِهِمُ الْاَرْضَ اَوْ نُسْقِطْ عَلَيْهِمْ كِسَفًا مِّنَ السَّمَاۤءِۗ اِنَّ فِيْ ذٰلِكَ لَاٰيَةً لِّكُلِّ عَبْدٍ مُّنِيْبٍ ࣖ' soundFile={require('./../../assets/audios/Saba-9.mp3')} />
         <Text>
         Artinya: "Maka apakah mereka tidak melihat langit dan bumi yang ada di hadapan dan di belakang mereka? Jika Kami menghendaki, niscaya Kami benamkan mereka di bumi atau Kami jatuhkan kepada mereka gumpalan dari langit. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda (kekuasaan Tuhan) bagi setiap hamba yang kembali (kepada-Nya)."
         </Text>
@@ -116,7 +119,7 @@ export default class Chapter7 extends React.Component {
         <Text>
         Sedangkan tentang proses penciptaan Hawa, sebagian besar ulama  mendasarkannya pada surat An-Nisa’ ayat 1:
         </Text>
-        <Dalil ayat='يٰٓاَيُّهَا النَّاسُ اتَّقُوْا رَبَّكُمُ الَّذِيْ خَلَقَكُمْ مِّنْ نَّفْسٍ وَّاحِدَةٍ وَّخَلَقَ مِنْهَا زَوْجَهَا وَبَثَّ مِنْهُمَا رِجَالًا كَثِيْرًا وَّنِسَاۤءً ۚ وَاتَّقُوا اللّٰهَ الَّذِيْ تَسَاۤءَلُوْنَ بِهٖ وَالْاَرْحَامَ ۗ اِنَّ اللّٰهَ كَانَ عَلَيْكُمْ رَقِيْبًا - ١' soundFile={require('./../../assets/audios/An-Nisa-1.mp3')} />
+        <Dalil ayat='يٰٓاَيُّهَا النَّاسُ اتَّقُوْا رَبَّكُمُ الَّذِيْ خَلَقَكُمْ مِّنْ نَّفْسٍ وَّاحِدَةٍ وَّخَلَقَ مِنْهَا زَوْجَهَا وَبَثَّ مِنْهُمَا رِجَالًا كَثِيْرًا وَّنِسَاۤءً ۚ وَاتَّقُوا اللّٰهَ الَّذِيْ تَسَاۤءَلُوْنَ بِهٖ وَالْاَرْحَامَ ۗ اِنَّ اللّٰهَ كَانَ عَلَيْكُمْ رَقِيْبًا' soundFile={require('./../../assets/audios/An-Nisa-1.mp3')} />
         <Text>
         Artinya: "Hai sekalian manusia, bertakwalah kepada Tuhan-mu yang telah menciptakan kamu dari seorang diri, dan dari padanya Allah menciptakan isterinya; dan dari pada keduanya Allah memperkembang biakkan laki-laki dan perempuan yang banyak. Dan bertakwalah kepada Allah yang dengan (mempergunakan) nama-Nya kamu saling meminta satu sama lain, dan (peliharalah) hubungan silaturrahim. Sesungguhnya Allah selalu menjaga dan mengawasi kamu."
         </Text>
@@ -202,7 +205,7 @@ export default class Chapter7 extends React.Component {
         Manusia adalah makhluk yang dapat dibentuk akhlaknya. Ada manusia yang sebelumnya baik-baik tetapi karena pengaruh lingkungan tertentu dapat menjadi seorang penjahat. 
         </Text>
 
-        <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
+        <Text style={{fontWeight : 'bold', fontSize : 15}}>
         {"\n"}
         B. Tugas dan Peran Manusia sebagai Hamba dan Khalifah Allah 
         </Text>

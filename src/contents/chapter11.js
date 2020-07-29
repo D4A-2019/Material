@@ -22,6 +22,9 @@ export default class Chapter11 extends React.Component {
       <View style={{flex: 1 }}>
       <ScrollView>
         <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
+        Ilmu Pengetahuan dan Teknologi Dalam Islam
+        </Text>
+        <Text style={{fontWeight : 'bold', fontSize : 15}}>
         A. Konsep Ilmu dalam Islam 
         </Text>
         <Text style={{fontWeight: 'bold'}}>
@@ -46,7 +49,7 @@ export default class Chapter11 extends React.Component {
         Allah adalah Al-Kholiq (Pencipta) segala yang ada (wujud), Dia Maha Tahu terhadap segala ciptaan-Nya dan Diri-Nya sendiri (al-‘Alim). Dia memancarkan Nuur (cahaya) berupa pengetahuan (al-‘ilmu) kepada hambanya, maka adalah Pemberi Cahaya langit dan bumi (nuuru al-samawat). 
         Sebagaimana firman-Nya dalam QS. An-Nuur [24] :35
         </Text>
-        <Dalil ayat='۞ اَللّٰهُ نُوْرُ السَّمٰوٰتِ وَالْاَرْضِۗ مَثَلُ نُوْرِهٖ كَمِشْكٰوةٍ فِيْهَا مِصْبَاحٌۗ اَلْمِصْبَاحُ فِيْ زُجَاجَةٍۗ اَلزُّجَاجَةُ كَاَنَّهَا كَوْكَبٌ دُرِّيٌّ يُّوْقَدُ مِنْ شَجَرَةٍ مُّبٰرَكَةٍ زَيْتُوْنَةٍ لَّا شَرْقِيَّةٍ وَّلَا غَرْبِيَّةٍۙ يَّكَادُ زَيْتُهَا يُضِيْۤءُ وَلَوْ لَمْ تَمْسَسْهُ نَارٌۗ نُوْرٌ عَلٰى نُوْرٍۗ يَهْدِى اللّٰهُ لِنُوْرِهٖ مَنْ يَّشَاۤءُۗ وَيَضْرِبُ اللّٰهُ الْاَمْثَالَ لِلنَّاسِۗ وَاللّٰهُ بِكُلِّ شَيْءٍ عَلِيْمٌ ۙ - ٣٥' soundFile={require('./../../assets/audios/An-Nur-35.mp3')} />
+        <Dalil ayat='۞ اَللّٰهُ نُوْرُ السَّمٰوٰتِ وَالْاَرْضِۗ مَثَلُ نُوْرِهٖ كَمِشْكٰوةٍ فِيْهَا مِصْبَاحٌۗ اَلْمِصْبَاحُ فِيْ زُجَاجَةٍۗ اَلزُّجَاجَةُ كَاَنَّهَا كَوْكَبٌ دُرِّيٌّ يُّوْقَدُ مِنْ شَجَرَةٍ مُّبٰرَكَةٍ زَيْتُوْنَةٍ لَّا شَرْقِيَّةٍ وَّلَا غَرْبِيَّةٍۙ يَّكَادُ زَيْتُهَا يُضِيْۤءُ وَلَوْ لَمْ تَمْسَسْهُ نَارٌۗ نُوْرٌ عَلٰى نُوْرٍۗ يَهْدِى اللّٰهُ لِنُوْرِهٖ مَنْ يَّشَاۤءُۗ وَيَضْرِبُ اللّٰهُ الْاَمْثَالَ لِلنَّاسِۗ وَاللّٰهُ بِكُلِّ شَيْءٍ عَلِيْمٌ ۙ' soundFile={require('./../../assets/audios/An-Nur-35.mp3')} />
         <Text>
         Artinya: "Allah (pemberi) cahaya (kepada) langit dan bumi. Perumpamaan cahaya-Nya, seperti sebuah lubang yang tidak tembus, yang di dalamnya ada pelita besar. Pelita itu di dalam tabung kaca (dan) tabung kaca itu bagaikan bintang yang berkilauan, yang dinyalakan dengan minyak dari pohon yang diberkahi, (yaitu) pohon zaitun yang tumbuh tidak di timur dan tidak pula di barat, yang minyaknya (saja) hampir-hampir menerangi, walaupun tidak disentuh api. Cahaya di atas cahaya (berlapis-lapis), Allah memberi petunjuk kepada cahaya-Nya bagi orang yang Dia kehendaki, dan Allah membuat perumpamaan-perumpamaan bagi manusia. Dan Allah Maha Mengetahui segala sesuatu."
         </Text>
@@ -59,7 +62,7 @@ export default class Chapter11 extends React.Component {
         <Text>
         Al-Attas (1989, hlm. 78-89) mengklasifikasikan ilmu menjadi dua. Pertama ilmu yang merupakan pemberian Allah SWT sebagai anugerah. Ilmu jenis ini dikenal dengan istilah ilmu laduni. Ilmu ini diperoleh manusia tanpa melalui upaya. Al-Quran sebagaimana tercantum dalam Q.S Al-Kahfi [18]: 65 sudah menyinggung tentang ilmu laduni ini.
         </Text>
-        <Dalil ayat='فَوَجَدَا عَبْدًا مِّنْ عِبَادِنَآ اٰتَيْنٰهُ رَحْمَةً مِّنْ عِنْدِنَا وَعَلَّمْنٰهُ مِنْ لَّدُنَّا عِلْمًا - ٦٥' soundFile={require('./../../assets/audios/Al-Kahfi-65.mp3')} />
+        <Dalil ayat='فَوَجَدَا عَبْدًا مِّنْ عِبَادِنَآ اٰتَيْنٰهُ رَحْمَةً مِّنْ عِنْدِنَا وَعَلَّمْنٰهُ مِنْ لَّدُنَّا عِلْمًا' soundFile={require('./../../assets/audios/Al-Kahfi-65.mp3')} />
         <Text>
         Artinya: “Lalu mereka bertemu dengan seorang hamba di antara hamba-hamba Kami, yang telah Kami berikan kepadanya rahmat dari sisi Kami, dan yang telah Kami ajarkan kepadanya ilmu dari sisi Kami.”
         </Text>
@@ -67,7 +70,7 @@ export default class Chapter11 extends React.Component {
         Kedua, ilmu yang diperoleh karena usaha manusia atau dikenal dengan istilah ilmu kasbi. Ilmu ini diperoleh manusia melalui pengamatan, perenungan, maupun eksperimen. Terkait ilmu kasbi ini, Al-Quran sendiri telah banyak menyinggungnya dalam Al-Quran. Bahkan ayat yang menyinggung tentang ilmu kasbi menurut Shihab (2001, hlm. 434) jauh lebih banyak dibandingkan dengan ayat yang menyinggung ilmu laduni. 
         </Text>
 
-        <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
+        <Text style={{fontWeight : 'bold', fontSize : 15}}>
         {"\n"}
         B. Adab Berilmu dalam Islam
         </Text>
@@ -86,7 +89,7 @@ export default class Chapter11 extends React.Component {
         </Text>
 
 
-        <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
+        <Text style={{fontWeight : 'bold', fontSize : 15}}>
         {"\n"}
         C. Tugas dan Tanggung Jawab Umat Islam dalam Pengembangan IPTEK
         </Text>
@@ -118,7 +121,7 @@ export default class Chapter11 extends React.Component {
         Dalam Al-Quran terdapat beberapa ayat yang menggunakan istilah-istilah kecendekiaan seperti ulul albab, ulul ilmi, ulin nuha, dan ulul absar. Ayat-ayat tersebut mengisyaratkan agar kita menjadi orang yang cerdas, dapat mengambil pelajaran dan hikmah, serta berperan aktif dalam mentafakuri kebesaran Allah.
         </Text>
 
-        <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
+        <Text style={{fontWeight : 'bold', fontSize : 15}}>
         {"\n"}
         D. Kontribusi Ilmuwan Muslim dalam Pengebangan IPTEK
         </Text>
