@@ -61,12 +61,13 @@ export default class Chapter4 extends React.Component {
     
     
         return (
-    
           <View style={{flex: 1 }}>
           <ScrollView>
-            <Dalil ayat='Testing' soundFile={require('./dalil-sound/test.mp3')} />
-    
             <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
+            Al Qur'an: Sumber Utama Ajaran Islam
+            </Text>
+
+            <Text style={{fontWeight : 'bold', fontSize : 15}}>
             A. Makna, Fungsi, dan Keistimewaan Al-Qur’an
             </Text>
             <Text style={{fontWeight : 'bold'}}>
@@ -98,7 +99,7 @@ export default class Chapter4 extends React.Component {
             </Text>
             {isyaratList}
             
-            <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
+            <Text style={{fontWeight : 'bold', fontSize : 15}}>
             C. Keragaman Corak penafsiran Al-Qur’an
             </Text>
             <Text>

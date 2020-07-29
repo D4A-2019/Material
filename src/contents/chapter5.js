@@ -19,6 +19,10 @@ export default class Chapter5 extends React.Component {
             <View style={{flex: 1 }}>
             <ScrollView>
             <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
+            Sunnah: Basic Mental Profesional
+            </Text>
+
+            <Text style={{fontWeight : 'bold', fontSize : 15}}>
             A. Makna, Fungsi dan Kedudukan Sunnah
             </Text>
             <Text style={{fontWeight : 'bold'}}>
@@ -66,7 +70,7 @@ export default class Chapter5 extends React.Component {
             Sunnah akan menambah hukum baru yang belum tercantum dalam al-quran.
             </Text>
 
-            <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
+            <Text style={{fontWeight : 'bold', fontSize : 15}}>
             B. Sunnah sebagai paradigma keunggulan
             </Text>
             <Text>
@@ -97,7 +101,7 @@ export default class Chapter5 extends React.Component {
             Nabi Muhammad juga memiliki sifat fathonah atau cerdas. Sifat ini membuat nabi selalu berpikir jernih sehingga dapat mengatasi masalah yang dihadapi. Kecerdasan ini juga dapat dilihat dari cara Rasulullah dalam menjelaskan firman-firman Allah pada kaumnya.
             </Text>
 
-            <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
+            <Text style={{fontWeight : 'bold', fontSize : 15}}>
             C. Sunnah disesuaikan konteks budaya/’urf
             </Text>
             <Text>
