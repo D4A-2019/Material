@@ -54,7 +54,15 @@ export default class App extends Component {
       return Asset.fromModule(image).downloadAsync();
     });
 
-    return Promise.all(cacheImages);
+    const audios = [
+      require("./../assets/audios/AlAraf-172.mp3")
+    ]
+
+    const cacheAudios = audios.map(audio => {
+      return Asset.fromModule(audio).downloadAsync();
+    });
+
+    return Promise.all([...cacheImages, ...cacheAudios]);
   }
 
   state = {
