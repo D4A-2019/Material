@@ -43,6 +43,9 @@ export default class Chapter6 extends React.Component {
             <View style={{flex: 1 }}>
             <ScrollView>
             <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
+            Ijtihad
+            </Text>
+            <Text style={{fontWeight : 'bold', fontSize : 15}}>
             A. Pendahuluan
             </Text>
             <Text>
@@ -60,7 +63,7 @@ export default class Chapter6 extends React.Component {
             
             </Text>
 
-            <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
+            <Text style={{fontWeight : 'bold', fontSize : 15}}>
             {"\n"}
             B. Makna serta fungsi dan kedudukan ijtihad
             </Text>
@@ -120,7 +123,7 @@ export default class Chapter6 extends React.Component {
             </Text>
             {delapanSyaratList}
 
-            <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
+            <Text style={{fontWeight : 'bold', fontSize : 15}}>
             {"\n"}
             C. Metode dan pola ijtihad
             </Text>
@@ -215,7 +218,7 @@ export default class Chapter6 extends React.Component {
                 </Text>
             </Text>
 
-            <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
+            <Text style={{fontWeight : 'bold', fontSize : 15}}>
             {"\n"}
             D. Faktor faktor yang melatarbelakangi keanekaragaman ijtihad ulama
             </Text>
