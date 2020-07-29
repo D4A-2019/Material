@@ -45,7 +45,7 @@ constructor(props) {
 				serta pencarian hasil yang dapat dimanfaatkan untuk memenuhi kebutuhan fisik dan spiritual manusia. Masalah etika kerja sangat penting untuk menjadi dasar dalam proses kerja setiap orang. 
        		</Text>
        		<Text style={{fontWeight: 'bold'}}>
-       			 Nilai Ideal Dan Etos Kerja Tertinggi 
+       			 {'\n'} Nilai Ideal Dan Etos Kerja Tertinggi 
        		</Text>
        		<Text>
        			Bagi seorang Muslim, nilai ideal dan etos kerja tertinggi adalah "niat". Niat seorang Muslim adalah inspirasi dan motivasi untuk menjadi manusia yang berprestasi di tempat kerja. Dalam pandangan Islam, kerja bukan hanya kerja, tetapi dalam kerja, 
@@ -53,7 +53,7 @@ constructor(props) {
        			semua kegiatan dan kemampuan yang dimiliki seseorang. Niat adalah sumber dorongan mental bagi seseorang untuk melakukan atau tidak melakukan sesuatu. Niat ini memunculkan rasa bekerja hany untuk mencari ridho Allah. 
        		</Text>
        		<Text style={{fontWeight: 'bold'}}>
-       			Yang Dapat Mempengaruhinya 
+       			{'\n'}Yang Dapat Mempengaruhinya 
        		</Text>
        		<Text>
        			Etos kerja tidak hanya bergantung pada nilai-nilai Islam, tetapi hari ini etos kerja juga dipengaruhi oleh budaya, pendidikan, politik sosial, lingkungan, dan geografi.
@@ -72,12 +72,12 @@ constructor(props) {
 				Seseorang dapat menjadi profesional di tempat kerja jika pekerjaannya bukan hanya ada stimulus dari luar, tetapi juga memiliki antusiasme, dan memiliki dorongan yang tinggi. Motivasi adalah kekuatan atau dorongan yang mendengar perilaku seseorang.
        		</Text> 
       		<Text style={{fontWeight: 'bold'}}>
-       			Etos Kerja Islami Dalam Lingkungan Pendidikan, Keluarga Dan Pekerjaan  
+       			{'\n'}Etos Kerja Islami Dalam Lingkungan Pendidikan, Keluarga Dan Pekerjaan  
        		</Text>
        		<Text>
        			Bekerja dalam Islam adalah sebagai aplikasi iman, Islam, dari usaha seseorang, sehingga bekerja dalam ajaran Islam, tidak hanya mengejar hasil tetapi pada saat yang sama mengejar nilai kerja. 
        			Islam memposisikan manusia sebagai aktif-transformatif terhadap diri mereka sendiri dan lingkungan alami mereka. Tuhan akan menilai kualitas kemanusiaan seseorang melalui upaya yang dilakukan (ketulusan niat). Keberhasilan upaya manusia ada di tangan Allah. {'\n'}
-       			Setidaknya ada tiga prinsip atau dimensi yang harus dilakukan dalam melakukan pekerjaan, baik dalam lingkungan pendidikan, keluarga, atau kerja yaitu:
+       			Setidaknya ada tiga prinsip atau dimensi yang harus dilakukan dalam melakukan pekerjaan, baik dalam lingkungan pendidikan, keluarga, atau kerja yaitu: {'\n'}
        		</Text>
        			{prinsipIslamiList}
        		<Text>
@@ -92,7 +92,7 @@ constructor(props) {
        			Jihad dalam konteks pembangunan adalah kemauan untuk membangun, memiliki perencanaan yang matang dalam setiap kegiatan pembangunan, dan menghilangkan segala bentuk hambatan yang menghambat, terus mencapai tujuan yang diinginkan, Etos kerja ditegakkan dan menjunjung tinggi nilai-nilai ini.
        		</Text>
        		<Text style={{fontWeight: 'bold'}}>
-       			Aspek Jihad  
+       			{'\n'}Aspek Jihad  
        		</Text>
        		<Text>
        			Jihad An-Nafs termasuk di dalam ini jihad pendidikan yaitu membangun kepercayaan diri sendiri dengan membenahi sumber daya manusia Indonesia. hal ini memungkinkan terjadinya suatu proses pembangunan yang berkelanjutan.

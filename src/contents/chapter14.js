@@ -73,10 +73,10 @@ constructor(props) {
        		</Text>	
        			{kepemimpinanList}
        		<Text>
-       			 Kepemimpinan tersebut berhubungan langsung dengan situasi sosial dalam kehidupan kelompok/organisasi masing-masing, yang mengisyaratkan bahwa setiap pemimpin berada di dalam dan bukan di luar situasi itu. 
+       			 Kepemimpinan tersebut berhubungan langsung dengan situasi sosial dalam kehidupan kelompok/organisasi masing-masing, yang mengisyaratkan bahwa setiap pemimpin berada di dalam dan bukan di luar situasi itu.  {'\n'}
        		</Text>
        		<Text style={{fontWeight: 'bold'}}>
-       			 KEPEMIMPINAN DALAM ISLAM
+       			 {'\n'}KEPEMIMPINAN DALAM ISLAM
        		</Text>
        		<Text style={{fontWeight: 'bold'}}>
        			 Landasan Normatif 
@@ -84,7 +84,32 @@ constructor(props) {
        		<Text>
        			Ada beberapa ayat Alquran yang berbicara tentang kepemimpinan, baik secara langsung maupun tidak langsung yang mengacu pada makna kepemimpinan.
        		</Text>
-       			{ayatkepemimpinanList}
+       		<Text>
+                        a. Q.S. An-Nisa/4: 59
+                  </Text>
+                        <Dalil ayat='يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ أَطِيعُوا۟ ٱللَّهَ وَأَطِيعُوا۟ ٱلرَّسُولَ وَأُو۟لِى ٱلْأَمْرِ مِنكُمْ ۖ فَإِن تَنَٰزَعْتُمْ فِى شَىْءٍ فَرُدُّوهُ إِلَى ٱللَّهِ وَٱلرَّسُولِ إِن كُنتُمْ تُؤْمِنُونَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ ۚ ذَٰلِكَ خَيْرٌ وَأَحْسَنُ تَأْوِيلًا'soundFile={require('./../../assets/audios/An-Nisa-59.mp3')}/>
+                            <Text>
+                               {'\n'} Artinya : "Hai orang-orang yang beriman, taatilah Allah dan taatilah Rasul (Nya), dan ulil amri di antara kamu. Kemudian jika kamu berlainan pendapat tentang sesuatu, maka kembalikanlah ia kepada Allah (Al Quran) dan Rasul (sunnahnya), jika kamu benar-benar beriman kepada Allah dan hari kemudian. Yang demikian itu lebih utama (bagimu) dan lebih baik akibatnya."
+                                (QS An Nisa: 59) {'\n'}
+                            </Text>
+                  <Text>
+                        b. Q.S. Al-Baqarah/2: 30
+                  </Text>
+                        <Dalil ayat='وَإِذْ قَالَ رَبُّكَ لِلْمَلَائِكَةِ إِنِّي جَاعِلٌ فِي الْأَرْضِ خَلِيفَةً ۖ قَالُوا أَتَجْعَلُ فِيهَا مَنْ يُفْسِدُ فِيهَا وَيَسْفِكُ الدِّمَاءَ وَنَحْنُ نُسَبِّحُ بِحَمْدِكَ وَنُقَدِّسُ لَكَ ۖ قَالَ إِنِّي أَعْلَمُ مَا لَا تَعْلَمُونَ'soundFile={require('./../../assets/audios/Al-Baqarah-30.mp3')}/>
+                            <Text>
+                               {'\n'} Artinya : "Ingatlah ketika Tuhanmu berfirman kepada para Malaikat: "Sesungguhnya Aku hendak menjadikan seorang khalifah di muka bumi". Mereka berkata: "Mengapa Engkau hendak menjadikan (khalifah) di bumi itu orang yang akan membuat kerusakan padanya dan menumpahkan darah, padahal kami senantiasa bertasbih dengan memuji Engkau dan mensucikan Engkau?" Tuhan berfirman: "Sesungguhnya Aku mengetahui apa yang tidak kamu ketahui"."
+                                (QS Al Baqarah: 30) {'\n'}
+                            </Text>
+                  <Text>
+                        c. Hadits Riwayat Imam Bukhari : 4789
+                              <Text>
+                                    حَدَّثَنَا أَبُو النُّعْمَانِ حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ عَنْ أَيُّوبَ عَنْ نَافِعٍ عَنْ عَبْدِ اللَّهِ قَالَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ كُلُّكُمْ رَاعٍ وَكُلُّكُمْ مَسْئُولٌ فَالْإِمَامُ رَاعٍ وَهُوَ مَسْئُولٌ وَالرَّجُلُ رَاعٍ عَلَى أَهْلِهِ وَهُوَ مَسْئُولٌ وَالْمَرْأَةُ رَاعِيَةٌ عَلَى بَيْتِ زَوْجِهَا وَهِيَ مَسْئُولَةٌ وَالْعَبْدُ رَاعٍ عَلَى مَالِ سَيِّدِهِ وَهُوَ مَسْئُولٌ أَلَا فَكُلُّكُمْ رَاعٍ وَكُلُّكُمْ مَسْئُولٌ{'\n'}
+                              </Text>
+                              <Text>
+                               {'\n'} Artinya : "Telah menceritakan kepada kami [Abu Nu'man] Telah menceritakan kepada kami [Hammad bin Zaid] dari [Ayyub] dari [Nafi'] dari [Abdullah] ia berkata; Nabi shallallahu 'alaihi wasallam bersabda: "Setiap kalian adalah pemimpin, dan setiap kalain akan dimintai pertanggungjawabannya. Seorang laki-laki adalah pemimpin atas keluarganya dan ia akan dimintai pertanggungjawabannya. Seorang wanita adalah pemimpin atas rumah suaminya, dan ia pun akan dimintai pertanggungjawabannya. Dan seorang budak juga pemimpin atas atas harta tuannya dan ia juga akan dimintai pertanggungjawabannya. Sungguh setiap kalain adalah pemimpin dan setiap kalian akan dimintai pertanggungjawabannya."
+                                (Hadits Riwayat Imam Bukhari: 4789) {'\n'}
+                            </Text>
+                  </Text>
        		<Text>
        			Hadis yang berbunyi setiap kalian adalah pemimpin menerangkan tentang hakikat kepemimpinan setiap muslim dalam berbagai posisi dan tingkatannya. Mulai dari tingkatan pemimpin rakyat sampai pada tingkatan pengembala, bahkan sebenarnya tersirat sampai tingkatan memimpin diri sendiri. Semua orang pasti memiliki tanggung jawab dan akan dimintai pertanggungjawabannya oleh Allah swt. atas kepemimpinannya kelak di akhirat. {'\n'}
 				Frasa dan akan diminta pertanggungjawaban atas kepemimpinannnya menyiratkan makna bahwa setiap orang memiliki beban tanggung jawab kepemimpinan, apapun posisi dan status orang tersebut, apapun jenis kelamin orang tersebut. Semua memiliki tanggung jawab kepemimpinan dan kelak akan dimintai pertanggungjawaban atas kepemimpinan yang diperankannya.{'\n'}
@@ -112,6 +137,11 @@ constructor(props) {
        		<Text>
        			Manusia sebagai khalifah di muka bumi diperintahkan untuk menunaikan amanah kepada yang berhak menerimanya terdapat pada QS. An-Nisa: 58.
        		</Text>
+                        <Dalil ayat='۞ إِنَّ ٱللَّهَ يَأْمُرُكُمْ أَن تُؤَدُّوا۟ ٱلْأَمَٰنَٰتِ إِلَىٰٓ أَهْلِهَا وَإِذَا حَكَمْتُم بَيْنَ ٱلنَّاسِ أَن تَحْكُمُوا۟ بِٱلْعَدْلِ ۚ إِنَّ ٱللَّهَ نِعِمَّا يَعِظُكُم بِهِۦٓ ۗ إِنَّ ٱللَّهَ كَانَ سَمِيعًۢا بَصِيرًا'soundFile={require('./../../assets/audios/An-Nisa-58.mp3')}/>
+                            <Text>
+                               {'\n'} Artinya : "Sesungguhnya Allah menyuruh kamu menyampaikan amanat kepada yang berhak menerimanya, dan (menyuruh kamu) apabila menetapkan hukum di antara manusia supaya kamu menetapkan dengan adil. Sesungguhnya Allah memberi pengajaran yang sebaik-baiknya kepadamu. Sesungguhnya Allah adalah Maha Mendengar lagi Maha Melihat."
+                                (QS At-Nisa: 58) {'\n'}
+                            </Text>
        		<Text style={{fontWeight: 'bold'}}>
        			2.  Adil
        		</Text>
