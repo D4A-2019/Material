@@ -38,7 +38,7 @@ export default class Chapter8 extends React.Component {
     return (
       <View>
       <ScrollView contentContainerStyle={{ flexGrow: 1, justifyContent: 'center', padding: 10}}>
-        <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
+      <Text style={{fontWeight: 'bold', color: '#007f5f', fontSize: 20, textAlign: 'center', margin:10}}>
         Relasi Antar Manusia
         </Text>
         <Text style={{fontWeight : 'bold', fontSize : 15}}>
