@@ -19,8 +19,8 @@ export default class Chapter11 extends React.Component {
     
     return (
 
-      <View style={{flex: 1 }}>
-      <ScrollView>
+      <View>
+      <ScrollView contentContainerStyle={{ flexGrow: 1, justifyContent: 'center', padding: 10}}>
         <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
         Ilmu Pengetahuan dan Teknologi Dalam Islam
         </Text>

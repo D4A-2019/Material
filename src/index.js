@@ -1,7 +1,7 @@
 import "react-native-gesture-handler";
 import React, { Component, useState } from "react";
 
-import { StyleSheet, Text, View, Image } from "react-native";
+import { StyleSheet, Text, View, Image, Dimensions } from "react-native";
 import { Button } from "react-native-paper";
 
 import { NavigationContainer } from "@react-navigation/native";
@@ -14,6 +14,9 @@ import * as Chapter from "./contents/chapterBundle";
 import * as drawerChapter from "./contents/drawer_navigation/drawerBundle";
 import chapterNavigation from "./contents/drawer_navigation/chapterNavigation";
 
+const {width: WIDTH} = Dimensions.get('window');
+
+
 class HomeScreen extends Component {
 
   constructor(props) {
@@ -23,20 +26,37 @@ class HomeScreen extends Component {
 
   render() {
     return (
-      <View style={{ flex: 1, alignItems: "center" }}>
+      <View style={styles.backgroundContainer}>
         <Image
           source={require("./../assets/images/icons/Icon-256px.png")}
         />
-        <Button mode="contained" onPress={() => this.props.navigation.navigate("Materi")}>
+        <Button style={{marginBottom: 20, width: 300}} mode="contained" color="#fff" onPress={() => this.props.navigation.navigate("Materi")}>
           Materi
         </Button>
-        <Button mode="contained" onPress={() => this.props.navigation.navigate("About")}>
+        <Button style={{marginBottom: 20, width: 300}}mode="contained" color="#fff" onPress={() => this.props.navigation.navigate("About")}>
           About
         </Button>
       </View>
     );
   }
 }
+
+const styles = StyleSheet.create({
+  backgroundContainer:{
+    flex: 1,
+    backgroundColor: '#007f5f',
+    width: null,
+    height: null,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+});
 
 const Stack = createStackNavigator();
 
@@ -158,12 +178,3 @@ function App() {
 }
 
 export default App;
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});

@@ -28,11 +28,11 @@ export default function MaterialsScreen({ navigation }) {
   chapterButtons = titles.map(generateButtons);
 
   function generateButtons(value, index) {
-    return <Button key={index+1} mode="contained" onPress={() => navigation.navigate('Chapter' + (index + 1))}>Bab {index + 1}</Button>;
+    return <Button style={{marginBottom: 10}} color={'#007f5f'} key={index+1} mode="contained" onPress={() => navigation.navigate('Chapter' + (index + 1))}>Bab {index + 1}</Button>;
   }
 
   return (
-    <ScrollView style={{ flex: 1 }}>
+    <ScrollView contentContainerStyle={{ flexGrow: 1, padding:30}}>
       {chapterButtons}
     </ScrollView>
   );

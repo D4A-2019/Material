@@ -1,16 +1,16 @@
 import 'react-native-gesture-handler';
 import * as React from 'react';
 
-import { Text, ScrollView, Image } from 'react-native';
+import { StyleSheet, Text, ScrollView, Image } from 'react-native';
 import Hyperlink from 'react-native-hyperlink';
 
 export default function AboutScreen() {
     return (
-        <ScrollView style={{ flex: 1 }}>
+        <ScrollView contentContainerStyle={styles.container}>
             <Image
                 source={require("./../assets/images/icons/Icon-256px.png")}
             />
-            <Text>
+            <Text style={{color:'#fff'}}>
                 MAI merupakan singkatan dari Materi Agama Islam. Aplikasi ini menyediakan materi untuk mata kuliah Agama Islam di Politeknik Negeri Bandung.
                 Materi disiapkan sedemikian rupa agar lebih mudah dibaca dan dipahami. {"\n\n"}
 
@@ -26,9 +26,9 @@ export default function AboutScreen() {
                 linkDefault
                 linkText={url => url === 'https://www.instagram.com/d4mbiz_2019/' ? 'd4mbiz_2019' : url}
                 >
-                <Text>
+                <Text style={{color:'#fff'}}>
                     <Image
-                        style={{ width: 50, height: 50 }}
+                        style={{ width: 30, height: 30 }}
                         source={require("./../assets/images/instagramLogo.png")}
                     />
                     https://www.instagram.com/d4mbiz_2019/
@@ -41,3 +41,14 @@ export default function AboutScreen() {
         </ScrollView>
     );
 }
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: "#fff",
+        alignItems: "center",
+        justifyContent: "center",
+        backgroundColor: '#007f5f',
+        padding : 20,
+    },
+});

@@ -152,8 +152,8 @@ export default class Chapter1 extends React.Component {
 
     return (
 
-      <View style={{flex: 1 }}>
-      <ScrollView>
+      <View>
+      <ScrollView contentContainerStyle={{ flexGrow: 1, justifyContent: 'center', padding: 10}}>
         <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
           Konsep Ketuhanan
         </Text>
