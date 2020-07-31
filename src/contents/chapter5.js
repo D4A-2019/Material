@@ -16,9 +16,9 @@ export default class Chapter5 extends React.Component {
 
     render() {
         return (
-            <View style={{flex: 1 }}>
-            <ScrollView>
-            <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
+            <View>
+            <ScrollView contentContainerStyle={{ flexGrow: 1, justifyContent: 'center', padding: 10}}>
+            <Text style={{fontWeight: 'bold', color: '#007f5f', fontSize: 20, textAlign: 'center', margin:10}}>
             Sunnah: Basic Mental Profesional
             </Text>
 

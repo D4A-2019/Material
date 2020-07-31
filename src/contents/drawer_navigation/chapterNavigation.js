@@ -7,7 +7,7 @@ const Drawer = createDrawerNavigator();
 export default class chapterNavigation extends Component {
     render() {
         return(
-            <Drawer.Navigator>
+            <Drawer.Navigator drawerStyle={{overlayColor:'#007f5f'}}>
                 <Drawer.Screen name="BAB 1" component={Chapter.Chapter1}/>
                 <Drawer.Screen name="BAB 2" component={Chapter.Chapter2}/>
                 <Drawer.Screen name="BAB 3" component={Chapter.Chapter3}/>

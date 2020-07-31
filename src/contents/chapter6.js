@@ -40,9 +40,9 @@ export default class Chapter6 extends React.Component {
         })
 
         return (
-            <View style={{flex: 1 }}>
-            <ScrollView>
-            <Text style={{fontWeight: 'bold', color: 'brown', fontSize: 20}}>
+            <View>
+            <ScrollView contentContainerStyle={{ flexGrow: 1, justifyContent: 'center', padding: 10}}>
+            <Text style={{fontWeight: 'bold', color: '#007f5f', fontSize: 20, textAlign: 'center', margin:10}}>
             Ijtihad
             </Text>
             <Text style={{fontWeight : 'bold', fontSize : 15}}>
