@@ -3,7 +3,7 @@
     "name": "M.A.I. - Materi Agama Islam",
     "description": "Religion lecture material for Bandung State Polytechnic",
     "slug": "Material",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "primaryColor": "#007f5f",
     "icon": "./assets/images/icons/Icon-512px.png",
